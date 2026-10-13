@@ -43,10 +43,23 @@ def load_registry(paths: Paths) -> TeamRegistry:
 def save_registry(reg: TeamRegistry, paths: Paths, matches: list[Match] | None = None) -> None:
     yaml_ids = set(TeamRegistry.load(paths.teams_yaml).teams)
     hnl_teams = {t for m in matches or [] if m.competition == HNL for t in (m.home, m.away)}
+    referenced = {t for m in matches or [] for t in (m.home, m.away)}
+
+    def keep(tid: str, t) -> bool:
+        if tid in yaml_ids:
+            return False
+        if matches is None:
+            return True
+        # An auto-registered "Croatian" club that never played in the HNL was a failed lookup;
+        # an "unknown country" placeholder is dropped once nothing refers to it.
+        if t.country == "CRO":
+            return tid in hnl_teams
+        if t.country == "UNK":
+            return tid in referenced
+        return True
+
     seen = {tid: {"name": t.name, "short": t.short, "country": t.country}
-            for tid, t in sorted(reg.teams.items())
-            # An auto-registered "Croatian" club that never played in the HNL was a failed lookup.
-            if tid not in yaml_ids and (t.country != "CRO" or matches is None or tid in hnl_teams)}
+            for tid, t in sorted(reg.teams.items()) if keep(tid, t)}
     paths.teams_seen.write_text(json.dumps(seen, ensure_ascii=False, indent=1), encoding="utf-8")
 
 

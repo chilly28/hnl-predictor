@@ -180,3 +180,19 @@ def test_wikipedia_reconcile_checks_and_fills():
     assert rep["issues"][0]["issue"] == "different score"
     assert ms[2].finished and ms[2].source == "wikipedia"
     assert not ms[3].finished
+
+
+def test_country_learned_from_home_venues(reg):
+    cache = thesportsdb.TeamCountryCache(Path("/nonexistent/cache.json"))
+    events = [
+        {"idHomeTeam": "133760", "strHomeTeam": "NEC Nijmegen", "strCountry": "Netherlands"},
+        {"idHomeTeam": "133961", "strHomeTeam": "Dinamo Zagreb", "strCountry": "Croatia"},
+        {"idHomeTeam": "999", "strCountry": None},
+    ]
+    assert cache.learn_from_venues(events) == 2
+    assert cache.data["133760"] == "NED"
+    ev = {"idLeague": "4481", "strSeason": "2026-2027", "strTimestamp": "2026-10-22T16:45:00",
+          "strHomeTeam": "Dinamo Zagreb", "strAwayTeam": "NEC Nijmegen", "idHomeTeam": "133961",
+          "idAwayTeam": "133760", "intHomeScore": None, "intAwayScore": None, "strStatus": "NS"}
+    m = thesportsdb.event_to_match(ev, reg, cache, croatian_only=True)
+    assert m.away == "nec-nijmegen-ned" and reg.get(m.away).country == "NED"

@@ -92,6 +92,20 @@ class TeamCountryCache:
             self.data[team_id] = code
         return self.data[team_id]
 
+    def learn_from_venues(self, events: list[dict]) -> int:
+        """Learn clubs' countries from the venue country of their home matches (no extra API calls).
+
+        Every club plays home matches in its own country, so ``strCountry`` of an
+        event identifies the home team's country. Values already known are kept.
+        """
+        learned = 0
+        for ev in events:
+            tid, code = ev.get("idHomeTeam"), country_code(ev.get("strCountry"))
+            if tid and code and str(tid) not in self.data:
+                self.data[str(tid)] = code
+                learned += 1
+        return learned
+
     def save(self) -> None:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         self.path.write_text(json.dumps(self.data, indent=1, sort_keys=True), encoding="utf-8")
@@ -160,16 +174,20 @@ def fetch_rounds(comp: str, season: str, rounds, teams: TeamRegistry,
                  countries: TeamCountryCache | None = None, croatian_only: bool = False) -> list[Match]:
     out: list[Match] = []
     league = LEAGUES[comp]
+    all_events: list[dict] = []
     for r in rounds:
         res = _call("eventsround.php", id=league, r=r, s=season_label(season))
         events = (res or {}).get("events") or []
         if not events and comp != HNL and r > 1:
             # UEFA round numbering ends earlier than the generic range – stop at the first empty round.
             break
-        for ev in events:
-            m = event_to_match(ev, teams, countries, croatian_only)
-            if m:
-                out.append(m)
+        all_events += events
+    if countries is not None and comp != HNL:
+        countries.learn_from_venues(all_events)
+    for ev in all_events:
+        m = event_to_match(ev, teams, countries, croatian_only)
+        if m:
+            out.append(m)
     log.info("thesportsdb: %s %s rounds %s -> %d matches", comp, season, list(rounds)[:1] + ["…"], len(out))
     return out
 
