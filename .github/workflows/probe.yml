@@ -1,0 +1,22 @@
+name: Probe data sources
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: |
+          UA="hnl-predictor/0.1 (+https://github.com/chilly28/hnl-predictor)"
+          p() { echo; echo "===== $1"; curl -sS -L -m 25 -A "$UA" -w '\n[HTTP %{http_code}]\n' "$1" | head -c ${2:-1200}; echo; }
+          p "http://api.clubelo.com/Fixtures" 2500
+          p "http://api.clubelo.com/2026-10-13" 600
+          p "http://api.clubelo.com/Hajduk" 600
+          p "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?c=Croatia&s=Soccer" 3000
+          p "https://v3.football.api-sports.io/status" 400
+          p "https://api.football-data.org/v4/competitions" 400
+          p "https://en.wikipedia.org/w/api.php?action=parse&page=2026%E2%80%9327_Croatian_Football_League&prop=wikitext&format=json&formatversion=2" 3000
+          p "https://en.wikipedia.org/w/api.php?action=parse&page=2025%E2%80%9326_Croatian_Football_League&prop=wikitext&format=json&formatversion=2" 600
+          p "https://site.api.espn.com/apis/site/v2/sports/soccer/cro.1/scoreboard" 800
+          p "https://raw.githubusercontent.com/openfootball/europe/master/croatia/2025-26_hr1.txt" 300
+          p "https://www.football-data.co.uk/new_leagues.php" 300
