@@ -32,6 +32,7 @@ from .update import load_registry, local_matches
 log = logging.getLogger(__name__)
 ZAGREB = ZoneInfo("Europe/Zagreb")
 UPCOMING_DAYS = 45
+TUNED_ON = ["2019-20", "2020-21", "2021-22", "2022-23"]  # seasons used to choose model parameters
 RESULTS_DAYS = 120
 
 SOURCES = [
@@ -155,7 +156,7 @@ def build(paths: Paths, now: datetime | None = None, n_sims: int = 10000,
         clubs[t]["elo_rank"] = rank
 
     # ------------------------------------------------------------- europe
-    europe = _europe_output(fc, reg, croatian_euro, upcoming, results, season)
+    europe = _europe_output(fc, reg, croatian_euro, upcoming, results, season, factors)
 
     # -------------------------------------------------------------- teams
     referenced = set(season_teams)
@@ -198,7 +199,15 @@ def build(paths: Paths, now: datetime | None = None, n_sims: int = 10000,
     _write(out / "table.json", sim)
     _write(out / "clubs.json", clubs)
     _write(out / "europe.json", europe)
-    _write(out / "backtest.json", bt.to_dict() | {"tuned_on": ["2019-20", "2023-24"]})
+    oos = [s for s in bt.per_season if s not in TUNED_ON]
+    oos_summary = {}
+    for k in ("model", "elo_only", "dixon_coles_only", "base_rate", "uniform"):
+        n = sum(bt.per_season[s][k]["n"] for s in oos)
+        if n:
+            oos_summary[k] = {"n": n, **{mt: round(sum(bt.per_season[s][k][mt] * bt.per_season[s][k]["n"] for s in oos) / n, 4)
+                                        for mt in ("rps", "brier", "logloss", "accuracy")}}
+    _write(out / "backtest.json", bt.to_dict() | {"tuned_on": TUNED_ON, "out_of_sample": oos_summary,
+                                                    "out_of_sample_seasons": oos})
     log.info("build: %d upcoming, %d results, %d clubs", len(upcoming), len(results), len(clubs))
     return meta
 
@@ -219,7 +228,7 @@ def _reconstruct_euro(ms: list[Match], hnl, euro_all, reg, config, factors) -> d
 
 
 def _europe_output(fc: Forecaster, reg, croatian_euro: list[Match], upcoming: list[dict],
-                   results: list[dict], season: str) -> dict:
+                   results: list[dict], season: str, factors=None) -> dict:
     up = {p["id"]: p for p in upcoming}
     res = {r["id"]: r for r in results}
     rows = []
@@ -229,6 +238,8 @@ def _europe_output(fc: Forecaster, reg, croatian_euro: list[Match], upcoming: li
                "score": {"home": m.home_goals, "away": m.away_goals} if m.finished else None}
         if m.id in up:
             row["forecast"] = up[m.id]
+        elif not m.finished and m.status != "PST":
+            row["forecast"] = fc.predict(m, factors)
         elif m.id in res:
             row["forecast"] = {"prob": res[m.id]["prob"], "forecast_type": res[m.id]["forecast_type"]}
         rows.append(row)

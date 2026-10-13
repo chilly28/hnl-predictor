@@ -75,6 +75,11 @@ class TeamRegistry:
         found = self._lookup.get(key)
         if found and (country is None or self.teams[found].country == country):
             return found
+        if country == "UNK":
+            # Country unknown (e.g. a failed lookup): reuse a known foreign club with the same name.
+            for tid, t in self.teams.items():
+                if t.country not in ("CRO", "UNK") and tid.removesuffix(f"-{t.country.lower()}") == key:
+                    return tid
         country = country or "CRO"
         tid = key if country == "CRO" else f"{key}-{country.lower()}"
         if tid not in self.teams and country != "CRO":

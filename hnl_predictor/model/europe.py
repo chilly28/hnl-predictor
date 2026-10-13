@@ -123,9 +123,16 @@ class EuroModel:
 
     def club_effects(self, team: str, country: str) -> tuple[float, float]:
         """(att, dfn) on the European scale; unseen clubs get the country average minus a penalty."""
-        c = country if country in self.c_att else None
-        ca = self.c_att.get(c, min(self.c_att.values(), default=0.0)) if c else min(self.c_att.values(), default=0.0)
-        cd = self.c_dfn.get(c, max(self.c_dfn.values(), default=0.0)) if c else max(self.c_dfn.values(), default=0.0)
+        if country in self.c_att:
+            ca, cd = self.c_att[country], self.c_dfn[country]
+        elif country == "UNK" and self.c_att:
+            # Unknown country: assume a median European league.
+            ca = float(np.median(list(self.c_att.values())))
+            cd = float(np.median(list(self.c_dfn.values())))
+        else:
+            # A country never seen in UEFA competitions: assume the weakest level.
+            ca = min(self.c_att.values(), default=0.0)
+            cd = max(self.c_dfn.values(), default=0.0)
         if team in self.t_att:
             return ca + self.t_att[team], cd + self.t_dfn[team]
         pen = self.params.newcomer_penalty

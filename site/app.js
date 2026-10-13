@@ -48,6 +48,8 @@
       per_season: "Po sezonama", season: "Sezona", matches: "utakmica",
       tuned_note: "Parametri su podešeni samo na sezonama {s}; ostale su potpuno izvan uzorka.",
       table_view: "Prikaži kao tablicu",
+      oos_title: "Samo izvan uzorka",
+      oos_text: "Sezone {s} ({n} utakmica) nisu korištene ni za kakvo podešavanje: RPS modela {m}; samo Elo {e}; samo Dixon-Coles {d}; nasumično {u}.",
       updated: "Ažurirano", last_result: "zadnji rezultat",
       disclaimer: "Samo analitika i zabava. Bez kladioničarskih oglasa i poveznica. Prognoze su vjerojatnosti, ne jamstva.",
       sources: "Izvori", method: "Metoda", install: "Instaliraj aplikaciju", install_text: "Dodaj HNL Prognozu na početni zaslon.",
@@ -103,6 +105,8 @@
       per_season: "By season", season: "Season", matches: "matches",
       tuned_note: "Parameters were tuned on seasons {s} only; all other seasons are fully out-of-sample.",
       table_view: "Show as table",
+      oos_title: "Out-of-sample only",
+      oos_text: "Seasons {s} ({n} matches) were never used for any tuning: model RPS {m}; Elo only {e}; Dixon-Coles only {d}; random {u}.",
       updated: "Updated", last_result: "last result",
       disclaimer: "Analytics and entertainment only. No betting ads or bookmaker links. Forecasts are probabilities, not guarantees.",
       sources: "Sources", method: "Method", install: "Install app", install_text: "Add HNL Prognoza to your home screen.",
@@ -466,15 +470,18 @@
   function viewEurope() {
     const e = D.europe;
     if (!e) return `<div class="card empty">${t("no_data")}</div>`;
-    const ms = [...e.matches].sort((a, b) => (a.date < b.date ? 1 : -1));
-    const cards = ms.map((m) => {
+    const card = (m) => {
       if (m.forecast && m.forecast.xg) return matchCard(m.forecast, { showDate: true });
       const res = m.score ? { score: m.score, result: m.score.home > m.score.away ? "H" : m.score.home < m.score.away ? "A" : "D",
         forecast_type: (m.forecast && m.forecast.forecast_type) || "reconstructed", hit: m.forecast ? (() => { const p = m.forecast.prob; const fav = Object.keys(p).reduce((a, b) => (p[a] >= p[b] ? a : b)); return { home: "H", draw: "D", away: "A" }[fav] === (m.score.home > m.score.away ? "H" : m.score.home < m.score.away ? "A" : "D"); })() : false } : null;
       if (m.forecast && res) return matchCard({ ...m, prob: m.forecast.prob }, { result: res });
       return `<article class="card match"><div class="match-meta"><span>${compTag(m.competition)} ${roundLabel(m)}</span><span>${esc(shortDate(m.date))}</span></div>
         <div class="teams"><div class="team">${teamLink(m.home)}</div><span class="score">${m.score ? `${m.score.home}:${m.score.away}` : "–"}</span><div class="team away">${teamLink(m.away)}</div></div></article>`;
-    }).join("");
+    };
+    const coming = e.matches.filter((m) => !m.score).sort((a, b) => (a.date > b.date ? 1 : -1));
+    const played = e.matches.filter((m) => m.score).sort((a, b) => (a.date < b.date ? 1 : -1));
+    const cards = (coming.length ? `<div class="date-head">${t("upcoming_title")}</div>` + coming.map(card).join("") : "")
+      + (played.length ? `<div class="date-head">${t("results_title")}</div>` + played.map(card).join("") : "");
     const countries = [...(e.countries || [])];
     const all = [...countries, { country: "HNL", strength: e.hnl_average_strength, hnl: true }].sort((a, b) => b.strength - a.strength);
     const lo = Math.min(...all.map((c) => c.strength), 0), hi = Math.max(...all.map((c) => c.strength));
@@ -511,11 +518,14 @@
     const gain = (1 - m.rps / b.models.uniform.rps) * 100;
     return `<div class="page-head"><h1>${t("accuracy_title")}</h1><p>${t("accuracy_lead")}</p></div>
       <div class="stats">
-        <div class="stat"><div class="label">${t("matches")}</div><div class="value">${m.n}</div><div class="sub">${(b.seasons || []).join(", ")}</div></div>
+        <div class="stat"><div class="label">${t("matches")}</div><div class="value">${m.n}</div><div class="sub">${(b.seasons || []).length ? `${b.seasons[0]} – ${b.seasons[b.seasons.length - 1]}` : ""}</div></div>
         <div class="stat"><div class="label">RPS</div><div class="value">${m.rps.toFixed(3)}</div><div class="sub">${t("lower_better")} · ${signed(-gain, 0)}% vs ⅓</div></div>
         <div class="stat"><div class="label">${t("brier")}</div><div class="value">${m.brier.toFixed(3)}</div><div class="sub">${t("lower_better")}</div></div>
         <div class="stat"><div class="label">${t("accuracy")}</div><div class="value">${pct(m.accuracy)}</div><div class="sub">${t("higher_better")}</div></div>
       </div>
+      ${b.out_of_sample && b.out_of_sample.model ? `<div class="card" style="margin-top:10px"><h3>${t("oos_title")}</h3>
+        <p class="note" style="margin:4px 0 0">${t("oos_text", { s: (b.out_of_sample_seasons || []).join(", "), n: b.out_of_sample.model.n,
+          m: b.out_of_sample.model.rps.toFixed(4), u: b.out_of_sample.uniform.rps.toFixed(4), e: b.out_of_sample.elo_only.rps.toFixed(4), d: b.out_of_sample.dixon_coles_only.rps.toFixed(4) })}</p></div>` : ""}
       <div class="section"><h2>${t("model")} vs. baseline</h2></div>
       <div class="table-wrap"><table><thead><tr><th></th><th>RPS</th><th>${t("brier")}</th><th>${t("logloss")}</th><th>${t("accuracy")}</th></tr></thead><tbody>${rows}</tbody></table></div>
       <p class="note">RPS = ranked probability score; Brier = (p−o)² ${lang === "hr" ? "zbrojeno preko 1/X/2" : "summed over 1/X/2"}. ${t("tuned_note", { s: (b.tuned_on || []).join(", ") })}</p>

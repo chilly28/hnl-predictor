@@ -102,8 +102,8 @@ def event_to_match(ev: dict, teams: TeamRegistry, countries: TeamCountryCache | 
         ac = _country(ev, "Away", teams, countries)
         if croatian_only and "CRO" not in (hc, ac):
             return None
-        home = teams.resolve(ev["strHomeTeam"], hc)
-        away = teams.resolve(ev["strAwayTeam"], ac)
+        home = teams.resolve(ev["strHomeTeam"], hc or "UNK")
+        away = teams.resolve(ev["strAwayTeam"], ac or "UNK")
     day, time_ = _local(ev)
     if not day:
         return None

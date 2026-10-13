@@ -130,3 +130,21 @@ def test_thesportsdb_croatian_filter_skips_lookups(reg):
           "strHomeTeam": "Caernarfon Town", "strAwayTeam": "Levadia Tallinn", "idHomeTeam": "1", "idAwayTeam": "2",
           "intHomeScore": "0", "intAwayScore": "5", "strStatus": "FT"}
     assert thesportsdb.event_to_match(ev, reg, NoLookup(), croatian_only=True) is None
+
+
+def test_mirrored_duplicates_are_dropped():
+    from hnl_predictor.matches import drop_mirrored
+    a = Match("HNL", "2025-26", "2025-08-10", "gorica", "hajduk-split", 2, 0, "FT")
+    b = Match("HNL", "2025-26", "2025-08-10", "hajduk-split", "gorica", 2, 0, "FT")
+    c = Match("HNL", "2025-26", "2025-10-01", "gorica", "hajduk-split", 1, 1, "FT")
+    out = drop_mirrored([a, b, c])
+    assert len(out) == 2
+    # gorica already hosts hajduk on another date, so the swapped copy is kept
+    assert any(m.home == "hajduk-split" and m.date == "2025-08-10" for m in out)
+
+
+def test_unknown_country_never_croatian(reg):
+    reg.resolve("NEC Nijmegen", "NED")
+    assert reg.resolve("NEC Nijmegen", "UNK") == "nec-nijmegen-ned"
+    tid = reg.resolve("Some New Club", "UNK")
+    assert reg.get(tid).country == "UNK" and not reg.is_croatian(tid)

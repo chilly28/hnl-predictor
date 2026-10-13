@@ -34,10 +34,10 @@ class ModelConfig:
     elo: EloParams = field(default_factory=EloParams)
     goals: GoalsParams = field(default_factory=GoalsParams)
     euro: EuroParams = field(default_factory=EuroParams)
-    # Tuned by grid search on the 2019-20 and 2023-24 seasons only (walk-forward RPS);
-    # later seasons are out-of-sample. The optimum is flat, so moderate values were chosen.
-    blend: float = 0.35           # weight of Dixon-Coles vs Elo in log-goal space
-    g: float = 0.0039             # log-goal ratio per Elo point (home vs away)
+    # Tuned by grid search on the 2019-20 .. 2022-23 seasons only (walk-forward RPS);
+    # 2023-24 onwards are fully out-of-sample. The optimum is flat; values near its centre were chosen.
+    blend: float = 0.55           # weight of Dixon-Coles vs Elo in log-goal space
+    g: float = 0.0046             # log-goal ratio per Elo point (home vs away)
     europe_rho: float = -0.05
 
 

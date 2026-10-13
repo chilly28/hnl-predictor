@@ -169,11 +169,6 @@
   "short": "AUS",
   "country": "AUT"
  },
- "az-alkmaar": {
-  "name": "AZ Alkmaar",
-  "short": "ALK",
-  "country": "CRO"
- },
  "az-alkmaar-ned": {
   "name": "AZ Alkmaar",
   "short": "ALK",
@@ -973,11 +968,6 @@
   "name": "SSC Napoli",
   "short": "NAP",
   "country": "ITA"
- },
- "nec-nijmegen": {
-  "name": "NEC Nijmegen",
-  "short": "NIJ",
-  "country": "CRO"
  },
  "neman-grodno-blr": {
   "name": "Neman Grodno",

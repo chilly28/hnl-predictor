@@ -29,7 +29,7 @@ Samo analitika – **bez kladioničarskih oglasa i poveznica**.
    zajedničku skalu. Hrvatski klub = HNL prosjek na europskoj skali + njegova trenutna forma u HNL-u.
 5. **Meki faktori** (trener, ozljede, mediji, prosvjedi…) – transparentan pomak u Elo bodovima s gornjim granicama.
 6. **Backtest** „korak po korak”: za svaku utakmicu model vidi samo podatke prije nje. Parametri su podešeni samo na
-   sezonama 2019-20 i 2023-24; ostale sezone su izvan uzorka.
+   sezonama 2019-20 do 2022-23; od 2023-24 nadalje sve je izvan uzorka.
 
 ## Izvori podataka i licence
 
@@ -123,8 +123,8 @@ language; there is an English toggle. Analytics only – **no betting ads or boo
    its current HNL deviation (domestic form). This corrects for the fact that only the strongest HNL clubs play in Europe.
 5. **Soft factors** – a transparent, capped Elo-point adjustment layer (coach changes, tactics, injuries, suspensions,
    media, unrest, fatigue). The site shows each factor's effect in percentage points.
-6. **Walk-forward backtest**: every forecast uses only data from before the match. Parameters were tuned on 2019-20 and
-   2023-24 only; all other seasons are out-of-sample. Results are published on the Accuracy page.
+6. **Walk-forward backtest**: every forecast uses only data from before the match. Parameters were tuned on 2019-20 to
+   2022-23 only; 2023-24 onwards is fully out-of-sample. Results are published on the Accuracy page.
 
 ### Data sources and licences
 

@@ -137,7 +137,32 @@ def merge_matches(*groups: Iterable[Match], date_tolerance_days: int = 4) -> lis
                     break
             else:
                 bucket.append(m)
-    return [m for bucket in by_pair.values() for m in bucket]
+    return drop_mirrored([m for bucket in by_pair.values() for m in bucket])
+
+
+def drop_mirrored(matches: list[Match]) -> list[Match]:
+    """Remove source errors where one match appears twice with home/away swapped on the same day.
+
+    Each club hosts a given opponent equally often, so we keep the orientation
+    that is still "owed" a home game in that season (first seen if both are).
+    """
+    from collections import Counter
+    groups: dict[tuple, list[Match]] = {}
+    for m in matches:
+        groups.setdefault((m.competition, m.date, frozenset((m.home, m.away))), []).append(m)
+    home_count = Counter((m.competition, m.season, m.home, m.away) for m in matches)
+    out = []
+    for ms in groups.values():
+        if len(ms) == 2 and ms[0].home == ms[1].away and ms[0].away == ms[1].home:
+            a, b = ms
+            ka = (a.competition, a.season, a.home, a.away)
+            kb = (b.competition, b.season, b.home, b.away)
+            keep = b if home_count[ka] > home_count[kb] else a
+            home_count[kb if keep is a else ka] -= 1
+            out.append(keep)
+        else:
+            out.extend(ms)
+    return out
 
 
 def _better(a: Match, b: Match) -> Match:

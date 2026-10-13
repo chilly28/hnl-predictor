@@ -40,10 +40,13 @@ def load_registry(paths: Paths) -> TeamRegistry:
     return reg
 
 
-def save_registry(reg: TeamRegistry, paths: Paths) -> None:
+def save_registry(reg: TeamRegistry, paths: Paths, matches: list[Match] | None = None) -> None:
     yaml_ids = set(TeamRegistry.load(paths.teams_yaml).teams)
+    hnl_teams = {t for m in matches or [] if m.competition == HNL for t in (m.home, m.away)}
     seen = {tid: {"name": t.name, "short": t.short, "country": t.country}
-            for tid, t in sorted(reg.teams.items()) if tid not in yaml_ids}
+            for tid, t in sorted(reg.teams.items())
+            # An auto-registered "Croatian" club that never played in the HNL was a failed lookup.
+            if tid not in yaml_ids and (t.country != "CRO" or matches is None or tid in hnl_teams)}
     paths.teams_seen.write_text(json.dumps(seen, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
@@ -133,7 +136,7 @@ def update(paths: Paths, today: date | None = None, offline: bool = False, force
 
     merged = merge_matches(existing, of_matches, fresh)
     write_matches(paths.matches, merged)
-    save_registry(reg, paths)
+    save_registry(reg, paths, merged)
     state["last_update"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     after = paths.matches.read_text(encoding="utf-8")
     changed = after != before
