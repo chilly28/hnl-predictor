@@ -17,7 +17,7 @@ from pathlib import Path
 
 from .matches import EUROPEAN, HNL, UCL, UECL, UEL, Match, merge_matches, read_matches, season_for, write_matches
 from .paths import Paths
-from .sources import openfootball, thesportsdb
+from .sources import openfootball, thesportsdb, wikipedia
 from .teams import TeamRegistry
 
 log = logging.getLogger(__name__)
@@ -145,6 +145,12 @@ def update(paths: Paths, today: date | None = None, offline: bool = False, force
                     m.id = ""
                     m.__post_init__()
     merged = merge_matches(existing, of_matches, fresh)
+    if not offline:
+        stale = any(m.competition == HNL and m.season == season and not m.finished
+                    and m.status != "PST" and m.day < today for m in merged)
+        if state.get("last_wikipedia") != today.isoformat() or stale:
+            cross_check_wikipedia(paths, reg, merged, season, today)
+            state["last_wikipedia"] = today.isoformat()
     write_matches(paths.matches, merged)
     save_registry(reg, paths, merged)
     state["last_update"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -156,3 +162,13 @@ def update(paths: Paths, today: date | None = None, offline: bool = False, force
     log.info("update: %d matches (%s)", len(merged), "changed" if changed else "no change")
     return changed
 
+
+def cross_check_wikipedia(paths: Paths, reg: TeamRegistry, matches: list[Match], season: str, today: date) -> None:
+    """Verify scores against Wikipedia's results matrix and fill missing ones (in place)."""
+    text = wikipedia.fetch_wikitext(season)
+    if not text:
+        log.warning("wikipedia: article for %s not available", season)
+        return
+    report = wikipedia.reconcile(matches, wikipedia.parse_results(text, reg), season, today)
+    report["checked_at"] = datetime.now(timezone.utc).isoformat(timespec="minutes")
+    paths.quality.write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -40,6 +40,8 @@ SOURCES = [
      "use": "HNL 2018-2025 and UEFA club competitions 2011-2026 (historical results)"},
     {"name": "TheSportsDB", "url": "https://www.thesportsdb.com", "licence": "Free API (crowd-sourced data), attribution",
      "use": "Current fixtures and results (HNL, Europa League, Conference League)"},
+    {"name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Croatian_Football_League", "licence": "CC BY-SA 4.0",
+     "use": "Independent cross-check of HNL scores (season results matrix)"},
 ]
 
 
@@ -190,6 +192,7 @@ def build(paths: Paths, now: datetime | None = None, n_sims: int = 10000,
             "blend_dc_weight": config.blend, "elo_goal_slope": config.g, "simulations": n_sims,
         },
         "soft_factors_active": sum(1 for f in factors if f.start <= today <= f.end),
+        "data_quality": json.loads(paths.quality.read_text(encoding="utf-8")) if paths.quality.exists() else None,
     }
     out = paths.output
     _write(out / "meta.json", meta)

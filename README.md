@@ -37,6 +37,7 @@ Samo analitika – **bez kladioničarskih oglasa i poveznica**.
 |---|---|---|
 | [openfootball](https://github.com/openfootball) (`europe`, `champions-league`) | HNL 2018-19, 2019-20, 2023-24, 2024-25; sve UEFA klupske utakmice 2011–2026 | **CC0 1.0** (javno vlasništvo) – kopija u `data/raw/openfootball/` |
 | [TheSportsDB](https://www.thesportsdb.com) | Aktualni raspored i rezultati: HNL (od 2020.), Europska i Konferencijska liga, Liga prvaka | Besplatni javni API ključ (`123`), podaci zajednice; koristimo ga nekomercijalno uz navođenje izvora i uz ograničenje brzine (≤ 30 zahtjeva/min) |
+| [Wikipedia](https://en.wikipedia.org/wiki/Croatian_Football_League) (engl.) | Neovisna provjera rezultata HNL-a (tablica rezultata sezone); dopuna rezultata koji još nedostaju | **CC BY-SA 4.0** – koristimo samo rezultate (činjenice) uz navođenje izvora; jedan zahtjev MediaWiki API-ju dnevno |
 
 Ne koristimo plaćene podatke ni scraping stranica čiji uvjeti to zabranjuju.
 
@@ -132,6 +133,7 @@ language; there is an English toggle. Analytics only – **no betting ads or boo
 |---|---|---|
 | [openfootball](https://github.com/openfootball) | HNL 2018-19, 2019-20, 2023-24, 2024-25; all UEFA club matches 2011–2026 | **CC0 1.0** (public domain), cached in `data/raw/openfootball/` |
 | [TheSportsDB](https://www.thesportsdb.com) | Current fixtures and results: HNL (2020–), Europa League, Conference League, Champions League | Free public API key (`123`), community data; used non-commercially with attribution and rate limiting (≤ 30 req/min) |
+| [Wikipedia](https://en.wikipedia.org/wiki/Croatian_Football_League) | Independent cross-check of HNL scores (season results matrix); fills scores not yet published by the primary source | **CC BY-SA 4.0** – only scores (facts) are used, with attribution; one MediaWiki API request per day |
 
 No paid data and no scraping of sites whose terms forbid it.
 

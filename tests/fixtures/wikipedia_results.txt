@@ -1,0 +1,20 @@
+==Results==
+Each team plays home-and-away against every other team in the league twice.
+{{#invoke:sports results|main
+| source = [http://hnl.hr/statistika/rezultati SuperSport HNL] {{in lang|hr}}
+| update = 11 October 2026
+| legs = 2
+|team1=DIN |team2=HAJ |team3=RIJ |team4=VAR
+
+| name_DIN = [[GNK Dinamo Zagreb|Dinamo Zagreb]]
+| name_HAJ = [[HNK Hajduk Split|Hajduk Split]]
+| name_RIJ = [[HNK Rijeka|Rijeka]]
+| name_VAR = [[NK Varaždin (2012)|Varaždin]]
+
+| match1_DIN_HAJ = [[Eternal derby (Croatia)|a]]
+| match1_HAJ_DIN = [[Eternal derby (Croatia)|2–1]]
+| match1_RIJ_HAJ = [[Adriatic derby|3–0]]
+| match1_VAR_HAJ = 2–1 |match1_VAR_RIJ= 2–0
+| match1_DIN_RIJ = {{small|25 Oct}}
+| match2_HAJ_DIN = 1–1
+}}

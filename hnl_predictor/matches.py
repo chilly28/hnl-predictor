@@ -21,7 +21,7 @@ STATUS_SCHEDULED = "NS"
 STATUS_POSTPONED = "PST"
 
 # Lower number wins when two sources disagree about the same match.
-SOURCE_PRIORITY = {"manual": 0, "api-football": 1, "thesportsdb": 2, "openfootball": 3, "clubelo": 4, "sample": 9}
+SOURCE_PRIORITY = {"manual": 0, "api-football": 1, "thesportsdb": 2, "openfootball": 3, "clubelo": 4, "wikipedia": 5, "sample": 9}
 
 
 @dataclass

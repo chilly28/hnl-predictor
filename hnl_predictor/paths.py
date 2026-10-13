@@ -51,6 +51,11 @@ class Paths:
         return self.data / "forecast_archive.json"
 
     @property
+    def quality(self) -> Path:
+        """Data-quality report from the Wikipedia cross-check."""
+        return self.data / "quality.json"
+
+    @property
     def state(self) -> Path:
         return self.data / "state.json"
 

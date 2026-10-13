@@ -148,3 +148,35 @@ def test_unknown_country_never_croatian(reg):
     assert reg.resolve("NEC Nijmegen", "UNK") == "nec-nijmegen-ned"
     tid = reg.resolve("Some New Club", "UNK")
     assert reg.get(tid).country == "UNK" and not reg.is_croatian(tid)
+
+
+def test_wikipedia_results_matrix(reg):
+    from hnl_predictor.sources.wikipedia import article_title, parse_results
+    assert article_title("2026-27") == "2026–27 Croatian Football League"
+    res = parse_results((FIX / "wikipedia_results.txt").read_text(), reg)
+    got = {(r.home, r.away, r.leg): (r.home_goals, r.away_goals) for r in res}
+    assert got == {
+        ("hajduk-split", "dinamo-zagreb", 1): (2, 1),
+        ("rijeka", "hajduk-split", 1): (3, 0),
+        ("varazdin", "hajduk-split", 1): (2, 1),
+        ("varazdin", "rijeka", 1): (2, 0),
+        ("hajduk-split", "dinamo-zagreb", 2): (1, 1),
+    }
+
+
+def test_wikipedia_reconcile_checks_and_fills():
+    from datetime import date
+    from hnl_predictor.sources.wikipedia import WikiResult, reconcile
+    ms = [
+        Match("HNL", "2026-27", "2026-08-10", "hajduk-split", "dinamo-zagreb", 2, 1, "FT"),
+        Match("HNL", "2026-27", "2026-09-01", "rijeka", "hajduk-split", 1, 0, "FT"),       # disagrees
+        Match("HNL", "2026-27", "2026-10-04", "varazdin", "hajduk-split"),                 # missing score
+        Match("HNL", "2026-27", "2027-03-01", "hajduk-split", "dinamo-zagreb"),            # future
+    ]
+    wiki = [WikiResult("hajduk-split", "dinamo-zagreb", 1, 2, 1), WikiResult("rijeka", "hajduk-split", 1, 3, 0),
+            WikiResult("varazdin", "hajduk-split", 1, 2, 1)]
+    rep = reconcile(ms, wiki, "2026-27", date(2026, 10, 13))
+    assert rep["checked"] == 2 and rep["agree"] == 1 and rep["filled"] == 1
+    assert rep["issues"][0]["issue"] == "different score"
+    assert ms[2].finished and ms[2].source == "wikipedia"
+    assert not ms[3].finished

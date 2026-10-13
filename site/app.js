@@ -49,6 +49,9 @@
       tuned_note: "Parametri su podešeni samo na sezonama {s}; ostale su potpuno izvan uzorka.",
       table_view: "Prikaži kao tablicu",
       oos_title: "Samo izvan uzorka",
+      quality_title: "Provjera podataka",
+      quality_text: "Rezultati sezone {s} uspoređuju se s tablicom rezultata na Wikipediji: {a} od {c} se podudara; {f} rezultata dopunjeno iz Wikipedije.",
+      quality_issues: "Razlike (provjeravaju se ručno):",
       oos_text: "Sezone {s} ({n} utakmica) nisu korištene ni za kakvo podešavanje: RPS modela {m}; samo Elo {e}; samo Dixon-Coles {d}; nasumično {u}.",
       updated: "Ažurirano", last_result: "zadnji rezultat",
       disclaimer: "Samo analitika i zabava. Bez kladioničarskih oglasa i poveznica. Prognoze su vjerojatnosti, ne jamstva.",
@@ -106,6 +109,9 @@
       tuned_note: "Parameters were tuned on seasons {s} only; all other seasons are fully out-of-sample.",
       table_view: "Show as table",
       oos_title: "Out-of-sample only",
+      quality_title: "Data check",
+      quality_text: "Season {s} scores are compared with Wikipedia's results matrix: {a} of {c} agree; {f} results filled in from Wikipedia.",
+      quality_issues: "Differences (to be checked by hand):",
       oos_text: "Seasons {s} ({n} matches) were never used for any tuning: model RPS {m}; Elo only {e}; Dixon-Coles only {d}; random {u}.",
       updated: "Updated", last_result: "last result",
       disclaimer: "Analytics and entertainment only. No betting ads or bookmaker links. Forecasts are probabilities, not guarantees.",
@@ -539,6 +545,15 @@
       <p class="note">* ${t("tuned_note", { s: (b.tuned_on || []).join(", ") })}</p>`;
   }
 
+  function qualityBlock(q) {
+    if (!q) return "";
+    const when = q.checked_at ? new Intl.DateTimeFormat(locale(), { dateStyle: "medium", timeStyle: "short" }).format(new Date(q.checked_at)) : "";
+    const issues = (q.issues || []).map((i) => `<li>${esc(team(i.home).name)} – ${esc(team(i.away).name)}${i.date ? ` (${esc(shortDate(i.date))})` : ""}: ${esc(i.primary || "–")} vs. Wikipedia ${esc(i.wikipedia)}</li>`).join("");
+    return `<h2>${t("quality_title")}</h2>
+      <p>${t("quality_text", { a: q.agree, c: q.checked, s: esc(q.season), f: q.filled })}${when ? ` (${esc(when)})` : ""}</p>
+      ${issues ? `<p>${t("quality_issues")}</p><ul>${issues}</ul>` : ""}`;
+  }
+
   function viewAbout() {
     const meta = D.meta || {};
     const src = (meta.sources || []).map((s) => `<li><a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.name)}</a> — ${esc(s.licence)}. ${esc(s.use)}</li>`).join("");
@@ -576,6 +591,7 @@
       <h2>Automatic updates</h2>
       <p>GitHub Actions checks for new results every hour (every 20 minutes on match days), refits the ratings and redeploys the site only when something changed.</p>`}
       <h2>${t("sources")}</h2><ul>${src}</ul>
+      ${qualityBlock(meta.data_quality)}
       <p class="note">${t("disclaimer")}</p>
       <p class="note"><a href="https://github.com/chilly28/hnl-predictor" rel="noopener" target="_blank">GitHub</a> · data/*.json API</p>
     </div>`;
