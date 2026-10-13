@@ -6,17 +6,45 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Probe
+        shell: python
         run: |
-          UA="hnl-predictor/0.1 (+https://github.com/chilly28/hnl-predictor)"
-          p() { echo; echo "===== $1"; curl -sS -L -m 25 -A "$UA" -w '\n[HTTP %{http_code}]\n' "$1" | head -c ${2:-1200}; echo; }
-          p "http://api.clubelo.com/Fixtures" 2500
-          p "http://api.clubelo.com/2026-10-13" 600
-          p "http://api.clubelo.com/Hajduk" 600
-          p "https://www.thesportsdb.com/api/v1/json/123/search_all_leagues.php?c=Croatia&s=Soccer" 3000
-          p "https://v3.football.api-sports.io/status" 400
-          p "https://api.football-data.org/v4/competitions" 400
-          p "https://en.wikipedia.org/w/api.php?action=parse&page=2026%E2%80%9327_Croatian_Football_League&prop=wikitext&format=json&formatversion=2" 3000
-          p "https://en.wikipedia.org/w/api.php?action=parse&page=2025%E2%80%9326_Croatian_Football_League&prop=wikitext&format=json&formatversion=2" 600
-          p "https://site.api.espn.com/apis/site/v2/sports/soccer/cro.1/scoreboard" 800
-          p "https://raw.githubusercontent.com/openfootball/europe/master/croatia/2025-26_hr1.txt" 300
-          p "https://www.football-data.co.uk/new_leagues.php" 300
+          import json, urllib.request, time
+          UA = "hnl-predictor/0.1 (+https://github.com/chilly28/hnl-predictor)"
+          def get(u, t=30):
+              try:
+                  r = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=t)
+                  return r.status, r.read().decode("utf-8", "replace")
+              except Exception as e:
+                  return None, repr(e)
+          B = "https://www.thesportsdb.com/api/v1/json/123/"
+          for path in ["eventsseason.php?id=4629&s=2025-2026", "eventsseason.php?id=4629&s=2026-2027",
+                       "eventspastleague.php?id=4629", "eventsnextleague.php?id=4629",
+                       "eventsround.php?id=4629&r=10&s=2026-2027", "lookuptable.php?l=4629&s=2026-2027",
+                       "eventsseason.php?id=4481&s=2026-2027", "eventsseason.php?id=5071&s=2026-2027",
+                       "searchteams.php?t=Hajduk_Split"]:
+              st, body = get(B + path)
+              print("=====", path, st)
+              try:
+                  d = json.loads(body)
+                  for k, v in d.items():
+                      if isinstance(v, list):
+                          print(k, len(v))
+                          if v:
+                              print(json.dumps(v[0])[:1500])
+                              print(json.dumps({x: v[-1].get(x) for x in ("dateEvent","strTime","strHomeTeam","strAwayTeam","intHomeScore","intAwayScore","strStatus","intRound","idHomeTeam")})[:600])
+                      else:
+                          print(k, str(v)[:200])
+              except Exception as e:
+                  print("not json", body[:300])
+              time.sleep(2.5)
+          for u in ["https://api.clubelo.com/Fixtures", "http://api.clubelo.com/Hajduk", "http://clubelo.com/"]:
+              st, body = get(u, 60); print("=====", u, st, body[:500])
+          W = "https://en.wikipedia.org/w/api.php?action=parse&prop=wikitext&format=json&formatversion=2&page="
+          for p in ["2026%E2%80%9327_Croatian_Football_League", "2026%E2%80%9327_UEFA_Conference_League_league_phase"]:
+              st, body = get(W + p)
+              try:
+                  wt = json.loads(body)["parse"]["wikitext"]
+                  i = wt.find("Results")
+                  print("=====", p, len(wt)); print(wt[i:i+3000])
+              except Exception as e:
+                  print("=====", p, st, body[:300])
