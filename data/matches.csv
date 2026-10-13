@@ -1,26 +1,26 @@
 competition,season,date,home,away,home_goals,away_goals,status,round,time,stage,neutral,source,id
-UCL,2011-12,2011-09-14,dinamo-zagreb,real-madrid-esp,0,1,FT,Group D,,league phase,,openfootball,add134b057
+UCL,2011-12,2011-09-14,dinamo-zagreb,real-madrid-esp,0,1,FT,Group D,20:45,league phase,,openfootball,add134b057
 UCL,2011-12,2011-09-27,olympique-lyonnais-fra,dinamo-zagreb,2,0,FT,Group D,20:45,league phase,,openfootball,330899d1b3
 UCL,2011-12,2011-10-18,dinamo-zagreb,ajax-ned,0,2,FT,Group D,20:45,league phase,,openfootball,14d32ba4ae
 UCL,2011-12,2011-11-02,ajax-ned,dinamo-zagreb,4,0,FT,Group D,20:45,league phase,,openfootball,501006a033
-UCL,2011-12,2011-11-22,real-madrid-esp,dinamo-zagreb,6,2,FT,Group D,,league phase,,openfootball,f0c21977e7
-UCL,2011-12,2011-12-07,dinamo-zagreb,olympique-lyonnais-fra,1,7,FT,Group D,,league phase,,openfootball,e23bf56dfd
-UCL,2012-13,2012-09-18,dinamo-zagreb,porto-por,0,2,FT,Group A,,league phase,,openfootball,f2ac49bd0e
-UCL,2012-13,2012-10-03,dinamo-kiev-ukr,dinamo-zagreb,2,0,FT,Group A,,league phase,,openfootball,3fc5be3e05
-UCL,2012-13,2012-10-24,dinamo-zagreb,paris-saint-germain-fra,0,2,FT,Group A,,league phase,,openfootball,6cfac68cee
-UCL,2012-13,2012-11-06,paris-saint-germain-fra,dinamo-zagreb,4,0,FT,Group A,,league phase,,openfootball,9d9717f861
-UCL,2012-13,2012-11-21,porto-por,dinamo-zagreb,3,0,FT,Group A,,league phase,,openfootball,0d904afe1f
-UCL,2012-13,2012-12-04,dinamo-zagreb,dinamo-kiev-ukr,1,1,FT,Group A,,league phase,,openfootball,c39d4b46d4
-UCL,2015-16,2015-09-16,dinamo-zagreb,arsenal-eng,2,1,FT,Group F,,league phase,,openfootball,f0b5e79ceb
-UCL,2015-16,2015-09-29,bayern-munchen-ger,dinamo-zagreb,5,0,FT,Group F,,league phase,,openfootball,5afd0821e4
-UCL,2015-16,2015-10-20,dinamo-zagreb,olympiakos-piraeus-gre,0,1,FT,Group F,,league phase,,openfootball,ce9dc73c33
-UCL,2015-16,2015-11-04,olympiakos-piraeus-gre,dinamo-zagreb,2,1,FT,Group F,,league phase,,openfootball,26ae3046e8
-UCL,2015-16,2015-11-24,arsenal-eng,dinamo-zagreb,3,0,FT,Group F,,league phase,,openfootball,81a2e9cc0d
+UCL,2011-12,2011-11-22,real-madrid-esp,dinamo-zagreb,6,2,FT,Group D,20:45,league phase,,openfootball,f0c21977e7
+UCL,2011-12,2011-12-07,dinamo-zagreb,olympique-lyonnais-fra,1,7,FT,Group D,20:45,league phase,,openfootball,e23bf56dfd
+UCL,2012-13,2012-09-18,dinamo-zagreb,porto-por,0,2,FT,Group A,20:45,league phase,,openfootball,f2ac49bd0e
+UCL,2012-13,2012-10-03,dinamo-kiev-ukr,dinamo-zagreb,2,0,FT,Group A,20:45,league phase,,openfootball,3fc5be3e05
+UCL,2012-13,2012-10-24,dinamo-zagreb,paris-saint-germain-fra,0,2,FT,Group A,20:45,league phase,,openfootball,6cfac68cee
+UCL,2012-13,2012-11-06,paris-saint-germain-fra,dinamo-zagreb,4,0,FT,Group A,20:45,league phase,,openfootball,9d9717f861
+UCL,2012-13,2012-11-21,porto-por,dinamo-zagreb,3,0,FT,Group A,20:45,league phase,,openfootball,0d904afe1f
+UCL,2012-13,2012-12-04,dinamo-zagreb,dinamo-kiev-ukr,1,1,FT,Group A,20:45,league phase,,openfootball,c39d4b46d4
+UCL,2015-16,2015-09-16,dinamo-zagreb,arsenal-eng,2,1,FT,Group F,20:45,league phase,,openfootball,f0b5e79ceb
+UCL,2015-16,2015-09-29,bayern-munchen-ger,dinamo-zagreb,5,0,FT,Group F,20:45,league phase,,openfootball,5afd0821e4
+UCL,2015-16,2015-10-20,dinamo-zagreb,olympiakos-piraeus-gre,0,1,FT,Group F,20:45,league phase,,openfootball,ce9dc73c33
+UCL,2015-16,2015-11-04,olympiakos-piraeus-gre,dinamo-zagreb,2,1,FT,Group F,20:45,league phase,,openfootball,26ae3046e8
+UCL,2015-16,2015-11-24,arsenal-eng,dinamo-zagreb,3,0,FT,Group F,20:45,league phase,,openfootball,81a2e9cc0d
 UCL,2015-16,2015-12-09,dinamo-zagreb,bayern-munchen-ger,0,2,FT,Group F,20:45,league phase,,openfootball,5171e25ea5
-UCL,2016-17,2016-09-14,olympique-lyonnais-fra,dinamo-zagreb,3,0,FT,Group H,,league phase,,openfootball,702ecacbb3
+UCL,2016-17,2016-09-14,olympique-lyonnais-fra,dinamo-zagreb,3,0,FT,Group H,20:45,league phase,,openfootball,702ecacbb3
 UCL,2016-17,2016-09-27,dinamo-zagreb,juventus-ita,0,4,FT,Group H,20:45,league phase,,openfootball,cd87201521
 UCL,2016-17,2016-10-18,dinamo-zagreb,sevilla-esp,0,1,FT,Group H,20:45,league phase,,openfootball,6c31a9fab5
-UCL,2016-17,2016-11-02,sevilla-esp,dinamo-zagreb,4,0,FT,Group H,,league phase,,openfootball,253c6e6c5b
+UCL,2016-17,2016-11-02,sevilla-esp,dinamo-zagreb,4,0,FT,Group H,20:45,league phase,,openfootball,253c6e6c5b
 UCL,2016-17,2016-11-22,dinamo-zagreb,olympique-lyonnais-fra,0,1,FT,Group H,20:45,league phase,,openfootball,23eec89ff1
 UCL,2016-17,2016-12-07,juventus-ita,dinamo-zagreb,2,0,FT,Group H,20:45,league phase,,openfootball,83af677d77
 HNL,2018-19,2018-07-27,dinamo-zagreb,rudes,1,1,FT,Round 1,,league,,openfootball,2db0afb005
@@ -264,7 +264,7 @@ HNL,2019-20,2019-09-14,gorica,lokomotiva-zagreb,0,0,FT,Round 8,,league,,openfoot
 HNL,2019-20,2019-09-14,inter-zapresic,slaven-belupo,3,1,FT,Round 8,,league,,openfootball,e223f94ece
 HNL,2019-20,2019-09-15,osijek,varazdin,2,2,FT,Round 8,,league,,openfootball,97108d3be2
 HNL,2019-20,2019-09-15,rijeka,hajduk-split,1,1,FT,Round 8,,league,,openfootball,17580d5524
-UCL,2019-20,2019-09-18,dinamo-zagreb,atalanta-ita,4,0,FT,Group C,,league phase,,openfootball,d2d6049657
+UCL,2019-20,2019-09-18,dinamo-zagreb,atalanta-ita,4,0,FT,Group C,21:00,league phase,,openfootball,d2d6049657
 HNL,2019-20,2019-09-20,lokomotiva-zagreb,osijek,2,1,FT,Round 9,,league,,openfootball,d8195b8a6c
 HNL,2019-20,2019-09-21,slaven-belupo,gorica,2,0,FT,Round 9,,league,,openfootball,4042aca765
 HNL,2019-20,2019-09-21,varazdin,dinamo-zagreb,1,0,FT,Round 9,,league,,openfootball,10e8776bf0
@@ -308,7 +308,7 @@ HNL,2019-20,2019-11-23,gorica,varazdin,1,0,FT,Round 16,,league,,openfootball,f15
 HNL,2019-20,2019-11-23,slaven-belupo,lokomotiva-zagreb,1,0,FT,Round 16,,league,,openfootball,d02cde6efa
 HNL,2019-20,2019-11-24,inter-zapresic,rijeka,1,4,FT,Round 16,,league,,openfootball,ca15b19423
 HNL,2019-20,2019-11-24,osijek,istra-1961,1,0,FT,Round 16,,league,,openfootball,09a129a078
-UCL,2019-20,2019-11-26,atalanta-ita,dinamo-zagreb,2,0,FT,Group C,,league phase,,openfootball,bedb3ecfac
+UCL,2019-20,2019-11-26,atalanta-ita,dinamo-zagreb,2,0,FT,Group C,21:00,league phase,,openfootball,bedb3ecfac
 HNL,2019-20,2019-11-29,lokomotiva-zagreb,gorica,4,0,FT,Round 17,,league,,openfootball,38c28e6cb6
 HNL,2019-20,2019-11-29,slaven-belupo,inter-zapresic,3,0,FT,Round 17,,league,,openfootball,c66720fb3d
 HNL,2019-20,2019-11-30,istra-1961,dinamo-zagreb,1,2,FT,Round 17,,league,,openfootball,741e2a0e5d
@@ -319,7 +319,7 @@ HNL,2019-20,2019-12-07,gorica,slaven-belupo,2,0,FT,Round 18,,league,,openfootbal
 HNL,2019-20,2019-12-07,inter-zapresic,hajduk-split,1,1,FT,Round 18,,league,,openfootball,9a968f4a75
 HNL,2019-20,2019-12-08,osijek,lokomotiva-zagreb,4,0,FT,Round 18,,league,,openfootball,3b01bf8c43
 HNL,2019-20,2019-12-08,rijeka,istra-1961,2,0,FT,Round 18,,league,,openfootball,049b9450ef
-UCL,2019-20,2019-12-11,dinamo-zagreb,manchester-city-eng,1,4,FT,Group C,,league phase,,openfootball,5b2c1226d0
+UCL,2019-20,2019-12-11,dinamo-zagreb,manchester-city-eng,1,4,FT,Group C,18:55,league phase,,openfootball,5b2c1226d0
 HNL,2019-20,2019-12-13,gorica,inter-zapresic,1,1,FT,Round 19,,league,,openfootball,564b7ec151
 HNL,2019-20,2019-12-14,dinamo-zagreb,lokomotiva-zagreb,1,0,FT,Round 19,,league,,openfootball,3d47fe7047
 HNL,2019-20,2019-12-14,rijeka,varazdin,3,1,FT,Round 19,,league,,openfootball,1e40dc3e6a
@@ -389,38 +389,578 @@ HNL,2019-20,2020-06-27,dinamo-zagreb,osijek,0,0,FT,Round 31,,league,,openfootbal
 HNL,2019-20,2020-06-30,gorica,hajduk-split,3,1,FT,Round 32,,league,,openfootball,fb6837f0ee
 HNL,2019-20,2020-06-30,lokomotiva-zagreb,varazdin,2,0,FT,Round 32,,league,,openfootball,431d3480c1
 HNL,2019-20,2020-06-30,slaven-belupo,istra-1961,3,0,FT,Round 32,,league,,openfootball,51829db55e
-UEL,2020-21,2020-10-22,dinamo-zagreb,feyenoord-ned,0,0,FT,Group F,,league phase,,openfootball,32aba43a58
-UEL,2020-21,2020-10-22,rijeka,real-sociedad-esp,0,1,FT,Group F,,league phase,,openfootball,c375b9497a
+HNL,2020-21,2020-08-14,varazdin,gorica,1,5,FT,1. kolo,21:00,league,,thesportsdb,80c0777836
+HNL,2020-21,2020-08-15,rijeka,sibenik,2,1,FT,1. kolo,18:55,league,,thesportsdb,4684d5d752
+HNL,2020-21,2020-08-15,osijek,slaven-belupo,0,0,FT,1. kolo,21:05,league,,thesportsdb,af8e01e875
+HNL,2020-21,2020-08-16,hajduk-split,istra-1961,2,0,FT,1. kolo,18:55,league,,thesportsdb,d8c6fe32e1
+HNL,2020-21,2020-08-16,dinamo-zagreb,lokomotiva-zagreb,6,0,FT,1. kolo,21:05,league,,thesportsdb,2680214783
+HNL,2020-21,2020-08-21,lokomotiva-zagreb,rijeka,1,0,FT,2. kolo,18:55,league,,thesportsdb,dc5f3d0d5e
+HNL,2020-21,2020-08-21,istra-1961,dinamo-zagreb,0,1,FT,2. kolo,21:05,league,,thesportsdb,23bd4bd6fb
+HNL,2020-21,2020-08-22,slaven-belupo,gorica,1,2,FT,2. kolo,18:55,league,,thesportsdb,0fe7f1beed
+HNL,2020-21,2020-08-22,sibenik,varazdin,0,1,FT,2. kolo,21:05,league,,thesportsdb,da0ec2ad5a
+HNL,2020-21,2020-08-23,osijek,hajduk-split,1,2,FT,2. kolo,18:55,league,,thesportsdb,50e8dea5ad
+HNL,2020-21,2020-08-28,gorica,sibenik,3,2,FT,3. kolo,21:00,league,,thesportsdb,bcb3a24bd8
+HNL,2020-21,2020-08-29,rijeka,istra-1961,2,1,FT,3. kolo,18:55,league,,thesportsdb,69f1849acc
+HNL,2020-21,2020-08-29,hajduk-split,slaven-belupo,2,2,FT,3. kolo,21:05,league,,thesportsdb,9b4893fefc
+HNL,2020-21,2020-08-30,varazdin,lokomotiva-zagreb,1,1,FT,3. kolo,18:55,league,,thesportsdb,b8ca3dc666
+HNL,2020-21,2020-08-30,dinamo-zagreb,osijek,4,1,FT,3. kolo,21:05,league,,thesportsdb,b995c92fc2
+HNL,2020-21,2020-09-11,slaven-belupo,sibenik,0,0,FT,4. kolo,21:00,league,,thesportsdb,b4cb3f6d1a
+HNL,2020-21,2020-09-12,osijek,rijeka,3,0,FT,4. kolo,18:00,league,,thesportsdb,e4a3570464
+HNL,2020-21,2020-09-12,hajduk-split,dinamo-zagreb,1,2,FT,4. kolo,20:05,league,,thesportsdb,e5c1bd292d
+HNL,2020-21,2020-09-13,istra-1961,varazdin,0,1,FT,4. kolo,18:00,league,,thesportsdb,2dd1523208
+HNL,2020-21,2020-09-13,lokomotiva-zagreb,gorica,1,2,FT,4. kolo,20:05,league,,thesportsdb,3ea90f7e55
+HNL,2020-21,2020-09-18,sibenik,lokomotiva-zagreb,3,2,FT,5. kolo,19:00,league,,thesportsdb,7cf9d45837
+HNL,2020-21,2020-09-19,gorica,istra-1961,2,2,FT,5. kolo,18:00,league,,thesportsdb,63c3e23f07
+HNL,2020-21,2020-09-19,dinamo-zagreb,slaven-belupo,3,3,FT,5. kolo,20:05,league,,thesportsdb,433c359c4c
+HNL,2020-21,2020-09-20,varazdin,osijek,0,1,FT,5. kolo,20:05,league,,thesportsdb,713bd2dda2
+HNL,2020-21,2020-09-26,istra-1961,sibenik,1,0,FT,6. kolo,18:00,league,,thesportsdb,3cabb162cb
+HNL,2020-21,2020-09-26,osijek,gorica,2,1,FT,6. kolo,20:05,league,,thesportsdb,ed54d96e65
+HNL,2020-21,2020-09-27,hajduk-split,varazdin,2,0,FT,6. kolo,20:05,league,,thesportsdb,38d74644d0
+HNL,2020-21,2020-10-02,lokomotiva-zagreb,istra-1961,0,0,FT,7. kolo,19:00,league,,thesportsdb,f165091296
+HNL,2020-21,2020-10-03,sibenik,osijek,0,2,FT,7. kolo,18:00,league,,thesportsdb,ae8b3b427b
+HNL,2020-21,2020-10-03,gorica,hajduk-split,2,1,FT,7. kolo,20:05,league,,thesportsdb,a5299843ae
+HNL,2020-21,2020-10-04,varazdin,dinamo-zagreb,1,2,FT,7. kolo,18:00,league,,thesportsdb,e832fbbfcb
+HNL,2020-21,2020-10-04,rijeka,slaven-belupo,2,0,FT,7. kolo,20:05,league,,thesportsdb,b66f4c59ce
+HNL,2020-21,2020-10-16,slaven-belupo,istra-1961,5,1,FT,8. kolo,19:00,league,,thesportsdb,9c3ff5590d
+HNL,2020-21,2020-10-17,dinamo-zagreb,gorica,3,2,FT,8. kolo,16:00,league,,thesportsdb,192e94f5f3
+HNL,2020-21,2020-10-17,rijeka,varazdin,2,1,FT,8. kolo,18:05,league,,thesportsdb,11257d0eec
+HNL,2020-21,2020-10-18,hajduk-split,sibenik,0,1,FT,8. kolo,16:00,league,,thesportsdb,fd4e26d178
+UEL,2020-21,2020-10-22,rijeka,real-sociedad-esp,0,1,FT,Group F,18:55,league phase,,openfootball,c375b9497a
+UEL,2020-21,2020-10-22,dinamo-zagreb,feyenoord-ned,0,0,FT,Group F,21:00,league phase,,openfootball,32aba43a58
+HNL,2020-21,2020-10-23,varazdin,slaven-belupo,1,2,FT,9. kolo,19:00,league,,thesportsdb,2107121a05
+HNL,2020-21,2020-10-25,sibenik,dinamo-zagreb,0,2,FT,9. kolo,15:00,league,,thesportsdb,34766d2126
+HNL,2020-21,2020-10-28,slaven-belupo,lokomotiva-zagreb,0,0,FT,6. kolo,17:00,league,,thesportsdb,757c9a87b1
 UEL,2020-21,2020-10-29,cska-moskva-rus,dinamo-zagreb,0,0,FT,Group F,18:55,league phase,,openfootball,17edff50eb
 UEL,2020-21,2020-10-29,az-alkmaar-ned,rijeka,4,1,FT,Group F,21:00,league phase,,openfootball,1128f93d87
-UEL,2020-21,2020-11-05,dinamo-zagreb,wolfsberger-aut,1,0,FT,Group F,,league phase,,openfootball,94782fbb6d
-UEL,2020-21,2020-11-05,rijeka,napoli-ita,1,2,FT,Group F,,league phase,,openfootball,2521f0e374
-UEL,2020-21,2020-11-26,napoli-ita,rijeka,2,0,FT,Group F,,league phase,,openfootball,4f28cb76f8
-UEL,2020-21,2020-11-26,wolfsberger-aut,dinamo-zagreb,0,3,FT,Group F,,league phase,,openfootball,6f38a74d4a
-UEL,2020-21,2020-12-03,feyenoord-ned,dinamo-zagreb,0,2,FT,Group F,,league phase,,openfootball,ad09c07daf
-UEL,2020-21,2020-12-03,real-sociedad-esp,rijeka,2,2,FT,Group F,,league phase,,openfootball,16f6810b33
+HNL,2020-21,2020-10-31,slaven-belupo,osijek,0,1,FT,10. kolo,15:00,league,,thesportsdb,9fb58071c8
+HNL,2020-21,2020-10-31,istra-1961,hajduk-split,1,0,FT,10. kolo,17:05,league,,thesportsdb,cefe7f8d22
+HNL,2020-21,2020-11-01,sibenik,rijeka,2,0,FT,10. kolo,15:00,league,,thesportsdb,81446c1d1f
+HNL,2020-21,2020-11-01,lokomotiva-zagreb,dinamo-zagreb,1,1,FT,10. kolo,17:05,league,,thesportsdb,20c86625c3
+HNL,2020-21,2020-11-04,osijek,lokomotiva-zagreb,2,1,FT,8. kolo,17:00,league,,thesportsdb,80887e5932
+UEL,2020-21,2020-11-05,rijeka,napoli-ita,1,2,FT,Group F,18:55,league phase,,openfootball,2521f0e374
+UEL,2020-21,2020-11-05,dinamo-zagreb,wolfsberger-aut,1,0,FT,Group F,21:00,league phase,,openfootball,94782fbb6d
+HNL,2020-21,2020-11-07,varazdin,sibenik,1,3,FT,11. kolo,15:00,league,,thesportsdb,59122a1cdd
+HNL,2020-21,2020-11-07,hajduk-split,osijek,1,1,FT,11. kolo,17:05,league,,thesportsdb,c297834b87
+HNL,2020-21,2020-11-08,dinamo-zagreb,istra-1961,5,0,FT,11. kolo,15:00,league,,thesportsdb,0f3fb4b531
+HNL,2020-21,2020-11-08,rijeka,lokomotiva-zagreb,1,0,FT,11. kolo,17:05,league,,thesportsdb,f7ee8ed4f1
+HNL,2020-21,2020-11-20,lokomotiva-zagreb,varazdin,2,2,FT,12. kolo,17:00,league,,thesportsdb,1cbdd1a5fd
+HNL,2020-21,2020-11-20,sibenik,gorica,1,3,FT,12. kolo,19:05,league,,thesportsdb,ac7e18e7c9
+HNL,2020-21,2020-11-21,osijek,dinamo-zagreb,2,0,FT,12. kolo,15:00,league,,thesportsdb,20d9beb8bb
+HNL,2020-21,2020-11-21,slaven-belupo,hajduk-split,0,2,FT,12. kolo,17:05,league,,thesportsdb,881b5fcca3
+HNL,2020-21,2020-11-23,gorica,varazdin,1,0,FT,10. kolo,18:00,league,,thesportsdb,26fa8ff759
+HNL,2020-21,2020-11-24,lokomotiva-zagreb,hajduk-split,1,2,FT,9. kolo,17:00,league,,thesportsdb,2c5feffb9b
+HNL,2020-21,2020-11-25,istra-1961,osijek,1,4,FT,9. kolo,17:00,league,,thesportsdb,ec90a8fb54
+UEL,2020-21,2020-11-26,wolfsberger-aut,dinamo-zagreb,0,3,FT,Group F,18:55,league phase,,openfootball,6f38a74d4a
+UEL,2020-21,2020-11-26,napoli-ita,rijeka,2,0,FT,Group F,21:00,league phase,,openfootball,4f28cb76f8
+HNL,2020-21,2020-11-27,sibenik,slaven-belupo,0,3,FT,13. kolo,18:00,league,,thesportsdb,2756e43bc1
+HNL,2020-21,2020-11-28,varazdin,istra-1961,1,1,FT,13. kolo,15:00,league,,thesportsdb,29e88f0d2f
+HNL,2020-21,2020-11-28,gorica,lokomotiva-zagreb,1,1,FT,13. kolo,17:05,league,,thesportsdb,a31ca4e69c
+HNL,2020-21,2020-11-29,rijeka,osijek,1,1,FT,13. kolo,17:05,league,,thesportsdb,2032e67d3c
+HNL,2020-21,2020-12-02,gorica,slaven-belupo,0,1,FT,11. kolo,17:00,league,,thesportsdb,a1d2f22b9f
+UEL,2020-21,2020-12-03,feyenoord-ned,dinamo-zagreb,0,2,FT,Group F,18:55,league phase,,openfootball,ad09c07daf
+UEL,2020-21,2020-12-03,real-sociedad-esp,rijeka,2,2,FT,Group F,21:00,league phase,,openfootball,16f6810b33
+HNL,2020-21,2020-12-05,osijek,varazdin,1,0,FT,14. kolo,15:00,league,,thesportsdb,5c87bb9960
+HNL,2020-21,2020-12-06,slaven-belupo,dinamo-zagreb,1,5,FT,14. kolo,15:00,league,,thesportsdb,038e8912df
+HNL,2020-21,2020-12-06,hajduk-split,rijeka,1,2,FT,14. kolo,17:05,league,,thesportsdb,3c9d781bd3
 UEL,2020-21,2020-12-10,rijeka,az-alkmaar-ned,2,1,FT,Group F,18:55,league phase,,openfootball,8ac49bcc1c
 UEL,2020-21,2020-12-10,dinamo-zagreb,cska-moskva-rus,3,1,FT,Group F,21:00,league phase,,openfootball,258928950c
-UEL,2020-21,2021-02-18,krasnodar-rus,dinamo-zagreb,2,3,FT,Sechzehntelfinale,,knockout,,openfootball,af6da0fc04
-UEL,2020-21,2021-02-25,dinamo-zagreb,krasnodar-rus,1,0,FT,Sechzehntelfinale,,knockout,,openfootball,ea5a7f2a96
-UEL,2020-21,2021-03-11,tottenham-hotspur-eng,dinamo-zagreb,2,0,FT,Sechzehntelfinale,,knockout,,openfootball,b1ac000444
-UEL,2020-21,2021-03-18,dinamo-zagreb,tottenham-hotspur-eng,2,0,FT,Sechzehntelfinale,,knockout,,openfootball,7c85da94d7
-UEL,2020-21,2021-04-08,dinamo-zagreb,villarreal-esp,0,1,FT,Quarterfinals,,knockout,,openfootball,40ba8705e5
-UEL,2020-21,2021-04-15,villarreal-esp,dinamo-zagreb,2,1,FT,Quarterfinals,,knockout,,openfootball,e9c04578f9
+HNL,2020-21,2020-12-12,gorica,osijek,4,1,FT,15. kolo,15:00,league,,thesportsdb,b9fa9c951c
+HNL,2020-21,2020-12-12,varazdin,hajduk-split,4,2,FT,15. kolo,17:05,league,,thesportsdb,392ba5e18d
+HNL,2020-21,2020-12-13,lokomotiva-zagreb,slaven-belupo,2,1,FT,15. kolo,15:00,league,,thesportsdb,fc4de59d3b
+HNL,2020-21,2020-12-13,rijeka,dinamo-zagreb,2,2,FT,15. kolo,17:05,league,,thesportsdb,beba15dd7e
+HNL,2020-21,2020-12-19,osijek,sibenik,1,0,FT,16. kolo,15:00,league,,thesportsdb,fb01114cc1
+HNL,2020-21,2020-12-19,dinamo-zagreb,varazdin,4,0,FT,16. kolo,17:05,league,,thesportsdb,30c85f8236
+HNL,2020-21,2020-12-20,hajduk-split,gorica,2,4,FT,16. kolo,17:05,league,,thesportsdb,92bc6db7b3
+HNL,2020-21,2021-01-19,istra-1961,gorica,1,1,FT,14. kolo,16:00,league,,thesportsdb,34c05bb4f6
+HNL,2020-21,2021-01-19,dinamo-zagreb,rijeka,0,2,FT,6. kolo,18:05,league,,thesportsdb,8dbc28d207
+HNL,2020-21,2021-01-22,lokomotiva-zagreb,osijek,0,3,FT,17. kolo,16:00,league,,thesportsdb,6223b273d5
+HNL,2020-21,2021-01-22,sibenik,hajduk-split,0,1,FT,17. kolo,18:05,league,,thesportsdb,786885c18b
+HNL,2020-21,2021-01-23,varazdin,rijeka,2,1,FT,17. kolo,15:00,league,,thesportsdb,4265e83b96
+HNL,2020-21,2021-01-23,gorica,dinamo-zagreb,3,4,FT,17. kolo,17:05,league,,thesportsdb,90d17d5e01
+HNL,2020-21,2021-01-24,istra-1961,slaven-belupo,2,1,FT,17. kolo,17:05,league,,thesportsdb,18a1b90190
+HNL,2020-21,2021-01-26,lokomotiva-zagreb,sibenik,0,4,FT,14. kolo,17:00,league,,thesportsdb,10edbac9d2
+HNL,2020-21,2021-01-27,istra-1961,rijeka,1,2,FT,12. kolo,15:00,league,,thesportsdb,c8568bed7e
+HNL,2020-21,2021-01-27,dinamo-zagreb,hajduk-split,3,1,FT,13. kolo,17:05,league,,thesportsdb,d844501193
+HNL,2020-21,2021-01-29,slaven-belupo,varazdin,2,0,FT,18. kolo,18:00,league,,thesportsdb,488fea9066
+HNL,2020-21,2021-01-30,osijek,istra-1961,1,0,FT,18. kolo,15:00,league,,thesportsdb,864b05e74d
+HNL,2020-21,2021-01-30,dinamo-zagreb,sibenik,1,2,FT,18. kolo,17:05,league,,thesportsdb,b179a400e9
+HNL,2020-21,2021-01-30,hajduk-split,lokomotiva-zagreb,0,1,FT,18. kolo,19:10,league,,thesportsdb,b4ea25bbbd
+HNL,2020-21,2021-01-31,rijeka,gorica,0,2,FT,18. kolo,17:05,league,,thesportsdb,79416746a0
+HNL,2020-21,2021-02-02,osijek,slaven-belupo,3,0,FT,19. kolo,16:00,league,,thesportsdb,ff3c2a4db8
+HNL,2020-21,2021-02-02,dinamo-zagreb,lokomotiva-zagreb,2,0,FT,19. kolo,18:05,league,,thesportsdb,9e29d38377
+HNL,2020-21,2021-02-03,varazdin,gorica,2,1,FT,19. kolo,15:00,league,,thesportsdb,324bc2e258
+HNL,2020-21,2021-02-03,rijeka,sibenik,2,2,FT,19. kolo,17:05,league,,thesportsdb,aecd33211d
+HNL,2020-21,2021-02-03,hajduk-split,istra-1961,1,0,FT,19. kolo,19:10,league,,thesportsdb,6ef2b9ea8d
+HNL,2020-21,2021-02-06,osijek,hajduk-split,2,0,FT,20. kolo,15:00,league,,thesportsdb,6c89de4bac
+HNL,2020-21,2021-02-06,lokomotiva-zagreb,rijeka,2,3,FT,20. kolo,17:15,league,,thesportsdb,424b50532e
+HNL,2020-21,2021-02-07,sibenik,varazdin,0,0,FT,20. kolo,15:00,league,,thesportsdb,fc169b5644
+HNL,2020-21,2021-02-07,istra-1961,dinamo-zagreb,0,1,FT,20. kolo,17:05,league,,thesportsdb,1b3ccca636
+HNL,2020-21,2021-02-08,slaven-belupo,gorica,0,1,FT,20. kolo,18:00,league,,thesportsdb,4fd5cc07de
+HNL,2020-21,2021-02-10,sibenik,istra-1961,1,0,FT,15. kolo,16:00,league,,thesportsdb,8ac31606d7
+HNL,2020-21,2021-02-10,rijeka,hajduk-split,0,1,FT,5. kolo,18:05,league,,thesportsdb,d6685331fd
+HNL,2020-21,2021-02-12,varazdin,lokomotiva-zagreb,0,1,FT,21. kolo,18:00,league,,thesportsdb,c56a71a7ec
+HNL,2020-21,2021-02-13,gorica,sibenik,1,0,FT,21. kolo,15:00,league,,thesportsdb,430ffa5621
+HNL,2020-21,2021-02-13,dinamo-zagreb,osijek,1,0,FT,21. kolo,17:30,league,,thesportsdb,c936040a83
+HNL,2020-21,2021-02-14,rijeka,istra-1961,1,1,FT,21. kolo,15:00,league,,thesportsdb,780d21317f
+HNL,2020-21,2021-02-17,gorica,rijeka,0,0,FT,9. kolo,17:00,league,,thesportsdb,e40e53eae4
+UEL,2020-21,2021-02-18,krasnodar-rus,dinamo-zagreb,2,3,FT,Sechzehntelfinale,18:55,knockout,,openfootball,af6da0fc04
+HNL,2020-21,2021-02-19,slaven-belupo,sibenik,2,2,FT,22. kolo,18:00,league,,thesportsdb,2569667992
+HNL,2020-21,2021-02-20,istra-1961,varazdin,0,1,FT,22. kolo,15:00,league,,thesportsdb,6dee0e0f9f
+HNL,2020-21,2021-02-20,lokomotiva-zagreb,gorica,0,3,FT,22. kolo,17:05,league,,thesportsdb,f0fc7355ef
+HNL,2020-21,2021-02-21,osijek,rijeka,2,0,FT,22. kolo,15:00,league,,thesportsdb,55ccbae59a
+UEL,2020-21,2021-02-25,dinamo-zagreb,krasnodar-rus,1,0,FT,Sechzehntelfinale,21:00,knockout,,openfootball,ea5a7f2a96
+HNL,2020-21,2021-02-26,varazdin,osijek,2,3,FT,23. kolo,18:00,league,,thesportsdb,b026e7ec86
+HNL,2020-21,2021-02-27,sibenik,lokomotiva-zagreb,0,0,FT,23. kolo,15:00,league,,thesportsdb,925af4fa17
+HNL,2020-21,2021-02-27,rijeka,hajduk-split,0,1,FT,23. kolo,17:30,league,,thesportsdb,7061ad6832
+HNL,2020-21,2021-02-28,gorica,istra-1961,2,1,FT,23. kolo,15:00,league,,thesportsdb,9886f9917d
+HNL,2020-21,2021-02-28,dinamo-zagreb,slaven-belupo,3,0,FT,23. kolo,17:05,league,,thesportsdb,cff0f6b5ac
+HNL,2020-21,2021-03-05,istra-1961,sibenik,3,2,FT,24. kolo,18:00,league,,thesportsdb,f1079ad459
+HNL,2020-21,2021-03-06,slaven-belupo,lokomotiva-zagreb,0,0,FT,24. kolo,15:00,league,,thesportsdb,70c941686c
+HNL,2020-21,2021-03-06,hajduk-split,varazdin,2,0,FT,24. kolo,17:05,league,,thesportsdb,7f18461ab5
+HNL,2020-21,2021-03-07,osijek,gorica,1,1,FT,24. kolo,15:00,league,,thesportsdb,bb73126349
+HNL,2020-21,2021-03-07,dinamo-zagreb,rijeka,2,0,FT,24. kolo,17:30,league,,thesportsdb,b8a3093285
+HNL,2020-21,2021-03-10,istra-1961,lokomotiva-zagreb,3,1,FT,16. kolo,17:00,league,,thesportsdb,dc523d2de0
+UEL,2020-21,2021-03-11,tottenham-hotspur-eng,dinamo-zagreb,2,0,FT,Sechzehntelfinale,21:00,knockout,,openfootball,b1ac000444
+HNL,2020-21,2021-03-12,rijeka,slaven-belupo,1,1,FT,25. kolo,18:00,league,,thesportsdb,8fea60ccdb
+HNL,2020-21,2021-03-13,lokomotiva-zagreb,istra-1961,0,1,FT,25. kolo,15:00,league,,thesportsdb,fdc0ad7c3a
+HNL,2020-21,2021-03-13,gorica,hajduk-split,1,1,FT,25. kolo,17:05,league,,thesportsdb,580f4a6ff2
+HNL,2020-21,2021-03-14,varazdin,dinamo-zagreb,0,5,FT,25. kolo,15:00,league,,thesportsdb,d86ad6c90f
+HNL,2020-21,2021-03-14,sibenik,osijek,0,4,FT,25. kolo,17:05,league,,thesportsdb,1c13a9e546
+HNL,2020-21,2021-03-17,slaven-belupo,rijeka,1,3,FT,16. kolo,17:00,league,,thesportsdb,cfbd3ad741
+UEL,2020-21,2021-03-18,dinamo-zagreb,tottenham-hotspur-eng,2,0,FT,Sechzehntelfinale,18:55,knockout,,openfootball,7c85da94d7
+HNL,2020-21,2021-03-19,osijek,lokomotiva-zagreb,2,0,FT,26. kolo,18:00,league,,thesportsdb,1299c46d3a
+HNL,2020-21,2021-03-20,slaven-belupo,istra-1961,1,1,FT,26. kolo,15:00,league,,thesportsdb,12383ef9cf
+HNL,2020-21,2021-03-20,hajduk-split,sibenik,1,0,FT,26. kolo,17:05,league,,thesportsdb,f86fcffbbe
+HNL,2020-21,2021-03-21,rijeka,varazdin,2,0,FT,26. kolo,15:00,league,,thesportsdb,536c7b8ea3
+HNL,2020-21,2021-03-21,dinamo-zagreb,gorica,1,0,FT,26. kolo,17:30,league,,thesportsdb,99977cb60b
+HNL,2020-21,2021-04-02,varazdin,slaven-belupo,1,1,FT,27. kolo,19:00,league,,thesportsdb,e72706fd5e
+HNL,2020-21,2021-04-03,lokomotiva-zagreb,hajduk-split,0,2,FT,27. kolo,13:55,league,,thesportsdb,17d04b2aeb
+HNL,2020-21,2021-04-03,istra-1961,osijek,0,2,FT,27. kolo,16:00,league,,thesportsdb,b8c6d3a9e1
+HNL,2020-21,2021-04-03,sibenik,dinamo-zagreb,1,1,FT,27. kolo,18:05,league,,thesportsdb,32096c9f6c
+HNL,2020-21,2021-04-03,gorica,rijeka,3,4,FT,27. kolo,21:00,league,,thesportsdb,8f1e44ceba
+HNL,2020-21,2021-04-07,hajduk-split,slaven-belupo,2,2,FT,21. kolo,19:00,league,,thesportsdb,0d60e415c3
+UEL,2020-21,2021-04-08,dinamo-zagreb,villarreal-esp,0,1,FT,Quarterfinals,21:00,knockout,,openfootball,40ba8705e5
+HNL,2020-21,2021-04-10,gorica,varazdin,0,0,FT,28. kolo,18:00,league,,thesportsdb,edeee51db9
+HNL,2020-21,2021-04-10,sibenik,rijeka,0,1,FT,28. kolo,20:05,league,,thesportsdb,073944f2a0
+HNL,2020-21,2021-04-11,slaven-belupo,osijek,2,2,FT,28. kolo,16:00,league,,thesportsdb,cf446e9f19
+HNL,2020-21,2021-04-11,istra-1961,hajduk-split,0,1,FT,28. kolo,18:05,league,,thesportsdb,c30d2f96f6
+HNL,2020-21,2021-04-11,lokomotiva-zagreb,dinamo-zagreb,0,2,FT,28. kolo,20:10,league,,thesportsdb,5f40a3d3c1
+UEL,2020-21,2021-04-15,villarreal-esp,dinamo-zagreb,2,1,FT,Quarterfinals,21:00,knockout,,openfootball,e9c04578f9
+HNL,2020-21,2021-04-16,varazdin,sibenik,1,1,FT,29. kolo,17:00,league,,thesportsdb,52aff8d7d4
+HNL,2020-21,2021-04-16,gorica,slaven-belupo,0,1,FT,29. kolo,19:05,league,,thesportsdb,1f0e2f983a
+HNL,2020-21,2021-04-16,hajduk-split,osijek,0,1,FT,29. kolo,21:30,league,,thesportsdb,3e78916e5d
+HNL,2020-21,2021-04-17,rijeka,lokomotiva-zagreb,3,0,FT,29. kolo,20:05,league,,thesportsdb,1d8f18a207
+HNL,2020-21,2021-04-18,dinamo-zagreb,istra-1961,1,0,FT,29. kolo,20:05,league,,thesportsdb,7784e08d73
+HNL,2020-21,2021-04-20,sibenik,gorica,1,1,FT,30. kolo,18:00,league,,thesportsdb,ac8964c04a
+HNL,2020-21,2021-04-20,slaven-belupo,hajduk-split,1,1,FT,30. kolo,20:05,league,,thesportsdb,d6523a678e
+HNL,2020-21,2021-04-21,lokomotiva-zagreb,varazdin,4,0,FT,30. kolo,17:00,league,,thesportsdb,c71371a3ab
+HNL,2020-21,2021-04-21,istra-1961,rijeka,1,2,FT,30. kolo,19:05,league,,thesportsdb,2fdf0761b5
+HNL,2020-21,2021-04-21,osijek,dinamo-zagreb,1,1,FT,30. kolo,21:30,league,,thesportsdb,6b1a62e618
+HNL,2020-21,2021-04-24,sibenik,slaven-belupo,2,0,FT,31. kolo,18:00,league,,thesportsdb,12206977e3
+HNL,2020-21,2021-04-24,gorica,lokomotiva-zagreb,4,2,FT,31. kolo,20:05,league,,thesportsdb,65a05f346d
+HNL,2020-21,2021-04-25,rijeka,osijek,0,0,FT,31. kolo,18:00,league,,thesportsdb,fd0b6e0f6c
+HNL,2020-21,2021-04-25,dinamo-zagreb,hajduk-split,2,0,FT,31. kolo,21:00,league,,thesportsdb,f679b9b20f
+HNL,2020-21,2021-04-26,varazdin,istra-1961,1,1,FT,31. kolo,19:00,league,,thesportsdb,87a5aa1577
+HNL,2020-21,2021-04-30,lokomotiva-zagreb,sibenik,1,0,FT,32. kolo,19:00,league,,thesportsdb,8708b7ed22
+HNL,2020-21,2021-05-01,slaven-belupo,dinamo-zagreb,0,2,FT,32. kolo,18:00,league,,thesportsdb,f1ab89c7c3
+HNL,2020-21,2021-05-01,hajduk-split,rijeka,3,2,FT,32. kolo,21:00,league,,thesportsdb,451084f841
+HNL,2020-21,2021-05-02,istra-1961,gorica,0,2,FT,32. kolo,18:00,league,,thesportsdb,c9f81882e7
+HNL,2020-21,2021-05-02,osijek,varazdin,1,1,FT,32. kolo,20:05,league,,thesportsdb,519fde8659
+HNL,2020-21,2021-05-05,hajduk-split,dinamo-zagreb,1,1,FT,22. kolo,19:00,league,,thesportsdb,279e878335
+HNL,2020-21,2021-05-07,lokomotiva-zagreb,slaven-belupo,3,1,FT,33. kolo,16:00,league,,thesportsdb,7630a06254
+HNL,2020-21,2021-05-07,sibenik,istra-1961,1,0,FT,33. kolo,18:05,league,,thesportsdb,fbb237edbd
+HNL,2020-21,2021-05-07,gorica,osijek,1,0,FT,33. kolo,20:10,league,,thesportsdb,3f53246702
+HNL,2020-21,2021-05-08,varazdin,hajduk-split,0,1,FT,33. kolo,18:00,league,,thesportsdb,dfbfd632ec
+HNL,2020-21,2021-05-09,rijeka,dinamo-zagreb,1,5,FT,33. kolo,20:00,league,,thesportsdb,e5362feb05
+HNL,2020-21,2021-05-11,istra-1961,lokomotiva-zagreb,1,1,FT,34. kolo,18:00,league,,thesportsdb,2deff17845
+HNL,2020-21,2021-05-11,osijek,sibenik,3,0,FT,34. kolo,20:05,league,,thesportsdb,41cb1a63e3
+HNL,2020-21,2021-05-12,slaven-belupo,rijeka,0,2,FT,34. kolo,17:00,league,,thesportsdb,b4ca9c26c0
+HNL,2020-21,2021-05-12,dinamo-zagreb,varazdin,2,2,FT,34. kolo,19:05,league,,thesportsdb,8108daa062
+HNL,2020-21,2021-05-12,hajduk-split,gorica,4,0,FT,34. kolo,21:10,league,,thesportsdb,84ebce0a15
+HNL,2020-21,2021-05-15,istra-1961,slaven-belupo,1,0,FT,35. kolo,18:00,league,,thesportsdb,d6eef376a3
+HNL,2020-21,2021-05-15,lokomotiva-zagreb,osijek,0,2,FT,35. kolo,20:05,league,,thesportsdb,be42cb56eb
+HNL,2020-21,2021-05-16,varazdin,rijeka,2,3,FT,35. kolo,16:00,league,,thesportsdb,bd676c8b85
+HNL,2020-21,2021-05-16,sibenik,hajduk-split,0,2,FT,35. kolo,18:05,league,,thesportsdb,d644c243f5
+HNL,2020-21,2021-05-16,gorica,dinamo-zagreb,0,3,FT,35. kolo,20:10,league,,thesportsdb,e4fe190ae8
+HNL,2020-21,2021-05-22,hajduk-split,lokomotiva-zagreb,2,0,FT,36. kolo,18:00,league,,thesportsdb,84037ffe0d
+HNL,2020-21,2021-05-22,osijek,istra-1961,2,1,FT,36. kolo,18:00,league,,thesportsdb,3d16a9f8b1
+HNL,2020-21,2021-05-22,rijeka,gorica,2,1,FT,36. kolo,18:00,league,,thesportsdb,09368dd9cc
+HNL,2020-21,2021-05-22,slaven-belupo,varazdin,1,0,FT,36. kolo,18:00,league,,thesportsdb,34105be2e7
+HNL,2020-21,2021-05-22,dinamo-zagreb,sibenik,1,0,FT,36. kolo,20:30,league,,thesportsdb,1a1820b4fd
+HNL,2021-22,2021-07-16,dinamo-zagreb,slaven-belupo,0,2,FT,1. kolo,19:55,league,,thesportsdb,24597d5344
+HNL,2021-22,2021-07-16,osijek,sibenik,3,0,FT,1. kolo,22:00,league,,thesportsdb,adbccef8f3
+HNL,2021-22,2021-07-17,lokomotiva-zagreb,hajduk-split,2,2,FT,1. kolo,19:55,league,,thesportsdb,361931865f
+HNL,2021-22,2021-07-17,rijeka,gorica,2,0,FT,1. kolo,22:00,league,,thesportsdb,1d7ba34ab7
+HNL,2021-22,2021-07-18,istra-1961,hrvatski-dragovoljac,3,1,FT,1. kolo,19:55,league,,thesportsdb,bf0b81b749
+HNL,2021-22,2021-07-23,hrvatski-dragovoljac,dinamo-zagreb,0,4,FT,2. kolo,21:00,league,,thesportsdb,fe4f1564f5
+HNL,2021-22,2021-07-24,slaven-belupo,lokomotiva-zagreb,1,2,FT,2. kolo,19:55,league,,thesportsdb,34eafc4913
+HNL,2021-22,2021-07-24,gorica,sibenik,3,1,FT,2. kolo,22:00,league,,thesportsdb,fed1116c9e
+HNL,2021-22,2021-07-25,rijeka,istra-1961,2,0,FT,2. kolo,19:55,league,,thesportsdb,17a42ee550
+HNL,2021-22,2021-07-25,hajduk-split,osijek,1,2,FT,2. kolo,22:00,league,,thesportsdb,c3eccc9232
+HNL,2021-22,2021-07-30,lokomotiva-zagreb,hrvatski-dragovoljac,3,2,FT,3. kolo,21:00,league,,thesportsdb,ded9b86321
+HNL,2021-22,2021-07-31,istra-1961,gorica,1,2,FT,3. kolo,21:00,league,,thesportsdb,ae14f5251d
+HNL,2021-22,2021-08-01,hajduk-split,sibenik,1,0,FT,12. kolo,19:55,league,,thesportsdb,e121e0b2ba
+HNL,2021-22,2021-08-01,dinamo-zagreb,rijeka,3,3,FT,3. kolo,22:00,league,,thesportsdb,ead9a89951
+HNL,2021-22,2021-08-01,osijek,slaven-belupo,0,0,FT,3. kolo,22:00,league,,thesportsdb,4dad77dbd5
+HNL,2021-22,2021-08-07,slaven-belupo,sibenik,1,1,FT,4. kolo,19:55,league,,thesportsdb,478eec210e
+HNL,2021-22,2021-08-07,gorica,hajduk-split,1,3,FT,4. kolo,22:00,league,,thesportsdb,4fe87b0ba3
+HNL,2021-22,2021-08-08,hrvatski-dragovoljac,osijek,1,2,FT,4. kolo,19:55,league,,thesportsdb,8dd906a765
+HNL,2021-22,2021-08-13,dinamo-zagreb,gorica,1,0,FT,5. kolo,21:00,league,,thesportsdb,fe80cc6d07
+HNL,2021-22,2021-08-14,lokomotiva-zagreb,istra-1961,4,0,FT,5. kolo,19:55,league,,thesportsdb,be7ad5f2c6
+HNL,2021-22,2021-08-14,hajduk-split,slaven-belupo,2,0,FT,5. kolo,22:00,league,,thesportsdb,5a4d38a88c
+HNL,2021-22,2021-08-15,sibenik,hrvatski-dragovoljac,6,2,FT,5. kolo,19:55,league,,thesportsdb,ca1385ee8d
+HNL,2021-22,2021-08-15,osijek,rijeka,1,0,FT,5. kolo,22:00,league,,thesportsdb,1fd7d8f213
+HNL,2021-22,2021-08-20,hrvatski-dragovoljac,hajduk-split,0,1,FT,6. kolo,21:00,league,,thesportsdb,4f6027d9b5
+HNL,2021-22,2021-08-21,gorica,slaven-belupo,1,0,FT,6. kolo,19:55,league,,thesportsdb,d33235aa3e
+HNL,2021-22,2021-08-21,dinamo-zagreb,lokomotiva-zagreb,1,0,FT,6. kolo,22:00,league,,thesportsdb,4f9c95425b
+HNL,2021-22,2021-08-22,istra-1961,osijek,2,0,FT,6. kolo,19:55,league,,thesportsdb,63e7d49074
+HNL,2021-22,2021-08-22,rijeka,sibenik,2,1,FT,6. kolo,22:00,league,,thesportsdb,654c205742
+HNL,2021-22,2021-08-27,slaven-belupo,hrvatski-dragovoljac,0,1,FT,7. kolo,21:00,league,,thesportsdb,e01101039d
+HNL,2021-22,2021-08-28,lokomotiva-zagreb,gorica,0,1,FT,7. kolo,19:55,league,,thesportsdb,9c9a52b716
+HNL,2021-22,2021-08-28,sibenik,istra-1961,3,1,FT,7. kolo,22:00,league,,thesportsdb,7449fc1eb9
+HNL,2021-22,2021-08-29,osijek,dinamo-zagreb,0,2,FT,7. kolo,19:55,league,,thesportsdb,4abce54a02
+HNL,2021-22,2021-08-29,hajduk-split,rijeka,1,2,FT,7. kolo,22:00,league,,thesportsdb,2d5906b463
+HNL,2021-22,2021-09-10,gorica,hrvatski-dragovoljac,1,1,FT,8. kolo,21:00,league,,thesportsdb,0c6ad8e1e6
+HNL,2021-22,2021-09-11,dinamo-zagreb,sibenik,2,0,FT,8. kolo,18:00,league,,thesportsdb,0bdf4de31e
+HNL,2021-22,2021-09-11,rijeka,slaven-belupo,2,1,FT,8. kolo,20:05,league,,thesportsdb,d8d6ee529a
+HNL,2021-22,2021-09-12,istra-1961,hajduk-split,1,3,FT,8. kolo,18:00,league,,thesportsdb,0d842e4f8a
+HNL,2021-22,2021-09-12,lokomotiva-zagreb,osijek,1,1,FT,8. kolo,20:05,league,,thesportsdb,d4a315c64f
 UEL,2021-22,2021-09-16,dinamo-zagreb,west-ham-united-eng,0,2,FT,Group F,18:45,league phase,,openfootball,6fda4d6cc7
+HNL,2021-22,2021-09-17,hrvatski-dragovoljac,rijeka,2,2,FT,9. kolo,21:00,league,,thesportsdb,0f96d7cf03
+HNL,2021-22,2021-09-18,slaven-belupo,istra-1961,1,1,FT,9. kolo,18:00,league,,thesportsdb,be24d18e1a
+HNL,2021-22,2021-09-18,sibenik,lokomotiva-zagreb,2,1,FT,9. kolo,20:05,league,,thesportsdb,2bf3f64c7f
+HNL,2021-22,2021-09-19,osijek,gorica,3,2,FT,9. kolo,20:05,league,,thesportsdb,10f554f435
+HNL,2021-22,2021-09-25,slaven-belupo,dinamo-zagreb,1,4,FT,10. kolo,18:00,league,,thesportsdb,e47971a50c
+HNL,2021-22,2021-09-25,sibenik,osijek,0,2,FT,10. kolo,20:05,league,,thesportsdb,3bbd170bb2
+HNL,2021-22,2021-09-26,gorica,rijeka,3,4,FT,10. kolo,18:00,league,,thesportsdb,ddc8fed1c4
+HNL,2021-22,2021-09-26,hajduk-split,lokomotiva-zagreb,1,0,FT,10. kolo,20:05,league,,thesportsdb,6e248bd011
+HNL,2021-22,2021-09-27,hrvatski-dragovoljac,istra-1961,0,1,FT,10. kolo,19:00,league,,thesportsdb,ccbce13e5a
 UEL,2021-22,2021-09-30,krc-genk-bel,dinamo-zagreb,0,3,FT,Group F,21:00,league phase,,openfootball,e83c5a1251
+HNL,2021-22,2021-10-01,sibenik,gorica,1,2,FT,11. kolo,19:00,league,,thesportsdb,81283ff26d
+HNL,2021-22,2021-10-02,lokomotiva-zagreb,slaven-belupo,3,0,FT,11. kolo,18:00,league,,thesportsdb,f65b285c1d
+HNL,2021-22,2021-10-02,istra-1961,rijeka,3,6,FT,11. kolo,20:05,league,,thesportsdb,50e07b3f88
+HNL,2021-22,2021-10-03,dinamo-zagreb,hrvatski-dragovoljac,8,0,FT,11. kolo,18:00,league,,thesportsdb,9e9af5ebe8
+HNL,2021-22,2021-10-03,osijek,hajduk-split,1,1,FT,11. kolo,20:30,league,,thesportsdb,11744f5f49
+HNL,2021-22,2021-10-15,hrvatski-dragovoljac,lokomotiva-zagreb,2,2,FT,12. kolo,19:00,league,,thesportsdb,b6f6ca9ce9
+HNL,2021-22,2021-10-16,gorica,istra-1961,1,1,FT,12. kolo,16:00,league,,thesportsdb,b6226ce7fd
+HNL,2021-22,2021-10-16,rijeka,dinamo-zagreb,3,3,FT,12. kolo,18:05,league,,thesportsdb,12b7be8d27
+HNL,2021-22,2021-10-17,slaven-belupo,osijek,0,2,FT,12. kolo,16:00,league,,thesportsdb,2c565a9cde
+HNL,2021-22,2021-10-17,sibenik,hajduk-split,2,0,FT,3. kolo,18:30,league,,thesportsdb,d9fa7dd3c5
+HNL,2021-22,2021-10-20,rijeka,lokomotiva-zagreb,1,2,FT,4. kolo,18:00,league,,thesportsdb,d46688c574
 UEL,2021-22,2021-10-21,rapid-wien-aut,dinamo-zagreb,2,1,FT,Group F,18:45,league phase,,openfootball,8f2ecc4e79
+HNL,2021-22,2021-10-22,sibenik,slaven-belupo,1,1,FT,13. kolo,19:00,league,,thesportsdb,48bc2c1e97
+HNL,2021-22,2021-10-23,osijek,hrvatski-dragovoljac,1,0,FT,13. kolo,16:00,league,,thesportsdb,03497595ee
+HNL,2021-22,2021-10-23,hajduk-split,gorica,0,0,FT,13. kolo,18:05,league,,thesportsdb,328b60f20c
+HNL,2021-22,2021-10-24,dinamo-zagreb,istra-1961,1,1,FT,13. kolo,16:00,league,,thesportsdb,90fabb9307
+HNL,2021-22,2021-10-24,lokomotiva-zagreb,rijeka,0,2,FT,13. kolo,18:30,league,,thesportsdb,0882f23fbc
+HNL,2021-22,2021-10-30,hrvatski-dragovoljac,sibenik,1,1,FT,14. kolo,16:00,league,,thesportsdb,4ae5f971ac
+HNL,2021-22,2021-10-30,gorica,dinamo-zagreb,0,2,FT,14. kolo,18:05,league,,thesportsdb,fe8d765f09
+HNL,2021-22,2021-10-31,slaven-belupo,hajduk-split,3,2,FT,14. kolo,15:00,league,,thesportsdb,d00675ff7d
+HNL,2021-22,2021-11-01,istra-1961,lokomotiva-zagreb,2,1,FT,14. kolo,18:00,league,,thesportsdb,34e31e450d
 UEL,2021-22,2021-11-04,dinamo-zagreb,rapid-wien-aut,3,1,FT,Group F,21:00,league phase,,openfootball,0012b113c7
+HNL,2021-22,2021-11-05,slaven-belupo,gorica,1,2,FT,15. kolo,18:00,league,,thesportsdb,9fb195a329
+HNL,2021-22,2021-11-06,osijek,istra-1961,3,0,FT,15. kolo,15:00,league,,thesportsdb,61df2c94c6
+HNL,2021-22,2021-11-06,hajduk-split,hrvatski-dragovoljac,2,0,FT,15. kolo,17:05,league,,thesportsdb,7abcb1404b
+HNL,2021-22,2021-11-07,lokomotiva-zagreb,dinamo-zagreb,1,0,FT,15. kolo,15:00,league,,thesportsdb,677f8fddb6
+HNL,2021-22,2021-11-07,sibenik,rijeka,0,1,FT,15. kolo,17:30,league,,thesportsdb,a4c63972ea
+HNL,2021-22,2021-11-19,hrvatski-dragovoljac,slaven-belupo,1,2,FT,16. kolo,18:00,league,,thesportsdb,c792b7abac
+HNL,2021-22,2021-11-20,dinamo-zagreb,osijek,1,1,FT,16. kolo,15:00,league,,thesportsdb,084ad0ab66
+HNL,2021-22,2021-11-20,istra-1961,sibenik,3,4,FT,16. kolo,17:05,league,,thesportsdb,14b5cb5f67
+HNL,2021-22,2021-11-21,gorica,lokomotiva-zagreb,2,2,FT,16. kolo,15:00,league,,thesportsdb,e48877397d
+HNL,2021-22,2021-11-21,rijeka,hajduk-split,2,3,FT,16. kolo,17:30,league,,thesportsdb,22344bcf3c
 UEL,2021-22,2021-11-25,dinamo-zagreb,krc-genk-bel,1,1,FT,Group F,18:45,league phase,,openfootball,858ab69f69
+HNL,2021-22,2021-11-26,osijek,lokomotiva-zagreb,3,1,FT,17. kolo,18:00,league,,thesportsdb,99baa38f13
+HNL,2021-22,2021-11-26,hajduk-split,istra-1961,4,0,FT,17. kolo,20:00,league,,thesportsdb,21768966ac
+HNL,2021-22,2021-11-27,hrvatski-dragovoljac,gorica,0,1,FT,17. kolo,15:00,league,,thesportsdb,2505654896
+HNL,2021-22,2021-11-27,slaven-belupo,rijeka,1,2,FT,17. kolo,17:05,league,,thesportsdb,57b7d84677
+HNL,2021-22,2021-11-28,sibenik,dinamo-zagreb,1,2,FT,17. kolo,15:00,league,,thesportsdb,15774adb31
+HNL,2021-22,2021-12-04,gorica,osijek,1,1,FT,18. kolo,13:00,league,,thesportsdb,ede0dd070e
+HNL,2021-22,2021-12-04,rijeka,hrvatski-dragovoljac,4,1,FT,18. kolo,17:05,league,,thesportsdb,84d89ddb0d
+HNL,2021-22,2021-12-05,lokomotiva-zagreb,sibenik,1,1,FT,18. kolo,15:00,league,,thesportsdb,90a453492a
+HNL,2021-22,2021-12-05,dinamo-zagreb,hajduk-split,0,2,FT,18. kolo,17:30,league,,thesportsdb,794bd71274
+HNL,2021-22,2021-12-06,istra-1961,slaven-belupo,1,2,FT,18. kolo,18:00,league,,thesportsdb,b0d4cc55cb
+HNL,2021-22,2021-12-08,rijeka,osijek,0,0,FT,14. kolo,17:00,league,,thesportsdb,9f15abde4b
 UEL,2021-22,2021-12-09,west-ham-united-eng,dinamo-zagreb,0,1,FT,Group F,21:00,league phase,,openfootball,19dc2d64bf
+HNL,2021-22,2021-12-10,istra-1961,hrvatski-dragovoljac,3,0,FT,19. kolo,18:00,league,,thesportsdb,46cc739bcc
+HNL,2021-22,2021-12-11,lokomotiva-zagreb,hajduk-split,3,3,FT,19. kolo,15:00,league,,thesportsdb,aa685a9dbf
+HNL,2021-22,2021-12-11,rijeka,gorica,1,2,FT,19. kolo,17:05,league,,thesportsdb,d7915dc042
+HNL,2021-22,2021-12-12,osijek,sibenik,3,1,FT,19. kolo,13:00,league,,thesportsdb,7d19ef5667
+HNL,2021-22,2021-12-12,dinamo-zagreb,slaven-belupo,3,0,FT,19. kolo,17:05,league,,thesportsdb,395a7244aa
+HNL,2021-22,2021-12-15,istra-1961,dinamo-zagreb,0,2,FT,4. kolo,18:00,league,,thesportsdb,d4e33d9599
+HNL,2021-22,2021-12-17,slaven-belupo,lokomotiva-zagreb,2,1,FT,20. kolo,18:00,league,,thesportsdb,7a5732c434
+HNL,2021-22,2021-12-18,gorica,sibenik,2,3,FT,20. kolo,13:00,league,,thesportsdb,800c254568
+HNL,2021-22,2021-12-18,rijeka,istra-1961,1,0,FT,20. kolo,17:05,league,,thesportsdb,16fc818054
+HNL,2021-22,2021-12-19,hrvatski-dragovoljac,dinamo-zagreb,0,2,FT,20. kolo,15:00,league,,thesportsdb,9b3dcdee2c
+HNL,2021-22,2021-12-19,hajduk-split,osijek,0,0,FT,20. kolo,17:30,league,,thesportsdb,3fdf4298ea
+HNL,2021-22,2022-01-28,istra-1961,gorica,2,1,FT,21. kolo,18:00,league,,thesportsdb,a19dc72bdd
+HNL,2021-22,2022-01-29,osijek,slaven-belupo,1,2,FT,21. kolo,15:00,league,,thesportsdb,b3253b5039
+HNL,2021-22,2022-01-29,sibenik,hajduk-split,1,3,FT,21. kolo,17:05,league,,thesportsdb,390b13eea5
+HNL,2021-22,2022-01-30,lokomotiva-zagreb,hrvatski-dragovoljac,2,1,FT,21. kolo,15:00,league,,thesportsdb,6879e0bd54
+HNL,2021-22,2022-01-30,dinamo-zagreb,rijeka,2,0,FT,21. kolo,17:30,league,,thesportsdb,1792aa9c0b
+HNL,2021-22,2022-02-04,slaven-belupo,sibenik,1,1,FT,22. kolo,18:00,league,,thesportsdb,e69ef94d35
+HNL,2021-22,2022-02-05,gorica,hajduk-split,0,4,FT,22. kolo,15:00,league,,thesportsdb,e1244bc82d
+HNL,2021-22,2022-02-05,rijeka,lokomotiva-zagreb,3,2,FT,22. kolo,17:05,league,,thesportsdb,af28f40ba8
+HNL,2021-22,2022-02-06,hrvatski-dragovoljac,osijek,1,3,FT,22. kolo,15:00,league,,thesportsdb,1bda26aea7
+HNL,2021-22,2022-02-06,istra-1961,dinamo-zagreb,1,2,FT,22. kolo,17:05,league,,thesportsdb,94dca38c89
+HNL,2021-22,2022-02-11,sibenik,hrvatski-dragovoljac,0,5,FT,23. kolo,18:00,league,,thesportsdb,529a3486df
+HNL,2021-22,2022-02-12,lokomotiva-zagreb,istra-1961,1,1,FT,23. kolo,15:00,league,,thesportsdb,88ef633a60
+HNL,2021-22,2022-02-12,dinamo-zagreb,gorica,2,1,FT,23. kolo,17:05,league,,thesportsdb,2cdf515eae
+HNL,2021-22,2022-02-13,hajduk-split,slaven-belupo,3,1,FT,23. kolo,15:00,league,,thesportsdb,02d99ad8c2
+HNL,2021-22,2022-02-13,osijek,rijeka,1,0,FT,23. kolo,17:30,league,,thesportsdb,01435b2246
 UEL,2021-22,2022-02-17,sevilla-esp,dinamo-zagreb,3,1,FT,Group F,21:00,league phase,,openfootball,de0842ee2f
+HNL,2021-22,2022-02-18,gorica,slaven-belupo,0,3,FT,24. kolo,18:00,league,,thesportsdb,98f272734f
+HNL,2021-22,2022-02-19,hrvatski-dragovoljac,hajduk-split,0,3,FT,24. kolo,15:00,league,,thesportsdb,79ba66f48c
+HNL,2021-22,2022-02-19,istra-1961,osijek,2,3,FT,24. kolo,17:05,league,,thesportsdb,2a08a0ff25
+HNL,2021-22,2022-02-20,rijeka,sibenik,4,2,FT,24. kolo,15:00,league,,thesportsdb,dc72815eaa
+HNL,2021-22,2022-02-20,dinamo-zagreb,lokomotiva-zagreb,0,0,FT,24. kolo,17:05,league,,thesportsdb,0200198d64
 UEL,2021-22,2022-02-24,dinamo-zagreb,sevilla-esp,1,0,FT,Group F,18:45,league phase,,openfootball,92e50c4321
+HNL,2021-22,2022-02-25,slaven-belupo,hrvatski-dragovoljac,1,0,FT,25. kolo,18:00,league,,thesportsdb,f6b1817cfd
+HNL,2021-22,2022-02-26,lokomotiva-zagreb,gorica,2,0,FT,25. kolo,15:00,league,,thesportsdb,830b0d1dc8
+HNL,2021-22,2022-02-26,hajduk-split,rijeka,1,3,FT,25. kolo,18:00,league,,thesportsdb,ff756c5cab
+HNL,2021-22,2022-02-27,sibenik,istra-1961,2,1,FT,25. kolo,15:00,league,,thesportsdb,16a8509ff6
+HNL,2021-22,2022-02-27,osijek,dinamo-zagreb,1,0,FT,25. kolo,18:00,league,,thesportsdb,735b9a4927
+HNL,2021-22,2022-03-04,lokomotiva-zagreb,osijek,0,0,FT,26. kolo,18:00,league,,thesportsdb,e5e2457386
+HNL,2021-22,2022-03-05,dinamo-zagreb,sibenik,3,0,FT,26. kolo,15:00,league,,thesportsdb,65e0965bb9
+HNL,2021-22,2022-03-05,rijeka,slaven-belupo,3,0,FT,26. kolo,17:05,league,,thesportsdb,6689979a05
+HNL,2021-22,2022-03-06,gorica,hrvatski-dragovoljac,4,0,FT,26. kolo,15:00,league,,thesportsdb,fc822f420f
+HNL,2021-22,2022-03-06,istra-1961,hajduk-split,1,1,FT,26. kolo,17:05,league,,thesportsdb,0167e15817
+HNL,2021-22,2022-03-11,sibenik,lokomotiva-zagreb,1,4,FT,27. kolo,18:00,league,,thesportsdb,949eededb6
+HNL,2021-22,2022-03-12,slaven-belupo,istra-1961,0,0,FT,27. kolo,15:00,league,,thesportsdb,4ec8b1be2a
+HNL,2021-22,2022-03-12,hajduk-split,dinamo-zagreb,0,0,FT,27. kolo,18:00,league,,thesportsdb,e3c1fd8c6c
+HNL,2021-22,2022-03-13,hrvatski-dragovoljac,rijeka,2,1,FT,27. kolo,15:00,league,,thesportsdb,4f00540196
+HNL,2021-22,2022-03-13,osijek,gorica,0,0,FT,27. kolo,17:05,league,,thesportsdb,1c324d35d0
+HNL,2021-22,2022-03-18,hrvatski-dragovoljac,istra-1961,0,0,FT,28. kolo,18:00,league,,thesportsdb,712e7ff995
+HNL,2021-22,2022-03-19,gorica,rijeka,1,0,FT,28. kolo,15:00,league,,thesportsdb,781e53c0a9
+HNL,2021-22,2022-03-19,hajduk-split,lokomotiva-zagreb,4,0,FT,28. kolo,17:05,league,,thesportsdb,eadd7fd08a
+HNL,2021-22,2022-03-20,slaven-belupo,dinamo-zagreb,0,1,FT,28. kolo,15:00,league,,thesportsdb,d447da1548
+HNL,2021-22,2022-03-20,sibenik,osijek,0,3,FT,28. kolo,17:05,league,,thesportsdb,35bdd177ed
+HNL,2021-22,2022-04-02,sibenik,gorica,0,1,FT,29. kolo,18:00,league,,thesportsdb,b0da1f6b38
+HNL,2021-22,2022-04-02,istra-1961,rijeka,0,2,FT,29. kolo,20:05,league,,thesportsdb,f03edf9181
+HNL,2021-22,2022-04-03,dinamo-zagreb,hrvatski-dragovoljac,2,0,FT,29. kolo,18:00,league,,thesportsdb,5ca9fc95e6
+HNL,2021-22,2022-04-03,osijek,hajduk-split,0,0,FT,29. kolo,20:30,league,,thesportsdb,49a4b0a737
+HNL,2021-22,2022-04-04,lokomotiva-zagreb,slaven-belupo,3,1,FT,29. kolo,19:00,league,,thesportsdb,f8e3c3c2b9
+HNL,2021-22,2022-04-08,gorica,istra-1961,1,1,FT,30. kolo,19:00,league,,thesportsdb,19626b4f3d
+HNL,2021-22,2022-04-09,hrvatski-dragovoljac,lokomotiva-zagreb,1,1,FT,30. kolo,18:00,league,,thesportsdb,c9100f09f4
+HNL,2021-22,2022-04-09,hajduk-split,sibenik,2,1,FT,30. kolo,20:05,league,,thesportsdb,8eda3f6f30
+HNL,2021-22,2022-04-10,slaven-belupo,osijek,0,1,FT,30. kolo,18:00,league,,thesportsdb,7efe6da20c
+HNL,2021-22,2022-04-10,rijeka,dinamo-zagreb,1,2,FT,30. kolo,21:00,league,,thesportsdb,a1b31d5e8d
+HNL,2021-22,2022-04-15,dinamo-zagreb,istra-1961,3,0,FT,31. kolo,19:00,league,,thesportsdb,628f759b73
+HNL,2021-22,2022-04-15,hajduk-split,gorica,1,0,FT,31. kolo,21:05,league,,thesportsdb,faf2f4020a
+HNL,2021-22,2022-04-16,sibenik,slaven-belupo,2,1,FT,31. kolo,16:00,league,,thesportsdb,cfc32ba978
+HNL,2021-22,2022-04-16,osijek,hrvatski-dragovoljac,2,1,FT,31. kolo,18:05,league,,thesportsdb,99ab412063
+HNL,2021-22,2022-04-16,lokomotiva-zagreb,rijeka,2,1,FT,31. kolo,20:10,league,,thesportsdb,24cbe85de7
+HNL,2021-22,2022-04-20,hajduk-split,dinamo-zagreb,1,0,FT,9. kolo,20:00,league,,thesportsdb,5760d94e72
+HNL,2021-22,2022-04-22,hrvatski-dragovoljac,sibenik,3,1,FT,32. kolo,19:00,league,,thesportsdb,0a6c160f90
+HNL,2021-22,2022-04-23,istra-1961,lokomotiva-zagreb,2,2,FT,32. kolo,18:00,league,,thesportsdb,3c4800e152
+HNL,2021-22,2022-04-23,rijeka,osijek,3,1,FT,32. kolo,21:00,league,,thesportsdb,10fdc6ea7b
+HNL,2021-22,2022-04-24,slaven-belupo,hajduk-split,0,0,FT,32. kolo,18:00,league,,thesportsdb,9c6820c510
+HNL,2021-22,2022-04-24,gorica,dinamo-zagreb,0,1,FT,32. kolo,20:05,league,,thesportsdb,867a91451b
+HNL,2021-22,2022-04-29,hajduk-split,hrvatski-dragovoljac,2,1,FT,33. kolo,19:00,league,,thesportsdb,827f770ccb
+HNL,2021-22,2022-04-30,slaven-belupo,gorica,2,1,FT,33. kolo,18:00,league,,thesportsdb,b31265f3be
+HNL,2021-22,2022-04-30,sibenik,rijeka,3,5,FT,33. kolo,20:05,league,,thesportsdb,2498b2c96f
+HNL,2021-22,2022-05-01,osijek,istra-1961,2,2,FT,33. kolo,18:00,league,,thesportsdb,15a8907b27
+HNL,2021-22,2022-05-01,lokomotiva-zagreb,dinamo-zagreb,1,1,FT,33. kolo,20:05,league,,thesportsdb,538aa62494
+HNL,2021-22,2022-05-06,hrvatski-dragovoljac,slaven-belupo,1,1,FT,34. kolo,19:00,league,,thesportsdb,a312e999df
+HNL,2021-22,2022-05-07,gorica,lokomotiva-zagreb,3,3,FT,34. kolo,18:00,league,,thesportsdb,5248dd6211
+HNL,2021-22,2022-05-07,istra-1961,sibenik,1,2,FT,34. kolo,20:05,league,,thesportsdb,452fc9271c
+HNL,2021-22,2022-05-08,rijeka,hajduk-split,0,3,FT,34. kolo,18:00,league,,thesportsdb,dfc87ce809
+HNL,2021-22,2022-05-08,dinamo-zagreb,osijek,3,0,FT,34. kolo,21:00,league,,thesportsdb,af7b6f3822
+HNL,2021-22,2022-05-13,hrvatski-dragovoljac,gorica,0,2,FT,35. kolo,19:00,league,,thesportsdb,405d3ea9f1
+HNL,2021-22,2022-05-14,slaven-belupo,rijeka,2,2,FT,35. kolo,18:00,league,,thesportsdb,3f31c54604
+HNL,2021-22,2022-05-14,hajduk-split,istra-1961,3,1,FT,35. kolo,20:05,league,,thesportsdb,a2e7ecf101
+HNL,2021-22,2022-05-15,osijek,lokomotiva-zagreb,1,0,FT,35. kolo,18:00,league,,thesportsdb,8568c512b8
+HNL,2021-22,2022-05-15,sibenik,dinamo-zagreb,0,2,FT,35. kolo,20:05,league,,thesportsdb,78d2319d7d
+HNL,2021-22,2022-05-20,istra-1961,slaven-belupo,3,1,FT,36. kolo,19:00,league,,thesportsdb,f512b7d61d
+HNL,2021-22,2022-05-20,lokomotiva-zagreb,sibenik,2,1,FT,36. kolo,21:05,league,,thesportsdb,bde8f9fa9f
+HNL,2021-22,2022-05-21,rijeka,hrvatski-dragovoljac,1,0,FT,36. kolo,16:00,league,,thesportsdb,4e3cb12497
+HNL,2021-22,2022-05-21,gorica,osijek,1,1,FT,36. kolo,18:05,league,,thesportsdb,17a53c55cb
+HNL,2021-22,2022-05-21,dinamo-zagreb,hajduk-split,3,1,FT,36. kolo,21:00,league,,thesportsdb,231298db12
+HNL,2022-23,2022-07-15,dinamo-zagreb,lokomotiva-zagreb,3,2,FT,1. kolo,21:00,league,,thesportsdb,71455379d6
+HNL,2022-23,2022-07-16,osijek,gorica,2,1,FT,1. kolo,20:00,league,,thesportsdb,6933ce77ec
+HNL,2022-23,2022-07-16,sibenik,rijeka,0,1,FT,1. kolo,22:00,league,,thesportsdb,28a07ad75d
+HNL,2022-23,2022-07-17,varazdin,slaven-belupo,0,1,FT,1. kolo,20:00,league,,thesportsdb,6575ce4330
+HNL,2022-23,2022-07-17,istra-1961,hajduk-split,0,2,FT,1. kolo,22:00,league,,thesportsdb,41f8a19ff4
+HNL,2022-23,2022-07-22,istra-1961,varazdin,1,2,FT,2. kolo,21:00,league,,thesportsdb,3f1c79b98d
+HNL,2022-23,2022-07-23,gorica,sibenik,0,0,FT,2. kolo,19:55,league,,thesportsdb,1598a835c5
+HNL,2022-23,2022-07-23,slaven-belupo,dinamo-zagreb,1,5,FT,2. kolo,22:00,league,,thesportsdb,684e0b0323
+HNL,2022-23,2022-07-24,lokomotiva-zagreb,osijek,2,1,FT,2. kolo,22:00,league,,thesportsdb,245108108c
+HNL,2022-23,2022-07-29,sibenik,lokomotiva-zagreb,2,1,FT,3. kolo,19:55,league,,thesportsdb,c020bf8085
+HNL,2022-23,2022-07-29,dinamo-zagreb,istra-1961,4,1,FT,3. kolo,22:00,league,,thesportsdb,00d7e5f383
+HNL,2022-23,2022-07-30,varazdin,hajduk-split,0,2,FT,3. kolo,22:00,league,,thesportsdb,1a15cbd4e3
+HNL,2022-23,2022-07-31,osijek,slaven-belupo,0,0,FT,3. kolo,19:55,league,,thesportsdb,2f745d1750
+HNL,2022-23,2022-07-31,rijeka,gorica,1,1,FT,3. kolo,22:00,league,,thesportsdb,761bff3343
+HNL,2022-23,2022-08-05,varazdin,dinamo-zagreb,1,1,FT,4. kolo,21:00,league,,thesportsdb,01ca30488e
+HNL,2022-23,2022-08-06,slaven-belupo,sibenik,0,0,FT,4. kolo,19:55,league,,thesportsdb,0cd8b60b32
+HNL,2022-23,2022-08-06,istra-1961,osijek,1,0,FT,4. kolo,22:00,league,,thesportsdb,feb361346a
+HNL,2022-23,2022-08-07,lokomotiva-zagreb,rijeka,3,1,FT,4. kolo,22:00,league,,thesportsdb,170dd0534a
+HNL,2022-23,2022-08-12,sibenik,istra-1961,0,0,FT,5. kolo,21:00,league,,thesportsdb,d061727092
+HNL,2022-23,2022-08-13,gorica,lokomotiva-zagreb,3,2,FT,5. kolo,19:30,league,,thesportsdb,6ab91d9031
+HNL,2022-23,2022-08-13,dinamo-zagreb,hajduk-split,4,1,FT,5. kolo,22:05,league,,thesportsdb,a283be8f2d
+HNL,2022-23,2022-08-14,osijek,varazdin,2,2,FT,5. kolo,19:55,league,,thesportsdb,a8af5483ef
+HNL,2022-23,2022-08-14,rijeka,slaven-belupo,0,1,FT,5. kolo,22:00,league,,thesportsdb,c7e6944510
+HNL,2022-23,2022-08-19,slaven-belupo,gorica,2,1,FT,6. kolo,21:00,league,,thesportsdb,06f156ab8b
+HNL,2022-23,2022-08-20,varazdin,sibenik,2,2,FT,6. kolo,19:30,league,,thesportsdb,c0171b6b3e
+HNL,2022-23,2022-08-20,dinamo-zagreb,osijek,5,2,FT,6. kolo,22:05,league,,thesportsdb,fd7f6af410
+HNL,2022-23,2022-08-21,istra-1961,rijeka,1,1,FT,6. kolo,19:55,league,,thesportsdb,2260a3d8b7
+HNL,2022-23,2022-08-21,hajduk-split,lokomotiva-zagreb,2,1,FT,6. kolo,22:05,league,,thesportsdb,438dd6cfaf
+HNL,2022-23,2022-08-26,gorica,istra-1961,0,2,FT,7. kolo,21:00,league,,thesportsdb,2358a19f0c
+HNL,2022-23,2022-08-27,lokomotiva-zagreb,slaven-belupo,0,1,FT,7. kolo,19:55,league,,thesportsdb,99a891fe66
+HNL,2022-23,2022-08-27,rijeka,varazdin,1,2,FT,7. kolo,22:05,league,,thesportsdb,a3ee7ba922
+HNL,2022-23,2022-08-28,sibenik,dinamo-zagreb,1,2,FT,7. kolo,19:30,league,,thesportsdb,b5dbd66763
+HNL,2022-23,2022-08-28,osijek,hajduk-split,2,1,FT,7. kolo,22:05,league,,thesportsdb,d3728bd4c6
+HNL,2022-23,2022-09-02,dinamo-zagreb,rijeka,3,1,FT,8. kolo,21:00,league,,thesportsdb,75d5278593
+HNL,2022-23,2022-09-03,varazdin,gorica,2,1,FT,8. kolo,19:55,league,,thesportsdb,09d09ef187
+HNL,2022-23,2022-09-03,osijek,sibenik,1,1,FT,8. kolo,22:05,league,,thesportsdb,77f1984514
+HNL,2022-23,2022-09-04,istra-1961,lokomotiva-zagreb,1,2,FT,8. kolo,19:55,league,,thesportsdb,8a02d221fb
+HNL,2022-23,2022-09-04,hajduk-split,slaven-belupo,5,1,FT,8. kolo,22:05,league,,thesportsdb,2c7f40a798
 UCL,2022-23,2022-09-06,dinamo-zagreb,chelsea-eng,1,0,FT,Group E,18:45,league phase,,openfootball,c79c8a81f7
+HNL,2022-23,2022-09-09,sibenik,hajduk-split,1,1,FT,9. kolo,21:00,league,,thesportsdb,0056ce90f4
+HNL,2022-23,2022-09-10,rijeka,osijek,0,3,FT,9. kolo,19:30,league,,thesportsdb,b9bc1ff11b
+HNL,2022-23,2022-09-10,gorica,dinamo-zagreb,0,1,FT,9. kolo,22:05,league,,thesportsdb,3b76246136
+HNL,2022-23,2022-09-11,slaven-belupo,istra-1961,0,3,FT,9. kolo,19:55,league,,thesportsdb,00d20697c6
+HNL,2022-23,2022-09-11,lokomotiva-zagreb,varazdin,1,2,FT,9. kolo,22:05,league,,thesportsdb,e6f89d5fbc
+HNL,2022-23,2022-09-14,hajduk-split,rijeka,2,0,FT,2. kolo,17:30,league,,thesportsdb,d5dfaecf56
 UCL,2022-23,2022-09-14,milan-ita,dinamo-zagreb,3,1,FT,Group E,18:45,league phase,,openfootball,0cf8db2c43
+HNL,2022-23,2022-09-16,slaven-belupo,varazdin,1,0,FT,10. kolo,20:00,league,,thesportsdb,44140dedd4
+HNL,2022-23,2022-09-17,gorica,osijek,0,1,FT,10. kolo,17:55,league,,thesportsdb,fc442746df
+HNL,2022-23,2022-09-17,hajduk-split,istra-1961,2,2,FT,10. kolo,20:05,league,,thesportsdb,37950a481c
+HNL,2022-23,2022-09-18,rijeka,sibenik,0,0,FT,10. kolo,16:00,league,,thesportsdb,1d6977ec95
+HNL,2022-23,2022-09-18,lokomotiva-zagreb,dinamo-zagreb,1,2,FT,10. kolo,18:15,league,,thesportsdb,fb21cba8a7
+HNL,2022-23,2022-09-30,varazdin,istra-1961,1,1,FT,11. kolo,19:00,league,,thesportsdb,5f396aa697
+HNL,2022-23,2022-10-01,osijek,lokomotiva-zagreb,4,1,FT,11. kolo,17:55,league,,thesportsdb,e6233e4dd8
+HNL,2022-23,2022-10-01,dinamo-zagreb,slaven-belupo,4,1,FT,11. kolo,20:30,league,,thesportsdb,5070e9a866
+HNL,2022-23,2022-10-02,rijeka,hajduk-split,0,1,FT,11. kolo,16:00,league,,thesportsdb,d51458bcac
+HNL,2022-23,2022-10-02,sibenik,gorica,1,1,FT,11. kolo,18:30,league,,thesportsdb,b2dfd6e0cc
 UCL,2022-23,2022-10-05,rb-salzburg-aut,dinamo-zagreb,1,0,FT,Group E,18:45,league phase,,openfootball,e05e638b7d
-UCL,2022-23,2022-10-11,dinamo-zagreb,rb-salzburg-aut,1,1,FT,Group E,,league phase,,openfootball,ff461fcca7
+HNL,2022-23,2022-10-07,lokomotiva-zagreb,sibenik,1,1,FT,12. kolo,19:00,league,,thesportsdb,825b118512
+HNL,2022-23,2022-10-08,hajduk-split,varazdin,2,1,FT,12. kolo,20:05,league,,thesportsdb,4aa8ae2c8e
+HNL,2022-23,2022-10-09,slaven-belupo,osijek,0,4,FT,12. kolo,16:00,league,,thesportsdb,f3adbbd49f
+HNL,2022-23,2022-10-09,gorica,rijeka,0,2,FT,12. kolo,18:10,league,,thesportsdb,ec147386f3
+UCL,2022-23,2022-10-11,dinamo-zagreb,rb-salzburg-aut,1,1,FT,Group E,21:00,league phase,,openfootball,ff461fcca7
+HNL,2022-23,2022-10-14,sibenik,slaven-belupo,0,2,FT,13. kolo,19:00,league,,thesportsdb,8373b0cd74
+HNL,2022-23,2022-10-15,osijek,istra-1961,2,0,FT,13. kolo,17:55,league,,thesportsdb,51f71c2d14
+HNL,2022-23,2022-10-15,gorica,hajduk-split,0,1,FT,13. kolo,20:05,league,,thesportsdb,fcdb90de31
+HNL,2022-23,2022-10-16,dinamo-zagreb,varazdin,3,1,FT,13. kolo,16:00,league,,thesportsdb,36c807c740
+HNL,2022-23,2022-10-16,rijeka,lokomotiva-zagreb,3,0,FT,13. kolo,18:10,league,,thesportsdb,2de6a8f1f8
+HNL,2022-23,2022-10-21,hajduk-split,dinamo-zagreb,1,1,FT,14. kolo,19:00,league,,thesportsdb,93d11f0ec6
+HNL,2022-23,2022-10-22,lokomotiva-zagreb,gorica,2,1,FT,14. kolo,16:00,league,,thesportsdb,a28b666793
+HNL,2022-23,2022-10-22,varazdin,osijek,4,1,FT,14. kolo,18:10,league,,thesportsdb,4f0a7c8e34
+HNL,2022-23,2022-10-23,istra-1961,sibenik,0,0,FT,14. kolo,16:00,league,,thesportsdb,13a33986e9
+HNL,2022-23,2022-10-23,slaven-belupo,rijeka,2,1,FT,14. kolo,18:10,league,,thesportsdb,48cb29ba6a
 UCL,2022-23,2022-10-25,dinamo-zagreb,milan-ita,0,4,FT,Group E,21:00,league phase,,openfootball,20a65c94d7
-UCL,2022-23,2022-11-02,chelsea-eng,dinamo-zagreb,2,1,FT,Group E,,league phase,,openfootball,566fc0e5e5
+HNL,2022-23,2022-10-26,hajduk-split,gorica,3,1,FT,4. kolo,17:30,league,,thesportsdb,24baf6a324
+HNL,2022-23,2022-10-28,sibenik,varazdin,1,2,FT,15. kolo,19:00,league,,thesportsdb,1822c60d1d
+HNL,2022-23,2022-10-29,rijeka,istra-1961,0,1,FT,15. kolo,16:00,league,,thesportsdb,4b5bb7266c
+HNL,2022-23,2022-10-29,osijek,dinamo-zagreb,1,0,FT,15. kolo,18:30,league,,thesportsdb,98ddf6d1d2
+HNL,2022-23,2022-10-30,lokomotiva-zagreb,hajduk-split,2,2,FT,15. kolo,15:00,league,,thesportsdb,3a1f8f3ef0
+HNL,2022-23,2022-10-31,gorica,slaven-belupo,1,1,FT,15. kolo,14:00,league,,thesportsdb,733403d0e6
+UCL,2022-23,2022-11-02,chelsea-eng,dinamo-zagreb,2,1,FT,Group E,21:00,league phase,,openfootball,566fc0e5e5
+HNL,2022-23,2022-11-04,istra-1961,gorica,1,0,FT,16. kolo,18:00,league,,thesportsdb,3545542385
+HNL,2022-23,2022-11-05,slaven-belupo,lokomotiva-zagreb,0,0,FT,16. kolo,15:00,league,,thesportsdb,d57e7dd654
+HNL,2022-23,2022-11-05,hajduk-split,osijek,3,1,FT,16. kolo,17:30,league,,thesportsdb,69878c4eed
+HNL,2022-23,2022-11-06,varazdin,rijeka,0,3,FT,16. kolo,15:00,league,,thesportsdb,6a8b3e2e99
+HNL,2022-23,2022-11-06,dinamo-zagreb,sibenik,3,0,FT,16. kolo,17:10,league,,thesportsdb,1f30be2540
+HNL,2022-23,2022-11-12,lokomotiva-zagreb,istra-1961,2,0,FT,17. kolo,15:00,league,,thesportsdb,9aa45310a4
+HNL,2022-23,2022-11-12,slaven-belupo,hajduk-split,2,2,FT,17. kolo,17:30,league,,thesportsdb,1db392966a
+HNL,2022-23,2022-11-13,sibenik,osijek,0,2,FT,17. kolo,15:00,league,,thesportsdb,6544f85f2a
+HNL,2022-23,2022-11-13,rijeka,dinamo-zagreb,2,7,FT,17. kolo,17:30,league,,thesportsdb,8a36720957
+HNL,2022-23,2023-01-18,gorica,varazdin,0,0,FT,17. kolo,15:00,league,,thesportsdb,3fca40a7d4
+HNL,2022-23,2023-01-20,istra-1961,slaven-belupo,0,0,FT,18. kolo,17:00,league,,thesportsdb,add75c8fc3
+HNL,2022-23,2023-01-21,osijek,rijeka,1,1,FT,18. kolo,15:00,league,,thesportsdb,70b871190d
+HNL,2022-23,2023-01-21,dinamo-zagreb,gorica,0,0,FT,18. kolo,17:30,league,,thesportsdb,9cd7aa721c
+HNL,2022-23,2023-01-22,hajduk-split,sibenik,2,1,FT,18. kolo,15:00,league,,thesportsdb,8fb0d23057
+HNL,2022-23,2023-01-22,varazdin,lokomotiva-zagreb,0,0,FT,18. kolo,17:10,league,,thesportsdb,7e93295666
+HNL,2022-23,2023-01-27,varazdin,slaven-belupo,1,0,FT,19. kolo,17:00,league,,thesportsdb,6aa52a1a63
+HNL,2022-23,2023-01-28,sibenik,rijeka,1,2,FT,19. kolo,15:00,league,,thesportsdb,b8f67d6a7b
+HNL,2022-23,2023-01-28,dinamo-zagreb,lokomotiva-zagreb,2,1,FT,19. kolo,17:10,league,,thesportsdb,d52a13cdf2
+HNL,2022-23,2023-01-29,osijek,gorica,2,0,FT,19. kolo,15:00,league,,thesportsdb,17ec07282f
+HNL,2022-23,2023-01-29,istra-1961,hajduk-split,3,0,FT,19. kolo,17:10,league,,thesportsdb,857316af63
+HNL,2022-23,2023-02-03,istra-1961,varazdin,2,1,FT,20. kolo,17:00,league,,thesportsdb,c71b3d96bf
+HNL,2022-23,2023-02-04,lokomotiva-zagreb,osijek,1,0,FT,20. kolo,15:00,league,,thesportsdb,f64a3d147f
+HNL,2022-23,2023-02-04,slaven-belupo,dinamo-zagreb,1,1,FT,20. kolo,17:30,league,,thesportsdb,cd9d7e4819
+HNL,2022-23,2023-02-05,gorica,sibenik,0,3,FT,20. kolo,15:00,league,,thesportsdb,02709fa7e1
+HNL,2022-23,2023-02-05,hajduk-split,rijeka,1,2,FT,20. kolo,17:30,league,,thesportsdb,678389c48f
+HNL,2022-23,2023-02-10,dinamo-zagreb,istra-1961,1,0,FT,21. kolo,17:00,league,,thesportsdb,6b2f55e6e5
+HNL,2022-23,2023-02-11,varazdin,hajduk-split,1,4,FT,21. kolo,15:00,league,,thesportsdb,56df32a0ef
+HNL,2022-23,2023-02-11,osijek,slaven-belupo,0,0,FT,21. kolo,17:10,league,,thesportsdb,928e47099e
+HNL,2022-23,2023-02-12,sibenik,lokomotiva-zagreb,0,4,FT,21. kolo,15:00,league,,thesportsdb,61e240a780
+HNL,2022-23,2023-02-12,rijeka,gorica,2,0,FT,21. kolo,17:10,league,,thesportsdb,9112cab6d9
+HNL,2022-23,2023-02-17,slaven-belupo,sibenik,0,1,FT,22. kolo,17:00,league,,thesportsdb,5bb4e6e676
+HNL,2022-23,2023-02-18,istra-1961,osijek,1,0,FT,22. kolo,15:00,league,,thesportsdb,bb9430e08d
+HNL,2022-23,2023-02-18,lokomotiva-zagreb,rijeka,1,2,FT,22. kolo,17:10,league,,thesportsdb,17d0bf407f
+HNL,2022-23,2023-02-19,varazdin,dinamo-zagreb,1,3,FT,22. kolo,15:00,league,,thesportsdb,9b6e4cc8bb
+HNL,2022-23,2023-02-19,hajduk-split,gorica,2,1,FT,22. kolo,17:10,league,,thesportsdb,5fa0c166bb
+HNL,2022-23,2023-02-24,sibenik,istra-1961,0,0,FT,23. kolo,17:00,league,,thesportsdb,8c44a570a9
+HNL,2022-23,2023-02-25,gorica,lokomotiva-zagreb,1,0,FT,23. kolo,16:00,league,,thesportsdb,c9f41ebe73
+HNL,2022-23,2023-02-25,rijeka,slaven-belupo,0,1,FT,23. kolo,18:10,league,,thesportsdb,b338f92202
+HNL,2022-23,2023-02-26,dinamo-zagreb,hajduk-split,4,0,FT,23. kolo,15:00,league,,thesportsdb,c5633401ca
+HNL,2022-23,2023-02-26,osijek,varazdin,0,1,FT,23. kolo,17:30,league,,thesportsdb,5193ff9f74
+HNL,2022-23,2023-03-03,istra-1961,rijeka,0,2,FT,24. kolo,17:00,league,,thesportsdb,da6fb0312f
+HNL,2022-23,2023-03-04,varazdin,sibenik,2,0,FT,24. kolo,16:00,league,,thesportsdb,79d87e213f
+HNL,2022-23,2023-03-04,slaven-belupo,gorica,1,1,FT,24. kolo,18:10,league,,thesportsdb,7dad981c7e
+HNL,2022-23,2023-03-05,hajduk-split,lokomotiva-zagreb,3,4,FT,24. kolo,15:00,league,,thesportsdb,ed3c74d63b
+HNL,2022-23,2023-03-05,dinamo-zagreb,osijek,1,1,FT,24. kolo,17:30,league,,thesportsdb,faa37ca79d
+HNL,2022-23,2023-03-10,gorica,istra-1961,5,4,FT,25. kolo,17:00,league,,thesportsdb,e328c5512d
+HNL,2022-23,2023-03-11,lokomotiva-zagreb,slaven-belupo,1,0,FT,25. kolo,16:00,league,,thesportsdb,f321d7ef1d
+HNL,2022-23,2023-03-11,sibenik,dinamo-zagreb,2,1,FT,25. kolo,18:10,league,,thesportsdb,85fa803229
+HNL,2022-23,2023-03-12,rijeka,varazdin,3,1,FT,25. kolo,15:00,league,,thesportsdb,d99bf29454
+HNL,2022-23,2023-03-12,osijek,hajduk-split,0,2,FT,25. kolo,17:30,league,,thesportsdb,c747f0a218
+HNL,2022-23,2023-03-15,istra-1961,dinamo-zagreb,1,0,FT,12. kolo,17:00,league,,thesportsdb,eafcbfd29b
+HNL,2022-23,2023-03-17,varazdin,gorica,2,1,FT,26. kolo,17:00,league,,thesportsdb,a6a268abe7
+HNL,2022-23,2023-03-18,osijek,sibenik,0,0,FT,26. kolo,16:00,league,,thesportsdb,156e068970
+HNL,2022-23,2023-03-18,hajduk-split,slaven-belupo,1,0,FT,26. kolo,18:10,league,,thesportsdb,94b241c363
+HNL,2022-23,2023-03-19,istra-1961,lokomotiva-zagreb,0,0,FT,26. kolo,15:00,league,,thesportsdb,e00a0a115d
+HNL,2022-23,2023-03-19,dinamo-zagreb,rijeka,1,0,FT,26. kolo,17:30,league,,thesportsdb,46a0dd0a0b
+HNL,2022-23,2023-03-31,slaven-belupo,istra-1961,2,0,FT,27. kolo,19:00,league,,thesportsdb,f3da42b9a4
+HNL,2022-23,2023-04-01,gorica,dinamo-zagreb,1,1,FT,27. kolo,18:00,league,,thesportsdb,fa9cc67ecb
+HNL,2022-23,2023-04-01,sibenik,hajduk-split,2,3,FT,27. kolo,20:10,league,,thesportsdb,12bba83430
+HNL,2022-23,2023-04-02,rijeka,osijek,1,1,FT,27. kolo,16:00,league,,thesportsdb,bca4bb7db8
+HNL,2022-23,2023-04-02,lokomotiva-zagreb,varazdin,1,1,FT,27. kolo,19:00,league,,thesportsdb,ea6668aee7
+HNL,2022-23,2023-04-07,slaven-belupo,varazdin,1,1,FT,28. kolo,17:00,league,,thesportsdb,d6c8310bb2
+HNL,2022-23,2023-04-07,hajduk-split,istra-1961,2,2,FT,28. kolo,19:10,league,,thesportsdb,976d3f72be
+HNL,2022-23,2023-04-08,gorica,osijek,2,0,FT,28. kolo,16:00,league,,thesportsdb,800637be75
+HNL,2022-23,2023-04-08,lokomotiva-zagreb,dinamo-zagreb,1,2,FT,28. kolo,18:05,league,,thesportsdb,75538db1df
+HNL,2022-23,2023-04-08,rijeka,sibenik,1,0,FT,28. kolo,20:10,league,,thesportsdb,1fdaa4319f
+HNL,2022-23,2023-04-14,sibenik,gorica,0,4,FT,29. kolo,19:00,league,,thesportsdb,bf84ae188b
+HNL,2022-23,2023-04-15,osijek,lokomotiva-zagreb,2,2,FT,29. kolo,18:00,league,,thesportsdb,3fa30d9e19
+HNL,2022-23,2023-04-15,dinamo-zagreb,slaven-belupo,4,0,FT,29. kolo,20:10,league,,thesportsdb,d89570b7f0
+HNL,2022-23,2023-04-16,varazdin,istra-1961,0,0,FT,29. kolo,16:00,league,,thesportsdb,2745cffe1b
+HNL,2022-23,2023-04-16,rijeka,hajduk-split,2,0,FT,29. kolo,19:00,league,,thesportsdb,1de49da94f
+HNL,2022-23,2023-04-21,lokomotiva-zagreb,sibenik,1,0,FT,30. kolo,17:00,league,,thesportsdb,4012cb2058
+HNL,2022-23,2023-04-21,slaven-belupo,osijek,2,1,FT,30. kolo,19:10,league,,thesportsdb,bdc253e944
+HNL,2022-23,2023-04-22,istra-1961,dinamo-zagreb,0,0,FT,30. kolo,18:00,league,,thesportsdb,f42358c62a
+HNL,2022-23,2023-04-22,hajduk-split,varazdin,2,0,FT,30. kolo,20:10,league,,thesportsdb,42857fd981
+HNL,2022-23,2023-04-23,gorica,rijeka,1,0,FT,30. kolo,16:00,league,,thesportsdb,da86af98bc
+HNL,2022-23,2023-04-25,sibenik,slaven-belupo,3,1,FT,31. kolo,19:00,league,,thesportsdb,8e7cbc9d05
+HNL,2022-23,2023-04-26,osijek,istra-1961,1,0,FT,31. kolo,16:00,league,,thesportsdb,2b91d16657
+HNL,2022-23,2023-04-26,dinamo-zagreb,varazdin,2,0,FT,31. kolo,18:05,league,,thesportsdb,e3612648b5
+HNL,2022-23,2023-04-26,gorica,hajduk-split,0,0,FT,31. kolo,20:10,league,,thesportsdb,34529773c4
+HNL,2022-23,2023-04-27,rijeka,lokomotiva-zagreb,2,0,FT,31. kolo,19:00,league,,thesportsdb,04fb01c2bb
+HNL,2022-23,2023-04-29,istra-1961,sibenik,3,0,FT,32. kolo,19:00,league,,thesportsdb,dbd422a61c
+HNL,2022-23,2023-04-30,varazdin,osijek,1,3,FT,32. kolo,16:00,league,,thesportsdb,de43ef64ce
+HNL,2022-23,2023-04-30,hajduk-split,dinamo-zagreb,0,0,FT,32. kolo,19:00,league,,thesportsdb,ba78d0dbfe
+HNL,2022-23,2023-05-01,lokomotiva-zagreb,gorica,2,2,FT,32. kolo,17:00,league,,thesportsdb,e21746319f
+HNL,2022-23,2023-05-01,slaven-belupo,rijeka,1,3,FT,32. kolo,19:10,league,,thesportsdb,e9c7022b48
+HNL,2022-23,2023-05-05,sibenik,varazdin,0,2,FT,33. kolo,19:00,league,,thesportsdb,6aa4b9496e
+HNL,2022-23,2023-05-06,gorica,slaven-belupo,0,0,FT,33. kolo,18:00,league,,thesportsdb,6581b21dc2
+HNL,2022-23,2023-05-06,rijeka,istra-1961,2,2,FT,33. kolo,20:10,league,,thesportsdb,1c0ddc9acb
+HNL,2022-23,2023-05-07,osijek,dinamo-zagreb,0,0,FT,33. kolo,18:00,league,,thesportsdb,86150cf8ff
+HNL,2022-23,2023-05-07,lokomotiva-zagreb,hajduk-split,0,3,FT,33. kolo,20:20,league,,thesportsdb,d25d5a698f
+HNL,2022-23,2023-05-12,slaven-belupo,lokomotiva-zagreb,0,0,FT,34. kolo,19:00,league,,thesportsdb,4996a276cc
+HNL,2022-23,2023-05-13,hajduk-split,osijek,3,0,FT,34. kolo,18:00,league,,thesportsdb,920f3befdc
+HNL,2022-23,2023-05-13,istra-1961,gorica,1,0,FT,34. kolo,20:10,league,,thesportsdb,d9468503e9
+HNL,2022-23,2023-05-14,varazdin,rijeka,2,0,FT,34. kolo,18:00,league,,thesportsdb,2ed5b4f6ed
+HNL,2022-23,2023-05-14,dinamo-zagreb,sibenik,4,0,FT,34. kolo,20:10,league,,thesportsdb,8957932109
+HNL,2022-23,2023-05-19,slaven-belupo,hajduk-split,0,1,FT,35. kolo,17:00,league,,thesportsdb,ad33e5dc4b
+HNL,2022-23,2023-05-19,sibenik,osijek,1,4,FT,35. kolo,19:05,league,,thesportsdb,11c02f08d5
+HNL,2022-23,2023-05-20,gorica,varazdin,5,2,FT,35. kolo,19:00,league,,thesportsdb,994a058088
+HNL,2022-23,2023-05-21,lokomotiva-zagreb,istra-1961,3,1,FT,35. kolo,18:00,league,,thesportsdb,79e95a853c
+HNL,2022-23,2023-05-21,rijeka,dinamo-zagreb,1,2,FT,35. kolo,20:30,league,,thesportsdb,891c95635d
+HNL,2022-23,2023-05-26,varazdin,lokomotiva-zagreb,0,0,FT,36. kolo,19:00,league,,thesportsdb,2023935018
+HNL,2022-23,2023-05-27,istra-1961,slaven-belupo,1,1,FT,36. kolo,17:30,league,,thesportsdb,29a714ae77
+HNL,2022-23,2023-05-27,osijek,rijeka,1,1,FT,36. kolo,20:00,league,,thesportsdb,3bfe17596d
+HNL,2022-23,2023-05-28,hajduk-split,sibenik,3,0,FT,36. kolo,18:00,league,,thesportsdb,4c1013b3e9
+HNL,2022-23,2023-05-28,dinamo-zagreb,gorica,4,1,FT,36. kolo,20:15,league,,thesportsdb,1373ccf4ef
 HNL,2023-24,2023-07-21,dinamo-zagreb,hajduk-split,1,2,FT,Matchday 1,20:00,league,,openfootball,1cae71c2a0
 HNL,2023-24,2023-07-22,rijeka,rudes,4,0,FT,Matchday 1,18:55,league,,openfootball,e87e3dcda0
 HNL,2023-24,2023-07-22,osijek,slaven-belupo,6,1,FT,Matchday 1,21:00,league,,openfootball,7b2b512f90
@@ -536,13 +1076,13 @@ HNL,2023-24,2024-02-10,istra-1961,osijek,1,0,FT,Matchday 22,15:00,league,,openfo
 HNL,2023-24,2024-02-10,lokomotiva-zagreb,dinamo-zagreb,2,2,FT,Matchday 22,17:10,league,,openfootball,fe61a833ce
 HNL,2023-24,2024-02-11,hajduk-split,slaven-belupo,4,0,FT,Matchday 22,15:00,league,,openfootball,4c1862196c
 HNL,2023-24,2024-02-11,gorica,rijeka,0,2,FT,Matchday 22,17:10,league,,openfootball,a3bf4e08b0
-UECL,2023-24,2024-02-15,real-betis-esp,dinamo-zagreb,0,1,FT,Group F,,league phase,,openfootball,38379cf37e
+UECL,2023-24,2024-02-15,real-betis-esp,dinamo-zagreb,0,1,FT,Group F,21:00,league phase,,openfootball,38379cf37e
 HNL,2023-24,2024-02-16,slaven-belupo,istra-1961,1,1,FT,Matchday 23,17:00,league,,openfootball,f0d2457bc8
 HNL,2023-24,2024-02-17,rijeka,lokomotiva-zagreb,4,0,FT,Matchday 23,15:00,league,,openfootball,82af4c4da1
 HNL,2023-24,2024-02-17,rudes,hajduk-split,0,2,FT,Matchday 23,17:10,league,,openfootball,eca8e123c8
 HNL,2023-24,2024-02-18,osijek,gorica,3,0,FT,Matchday 23,15:00,league,,openfootball,aa299e5254
 HNL,2023-24,2024-02-18,dinamo-zagreb,varazdin,1,0,FT,Matchday 23,17:10,league,,openfootball,52fa8eda06
-UECL,2023-24,2024-02-22,dinamo-zagreb,real-betis-esp,1,1,FT,Group F,,league phase,,openfootball,c556d465a5
+UECL,2023-24,2024-02-22,dinamo-zagreb,real-betis-esp,1,1,FT,Group F,18:45,league phase,,openfootball,c556d465a5
 HNL,2023-24,2024-02-23,lokomotiva-zagreb,osijek,1,1,FT,Matchday 24,17:00,league,,openfootball,4a3710e212
 HNL,2023-24,2024-02-24,varazdin,hajduk-split,1,1,FT,Matchday 24,15:00,league,,openfootball,fff205dcd8
 HNL,2023-24,2024-02-24,istra-1961,rudes,2,1,FT,Matchday 24,17:10,league,,openfootball,c20e844fcc
@@ -553,13 +1093,13 @@ HNL,2023-24,2024-03-02,hajduk-split,istra-1961,1,0,FT,Matchday 25,17:10,league,,
 HNL,2023-24,2024-03-03,rijeka,varazdin,2,0,FT,Matchday 25,15:00,league,,openfootball,068a0d55f4
 HNL,2023-24,2024-03-03,osijek,dinamo-zagreb,1,1,FT,Matchday 25,17:30,league,,openfootball,e092e6eda6
 HNL,2023-24,2024-03-04,rudes,gorica,2,1,FT,Matchday 25,17:00,league,,openfootball,1d6e4fa58a
-UECL,2023-24,2024-03-07,dinamo-zagreb,paok-saloniki-gre,2,0,FT,Group F,,league phase,,openfootball,29e445f46e
+UECL,2023-24,2024-03-07,dinamo-zagreb,paok-saloniki-gre,2,0,FT,Group F,21:00,league phase,,openfootball,29e445f46e
 HNL,2023-24,2024-03-08,varazdin,istra-1961,2,2,FT,Matchday 26,17:00,league,,openfootball,1faf858761
 HNL,2023-24,2024-03-09,lokomotiva-zagreb,rudes,3,0,FT,Matchday 26,15:00,league,,openfootball,05d6aafe54
 HNL,2023-24,2024-03-09,gorica,hajduk-split,0,3,FT,Matchday 26,17:10,league,,openfootball,07fe21afa8
 HNL,2023-24,2024-03-10,rijeka,osijek,3,0,FT,Matchday 26,15:00,league,,openfootball,8db5537c82
 HNL,2023-24,2024-03-10,dinamo-zagreb,slaven-belupo,5,2,FT,Matchday 26,17:30,league,,openfootball,3d940cddc6
-UECL,2023-24,2024-03-14,paok-saloniki-gre,dinamo-zagreb,5,1,FT,Group F,,league phase,,openfootball,746355eb08
+UECL,2023-24,2024-03-14,paok-saloniki-gre,dinamo-zagreb,5,1,FT,Group F,18:45,league phase,,openfootball,746355eb08
 HNL,2023-24,2024-03-15,osijek,varazdin,0,1,FT,Matchday 27,17:00,league,,openfootball,2d1a643573
 HNL,2023-24,2024-03-16,slaven-belupo,rijeka,0,1,FT,Matchday 27,15:00,league,,openfootball,7ee7c069f4
 HNL,2023-24,2024-03-16,hajduk-split,lokomotiva-zagreb,1,2,FT,Matchday 27,17:10,league,,openfootball,456b315fd8
@@ -611,42 +1151,42 @@ HNL,2023-24,2024-05-25,varazdin,osijek,0,2,FT,Matchday 36,17:00,league,,openfoot
 HNL,2023-24,2024-05-25,lokomotiva-zagreb,hajduk-split,2,5,FT,Matchday 36,19:10,league,,openfootball,05a507665b
 HNL,2023-24,2024-05-26,rijeka,slaven-belupo,4,0,FT,Matchday 36,15:00,league,,openfootball,967cead5e3
 HNL,2023-24,2024-05-26,dinamo-zagreb,rudes,3,3,FT,Matchday 36,17:30,league,,openfootball,2d85d3432e
-UEL,2024-25,2024-07-25,corvinul-hunedoara-rou,rijeka,0,0,FT,Round 2,,knockout,,openfootball,d2d212b540
+UEL,2024-25,2024-07-25,corvinul-hunedoara-rou,rijeka,0,0,FT,Round 2,19:00,knockout,,openfootball,d2d212b540
 UECL,2024-25,2024-07-25,osijek,fci-levadia-est,5,1,FT,Round 2,20:00,knockout,,openfootball,111cdbe9d8
 UECL,2024-25,2024-07-25,hajduk-split,b36-torshavn-fro,2,0,FT,Round 2,21:00,knockout,,openfootball,17c88e76b9
-UECL,2024-25,2024-08-01,b36-torshavn-fro,hajduk-split,0,0,FT,Round 2,,knockout,,openfootball,810bccc94c
-UEL,2024-25,2024-08-01,rijeka,corvinul-hunedoara-rou,1,0,FT,Round 2,,knockout,,openfootball,8345a42229
 UECL,2024-25,2024-08-01,fci-levadia-est,osijek,0,1,FT,Round 2,18:00,knockout,,openfootball,d11b0a24c6
+UEL,2024-25,2024-08-01,rijeka,corvinul-hunedoara-rou,1,0,FT,Round 2,20:00,knockout,,openfootball,8345a42229
+UECL,2024-25,2024-08-01,b36-torshavn-fro,hajduk-split,0,0,FT,Round 2,21:00,knockout,,openfootball,810bccc94c
 HNL,2024-25,2024-08-02,dinamo-zagreb,istra-1961,5,0,FT,Matchday 1,21:00,league,,openfootball,796a6790db
 HNL,2024-25,2024-08-03,gorica,varazdin,0,0,FT,Matchday 1,21:00,league,,openfootball,67bee3ebc2
-HNL,2024-25,2024-08-04,osijek,sibenik,1,2,FT,Matchday 1,,league,,openfootball,602f072ec4
 HNL,2024-25,2024-08-04,rijeka,lokomotiva-zagreb,4,0,FT,Matchday 1,18:50,league,,openfootball,8e532cb943
 HNL,2024-25,2024-08-04,hajduk-split,slaven-belupo,2,1,FT,Matchday 1,21:00,league,,openfootball,3b9aacb386
-UECL,2024-25,2024-08-08,osijek,zira-aze,1,1,FT,Round 3,,knockout,,openfootball,ad1a0615b0
-UEL,2024-25,2024-08-08,rijeka,elfsborg-swe,1,1,FT,Round 3,,knockout,,openfootball,5e07d14fa9
+HNL,2024-25,2024-08-04,osijek,sibenik,1,2,FT,Matchday 1,21:00,league,,openfootball,602f072ec4
 UECL,2024-25,2024-08-08,mfk-ruzomberok-svk,hajduk-split,0,0,FT,Round 3,18:30,knockout,,openfootball,1c0d39f522
+UECL,2024-25,2024-08-08,osijek,zira-aze,1,1,FT,Round 3,20:00,knockout,,openfootball,ad1a0615b0
+UEL,2024-25,2024-08-08,rijeka,elfsborg-swe,1,1,FT,Round 3,20:00,knockout,,openfootball,5e07d14fa9
 HNL,2024-25,2024-08-09,sibenik,slaven-belupo,2,0,FT,Matchday 2,18:30,league,,openfootball,4ad07c05fb
 HNL,2024-25,2024-08-10,istra-1961,gorica,2,1,FT,Matchday 2,21:00,league,,openfootball,bba106d993
-HNL,2024-25,2024-08-11,varazdin,rijeka,0,0,FT,Matchday 2,,league,,openfootball,336987667f
 HNL,2024-25,2024-08-11,lokomotiva-zagreb,hajduk-split,1,1,FT,Matchday 2,18:30,league,,openfootball,0d372330d4
 HNL,2024-25,2024-08-11,osijek,dinamo-zagreb,1,2,FT,Matchday 2,21:00,league,,openfootball,edc831803f
-UECL,2024-25,2024-08-15,hajduk-split,mfk-ruzomberok-svk,0,1,FT,Round 3,,knockout,,openfootball,c01e7a6f7b
+HNL,2024-25,2024-08-11,varazdin,rijeka,0,0,FT,Matchday 2,21:00,league,,openfootball,336987667f
 UECL,2024-25,2024-08-15,zira-aze,osijek,2,2,FT,Round 3,18:30,knockout,,openfootball,75cc3b79e3
 UEL,2024-25,2024-08-15,elfsborg-swe,rijeka,2,0,FT,Round 3,19:00,knockout,,openfootball,b92e29cd7d
+UECL,2024-25,2024-08-15,hajduk-split,mfk-ruzomberok-svk,0,1,FT,Round 3,21:00,knockout,,openfootball,c01e7a6f7b
 HNL,2024-25,2024-08-16,dinamo-zagreb,sibenik,3,0,FT,Matchday 3,21:00,league,,openfootball,e23bfee900
 HNL,2024-25,2024-08-17,slaven-belupo,lokomotiva-zagreb,2,2,FT,Matchday 3,21:00,league,,openfootball,32add3beb2
-HNL,2024-25,2024-08-18,rijeka,istra-1961,4,0,FT,Matchday 3,,league,,openfootball,7e1d2878eb
 HNL,2024-25,2024-08-18,hajduk-split,varazdin,2,1,FT,Matchday 3,18:50,league,,openfootball,00b55a1a07
 HNL,2024-25,2024-08-18,gorica,osijek,2,2,FT,Matchday 3,21:00,league,,openfootball,f7b4af9a8f
+HNL,2024-25,2024-08-18,rijeka,istra-1961,4,0,FT,Matchday 3,21:00,league,,openfootball,7e1d2878eb
 UCL,2024-25,2024-08-20,dinamo-zagreb,qarabag-aze,3,0,FT,Round 3,21:00,knockout,,openfootball,5c4d5d1e8b
-UECL,2024-25,2024-08-22,rijeka,olimpija-ljubljana-svn,1,1,FT,Round 3,,knockout,,openfootball,c87c072e51
+UECL,2024-25,2024-08-22,rijeka,olimpija-ljubljana-svn,1,1,FT,Round 3,20:00,knockout,,openfootball,c87c072e51
 HNL,2024-25,2024-08-23,lokomotiva-zagreb,sibenik,0,1,FT,Matchday 4,20:00,league,,openfootball,1c0171ca77
 HNL,2024-25,2024-08-24,varazdin,slaven-belupo,2,0,FT,Matchday 4,18:15,league,,openfootball,0b2771b8ad
 HNL,2024-25,2024-08-24,dinamo-zagreb,gorica,2,1,FT,Matchday 4,20:30,league,,openfootball,9c7ef1fc0f
 HNL,2024-25,2024-08-25,istra-1961,hajduk-split,1,1,FT,Matchday 4,18:15,league,,openfootball,31615ed7f0
 HNL,2024-25,2024-08-25,osijek,rijeka,0,2,FT,Matchday 4,20:45,league,,openfootball,a0b2ed2539
 UCL,2024-25,2024-08-28,qarabag-aze,dinamo-zagreb,0,2,FT,Round 3,18:45,knockout,,openfootball,8e2e2c356a
-UECL,2024-25,2024-08-29,olimpija-ljubljana-svn,rijeka,5,0,FT,Round 3,,knockout,,openfootball,b5c1b5b09f
+UECL,2024-25,2024-08-29,olimpija-ljubljana-svn,rijeka,5,0,FT,Round 3,19:00,knockout,,openfootball,b5c1b5b09f
 HNL,2024-25,2024-08-30,gorica,sibenik,2,1,FT,Matchday 5,20:00,league,,openfootball,3d1df7ac11
 HNL,2024-25,2024-08-31,slaven-belupo,istra-1961,0,1,FT,Matchday 5,18:15,league,,openfootball,408f0e32c1
 HNL,2024-25,2024-08-31,hajduk-split,osijek,1,0,FT,Matchday 5,20:45,league,,openfootball,ffee4f845c
@@ -657,7 +1197,7 @@ HNL,2024-25,2024-09-14,istra-1961,lokomotiva-zagreb,0,2,FT,Matchday 6,17:30,leag
 HNL,2024-25,2024-09-14,gorica,rijeka,0,1,FT,Matchday 6,20:00,league,,openfootball,1213dc9296
 HNL,2024-25,2024-09-15,osijek,slaven-belupo,1,0,FT,Matchday 6,17:30,league,,openfootball,9a6cdeb99d
 HNL,2024-25,2024-09-15,sibenik,varazdin,0,0,FT,Matchday 6,20:00,league,,openfootball,e44d782d87
-UCL,2024-25,2024-09-17,bayern-munchen-ger,dinamo-zagreb,9,2,FT,,,,,openfootball,d31f67a6c6
+UCL,2024-25,2024-09-17,bayern-munchen-ger,dinamo-zagreb,9,2,FT,,21:00,,,openfootball,d31f67a6c6
 HNL,2024-25,2024-09-20,varazdin,istra-1961,1,0,FT,Matchday 7,18:00,league,,openfootball,eecb10394b
 HNL,2024-25,2024-09-21,slaven-belupo,dinamo-zagreb,4,1,FT,Matchday 7,17:30,league,,openfootball,4edcc2f699
 HNL,2024-25,2024-09-21,hajduk-split,gorica,4,1,FT,Matchday 7,20:00,league,,openfootball,f5e224cc9e
@@ -668,7 +1208,7 @@ HNL,2024-25,2024-09-28,dinamo-zagreb,lokomotiva-zagreb,5,1,FT,Matchday 8,20:00,l
 HNL,2024-25,2024-09-29,osijek,varazdin,2,1,FT,Matchday 8,17:30,league,,openfootball,7043238a04
 HNL,2024-25,2024-09-29,rijeka,hajduk-split,0,0,FT,Matchday 8,20:00,league,,openfootball,ef3071ff38
 HNL,2024-25,2024-09-30,gorica,slaven-belupo,2,1,FT,Matchday 8,16:00,league,,openfootball,10e0192a39
-UCL,2024-25,2024-10-02,dinamo-zagreb,as-monaco-mco,2,2,FT,,,,,openfootball,7326ed18f9
+UCL,2024-25,2024-10-02,dinamo-zagreb,as-monaco-mco,2,2,FT,,21:00,,,openfootball,7326ed18f9
 HNL,2024-25,2024-10-04,istra-1961,osijek,2,1,FT,Matchday 9,18:00,league,,openfootball,3edbe4dcb0
 HNL,2024-25,2024-10-05,lokomotiva-zagreb,gorica,2,0,FT,Matchday 9,16:00,league,,openfootball,64b36838c5
 HNL,2024-25,2024-10-05,slaven-belupo,rijeka,0,0,FT,Matchday 9,18:30,league,,openfootball,d87011da1a
@@ -679,7 +1219,7 @@ HNL,2024-25,2024-10-19,sibenik,osijek,1,3,FT,Matchday 10,16:00,league,,openfootb
 HNL,2024-25,2024-10-19,istra-1961,dinamo-zagreb,2,2,FT,Matchday 10,18:30,league,,openfootball,350de5b424
 HNL,2024-25,2024-10-20,slaven-belupo,hajduk-split,0,2,FT,Matchday 10,16:00,league,,openfootball,e67e77cbc2
 HNL,2024-25,2024-10-20,varazdin,gorica,2,1,FT,Matchday 10,18:30,league,,openfootball,ad4adb3841
-UCL,2024-25,2024-10-23,red-bull-salzburg-aut,dinamo-zagreb,0,2,FT,,,,,openfootball,6fa0f39ee9
+UCL,2024-25,2024-10-23,red-bull-salzburg-aut,dinamo-zagreb,0,2,FT,,21:00,,,openfootball,6fa0f39ee9
 HNL,2024-25,2024-10-25,slaven-belupo,sibenik,2,2,FT,Matchday 11,18:00,league,,openfootball,d0cac8eeff
 HNL,2024-25,2024-10-26,hajduk-split,lokomotiva-zagreb,2,1,FT,Matchday 11,16:00,league,,openfootball,622914faff
 HNL,2024-25,2024-10-26,rijeka,varazdin,1,1,FT,Matchday 11,18:30,league,,openfootball,19fce3c35a
@@ -701,7 +1241,7 @@ HNL,2024-25,2024-11-23,varazdin,lokomotiva-zagreb,1,1,FT,Matchday 14,15:00,leagu
 HNL,2024-25,2024-11-23,dinamo-zagreb,rijeka,0,0,FT,Matchday 14,17:45,league,,openfootball,5c850422ee
 HNL,2024-25,2024-11-24,osijek,hajduk-split,2,2,FT,Matchday 14,15:00,league,,openfootball,b4a83fcdec
 HNL,2024-25,2024-11-24,sibenik,gorica,1,0,FT,Matchday 14,17:45,league,,openfootball,e0a47b2331
-UCL,2024-25,2024-11-27,dinamo-zagreb,borussia-dortmund-ger,0,3,FT,,,,,openfootball,48dfc54d0c
+UCL,2024-25,2024-11-27,dinamo-zagreb,borussia-dortmund-ger,0,3,FT,,21:00,,,openfootball,48dfc54d0c
 HNL,2024-25,2024-11-29,varazdin,sibenik,2,1,FT,Matchday 15,18:00,league,,openfootball,4a5fbd3bf3
 HNL,2024-25,2024-11-30,slaven-belupo,osijek,3,2,FT,Matchday 15,15:00,league,,openfootball,7a08a6b8c3
 HNL,2024-25,2024-11-30,rijeka,gorica,1,0,FT,Matchday 15,17:30,league,,openfootball,932a6b3442
@@ -712,7 +1252,7 @@ HNL,2024-25,2024-12-07,istra-1961,varazdin,0,0,FT,Matchday 16,15:00,league,,open
 HNL,2024-25,2024-12-07,gorica,hajduk-split,1,0,FT,Matchday 16,17:30,league,,openfootball,c7726925e3
 HNL,2024-25,2024-12-08,sibenik,rijeka,0,1,FT,Matchday 16,15:00,league,,openfootball,e75e459e8d
 HNL,2024-25,2024-12-08,osijek,lokomotiva-zagreb,3,0,FT,Matchday 16,17:30,league,,openfootball,a11393d0c6
-UCL,2024-25,2024-12-10,dinamo-zagreb,celtic-sco,0,0,FT,,,,,openfootball,03b77a599c
+UCL,2024-25,2024-12-10,dinamo-zagreb,celtic-sco,0,0,FT,,18:45,,,openfootball,03b77a599c
 HNL,2024-25,2024-12-13,slaven-belupo,gorica,2,1,FT,Matchday 17,18:00,league,,openfootball,af29ba551d
 HNL,2024-25,2024-12-14,lokomotiva-zagreb,dinamo-zagreb,3,1,FT,Matchday 17,15:00,league,,openfootball,744993e4f9
 HNL,2024-25,2024-12-14,istra-1961,sibenik,3,3,FT,Matchday 17,17:30,league,,openfootball,d3d3a43398
@@ -723,13 +1263,13 @@ HNL,2024-25,2024-12-21,gorica,lokomotiva-zagreb,1,4,FT,Matchday 18,15:00,league,
 HNL,2024-25,2024-12-22,dinamo-zagreb,varazdin,3,2,FT,Matchday 18,13:00,league,,openfootball,4c0975fd90
 HNL,2024-25,2024-12-22,rijeka,slaven-belupo,2,0,FT,Matchday 18,15:00,league,,openfootball,17b58b21c6
 HNL,2024-25,2024-12-22,sibenik,hajduk-split,1,2,FT,Matchday 18,17:30,league,,openfootball,021f18d9d6
-UCL,2024-25,2025-01-22,arsenal-eng,dinamo-zagreb,3,0,FT,,,,,openfootball,515da72a7f
+UCL,2024-25,2025-01-22,arsenal-eng,dinamo-zagreb,3,0,FT,,21:00,,,openfootball,515da72a7f
 HNL,2024-25,2025-01-24,osijek,sibenik,2,2,FT,Matchday 19,18:00,league,,openfootball,55f8a50f2b
 HNL,2024-25,2025-01-25,gorica,varazdin,1,1,FT,Matchday 19,15:00,league,,openfootball,4710c8679f
 HNL,2024-25,2025-01-25,dinamo-zagreb,istra-1961,3,1,FT,Matchday 19,17:30,league,,openfootball,219ccb4e95
 HNL,2024-25,2025-01-26,rijeka,lokomotiva-zagreb,4,1,FT,Matchday 19,15:00,league,,openfootball,355a69d7d5
 HNL,2024-25,2025-01-26,hajduk-split,slaven-belupo,0,0,FT,Matchday 19,17:30,league,,openfootball,83096f0ea1
-UCL,2024-25,2025-01-29,dinamo-zagreb,milan-ita,2,1,FT,,,,,openfootball,f0da89d846
+UCL,2024-25,2025-01-29,dinamo-zagreb,milan-ita,2,1,FT,,21:00,,,openfootball,f0da89d846
 HNL,2024-25,2025-01-31,istra-1961,gorica,0,0,FT,Matchday 20,17:00,league,,openfootball,8618d35548
 HNL,2024-25,2025-02-01,sibenik,slaven-belupo,1,1,FT,Matchday 20,15:00,league,,openfootball,0be3fd7b83
 HNL,2024-25,2025-02-01,varazdin,rijeka,1,0,FT,Matchday 20,17:30,league,,openfootball,806b12afdb
@@ -811,19 +1351,419 @@ HNL,2024-25,2025-05-17,lokomotiva-zagreb,dinamo-zagreb,1,1,FT,Matchday 35,19:15,
 HNL,2024-25,2025-05-18,slaven-belupo,gorica,4,0,FT,Matchday 35,16:00,league,,openfootball,112edf62d7
 HNL,2024-25,2025-05-18,hajduk-split,rijeka,2,1,FT,Matchday 35,18:45,league,,openfootball,c59a6accf1
 HNL,2024-25,2025-05-24,gorica,lokomotiva-zagreb,0,3,FT,Matchday 36,19:15,league,,openfootball,f71d500ffd
-HNL,2024-25,2025-05-25,osijek,istra-1961,1,1,FT,Matchday 36,,league,,openfootball,7094613a4e
-HNL,2024-25,2025-05-25,rijeka,slaven-belupo,2,0,FT,Matchday 36,,league,,openfootball,827935692f
-HNL,2024-25,2025-05-25,sibenik,hajduk-split,0,1,FT,Matchday 36,,league,,openfootball,93a4d62617
 HNL,2024-25,2025-05-25,dinamo-zagreb,varazdin,1,0,FT,Matchday 36,17:00,league,,openfootball,6625578bce
+HNL,2024-25,2025-05-25,osijek,istra-1961,1,1,FT,Matchday 36,17:00,league,,openfootball,7094613a4e
+HNL,2024-25,2025-05-25,rijeka,slaven-belupo,2,0,FT,Matchday 36,17:00,league,,openfootball,827935692f
+HNL,2024-25,2025-05-25,sibenik,hajduk-split,0,1,FT,Matchday 36,17:00,league,,openfootball,93a4d62617
 UCL,2025-26,2025-07-22,rijeka,ludogorets-razgrad-bul,0,0,FT,2. Round,19:45,qualifying,,openfootball,d2c12850d2
 UECL,2025-26,2025-07-23,zira-aze,hajduk-split,1,1,FT,2. Round,16:30,qualifying,,openfootball,6661f72329
-UECL,2025-26,2025-07-24,varazdin,santa-clara-por,2,1,FT,2. Round,,qualifying,,openfootball,c59b4a0bc9
+UECL,2025-26,2025-07-24,varazdin,santa-clara-por,2,1,FT,2. Round,19:00,qualifying,,openfootball,c59b4a0bc9
 UCL,2025-26,2025-07-30,ludogorets-razgrad-bul,rijeka,1,1,FT,2. Round,18:30,qualifying,,openfootball,ff5d11cbd5
-UECL,2025-26,2025-07-31,hajduk-split,zira-aze,1,1,FT,2. Round,,qualifying,,openfootball,77a5ab41c3
-UECL,2025-26,2025-07-31,santa-clara-por,varazdin,2,0,FT,2. Round,,qualifying,,openfootball,84876d8083
+UECL,2025-26,2025-07-31,santa-clara-por,varazdin,2,0,FT,2. Round,19:00,qualifying,,openfootball,84876d8083
+UECL,2025-26,2025-07-31,hajduk-split,zira-aze,1,1,FT,2. Round,20:00,qualifying,,openfootball,77a5ab41c3
+HNL,2025-26,2025-08-01,lokomotiva-zagreb,vukovar-1991,1,0,FT,1. kolo,20:00,league,,thesportsdb,6ce6df5534
+HNL,2025-26,2025-08-02,osijek,dinamo-zagreb,0,2,FT,1. kolo,21:00,league,,thesportsdb,09db887f14
+HNL,2025-26,2025-08-03,rijeka,slaven-belupo,2,0,FT,1. kolo,18:45,league,,thesportsdb,d8c83901a9
+HNL,2025-26,2025-08-03,hajduk-split,istra-1961,2,1,FT,1. kolo,21:00,league,,thesportsdb,785e055292
+HNL,2025-26,2025-08-04,varazdin,gorica,1,1,FT,1. kolo,20:00,league,,thesportsdb,86f77d22a1
 UEL,2025-26,2025-08-06,rijeka,shelbourne-irl,1,2,FT,3. Round,19:45,qualifying,,openfootball,44c0c9d207
-UECL,2025-26,2025-08-07,hajduk-split,dinamo-city-alb,2,1,FT,3. Round,,qualifying,,openfootball,4214300929
+UECL,2025-26,2025-08-07,hajduk-split,dinamo-city-alb,2,1,FT,3. Round,20:00,qualifying,,openfootball,4214300929
+HNL,2025-26,2025-08-08,dinamo-zagreb,vukovar-1991,3,0,FT,2. kolo,21:00,league,,thesportsdb,de8abca956
+HNL,2025-26,2025-08-09,istra-1961,lokomotiva-zagreb,2,2,FT,2. kolo,18:15,league,,thesportsdb,742bccb7af
+HNL,2025-26,2025-08-09,osijek,rijeka,0,0,FT,2. kolo,21:00,league,,thesportsdb,1a64b3964b
+HNL,2025-26,2025-08-10,slaven-belupo,varazdin,3,1,FT,2. kolo,18:45,league,,thesportsdb,857e8c824a
+HNL,2025-26,2025-08-10,gorica,hajduk-split,2,0,FT,2. kolo,21:00,league,,thesportsdb,dc0141700e
+HNL,2025-26,2025-08-10,hajduk-split,gorica,2,0,FT,2. kolo,21:00,league,,thesportsdb,f08ca57311
 UEL,2025-26,2025-08-12,shelbourne-irl,rijeka,1,3,FT,3. Round,19:45,qualifying,,openfootball,9d73959f2f
-UECL,2025-26,2025-08-14,dinamo-city-alb,hajduk-split,1,0,FT,3. Round,,qualifying,,openfootball,1d0aebf7d2
-UEL,2025-26,2025-08-21,rijeka,paok-saloniki-gre,1,0,FT,3. Round,,qualifying,,openfootball,8ee4d03e05
-UEL,2025-26,2025-08-28,paok-saloniki-gre,rijeka,5,0,FT,3. Round,,qualifying,,openfootball,3bdaec4c9c
+UECL,2025-26,2025-08-14,dinamo-city-alb,hajduk-split,1,0,FT,3. Round,19:45,qualifying,,openfootball,1d0aebf7d2
+HNL,2025-26,2025-08-15,vukovar-1991,istra-1961,1,1,FT,3. kolo,18:45,league,,thesportsdb,3e73355b9c
+HNL,2025-26,2025-08-16,lokomotiva-zagreb,gorica,1,3,FT,3. kolo,18:15,league,,thesportsdb,2079083865
+HNL,2025-26,2025-08-16,rijeka,dinamo-zagreb,0,2,FT,3. kolo,21:00,league,,thesportsdb,bc1282af0b
+HNL,2025-26,2025-08-17,varazdin,osijek,0,0,FT,3. kolo,18:45,league,,thesportsdb,3f67954cb0
+HNL,2025-26,2025-08-17,hajduk-split,slaven-belupo,3,0,FT,3. kolo,21:00,league,,thesportsdb,48877d49bd
+UEL,2025-26,2025-08-21,rijeka,paok-saloniki-gre,1,0,FT,3. Round,19:45,qualifying,,openfootball,8ee4d03e05
+HNL,2025-26,2025-08-22,gorica,vukovar-1991,2,2,FT,4. kolo,20:00,league,,thesportsdb,b9d06f0e0e
+HNL,2025-26,2025-08-22,vukovar-1991,gorica,2,2,FT,4. kolo,20:00,league,,thesportsdb,5a501112ec
+HNL,2025-26,2025-08-23,slaven-belupo,lokomotiva-zagreb,1,2,FT,4. kolo,18:45,league,,thesportsdb,0fe3f085f9
+HNL,2025-26,2025-08-23,dinamo-zagreb,istra-1961,3,0,FT,4. kolo,21:00,league,,thesportsdb,d002a90b04
+HNL,2025-26,2025-08-24,osijek,hajduk-split,0,2,FT,4. kolo,18:30,league,,thesportsdb,88db2ebcab
+HNL,2025-26,2025-08-24,rijeka,varazdin,1,2,FT,4. kolo,21:00,league,,thesportsdb,099af79f12
+UEL,2025-26,2025-08-28,paok-saloniki-gre,rijeka,5,0,FT,3. Round,18:30,qualifying,,openfootball,3bdaec4c9c
+HNL,2025-26,2025-08-29,istra-1961,gorica,1,0,FT,5. kolo,20:00,league,,thesportsdb,98acb0e6df
+HNL,2025-26,2025-08-30,vukovar-1991,slaven-belupo,1,2,FT,5. kolo,18:45,league,,thesportsdb,b0713d3ea7
+HNL,2025-26,2025-08-30,varazdin,dinamo-zagreb,2,2,FT,5. kolo,21:00,league,,thesportsdb,878b2473f4
+HNL,2025-26,2025-08-31,lokomotiva-zagreb,osijek,1,1,FT,5. kolo,18:15,league,,thesportsdb,9660df7489
+HNL,2025-26,2025-08-31,hajduk-split,rijeka,2,2,FT,5. kolo,21:00,league,,thesportsdb,a357746f99
+HNL,2025-26,2025-09-12,slaven-belupo,istra-1961,2,1,FT,6. kolo,20:00,league,,thesportsdb,b31fb286ac
+HNL,2025-26,2025-09-13,varazdin,hajduk-split,2,0,FT,6. kolo,17:00,league,,thesportsdb,b7a3eb362b
+HNL,2025-26,2025-09-13,rijeka,lokomotiva-zagreb,1,1,FT,6. kolo,19:45,league,,thesportsdb,25ae9e44ed
+HNL,2025-26,2025-09-14,osijek,vukovar-1991,4,0,FT,6. kolo,17:00,league,,thesportsdb,e09a10752e
+HNL,2025-26,2025-09-14,dinamo-zagreb,gorica,1,2,FT,6. kolo,19:15,league,,thesportsdb,e98b348743
+HNL,2025-26,2025-09-20,hajduk-split,dinamo-zagreb,0,2,FT,7. kolo,17:00,league,,thesportsdb,855f26dbcc
+HNL,2025-26,2025-09-20,lokomotiva-zagreb,varazdin,1,0,FT,7. kolo,20:00,league,,thesportsdb,877b4425fc
+HNL,2025-26,2025-09-21,gorica,slaven-belupo,2,1,FT,7. kolo,17:00,league,,thesportsdb,56a718c894
+HNL,2025-26,2025-09-21,istra-1961,osijek,2,1,FT,7. kolo,19:15,league,,thesportsdb,ebbedd596c
+HNL,2025-26,2025-09-22,vukovar-1991,rijeka,3,2,FT,7. kolo,18:00,league,,thesportsdb,211775f398
+HNL,2025-26,2025-09-26,varazdin,vukovar-1991,2,1,FT,8. kolo,18:00,league,,thesportsdb,2dfbd1c548
+HNL,2025-26,2025-09-27,rijeka,istra-1961,0,0,FT,8. kolo,16:00,league,,thesportsdb,a05937826b
+HNL,2025-26,2025-09-27,hajduk-split,lokomotiva-zagreb,2,0,FT,8. kolo,18:45,league,,thesportsdb,3194e8f645
+HNL,2025-26,2025-09-28,gorica,osijek,0,1,FT,8. kolo,16:00,league,,thesportsdb,5e1b5f1e2b
+HNL,2025-26,2025-09-28,osijek,gorica,0,1,FT,8. kolo,16:00,league,,thesportsdb,50cddd8155
+HNL,2025-26,2025-09-28,dinamo-zagreb,slaven-belupo,4,1,FT,8. kolo,18:15,league,,thesportsdb,f383c96a3b
+HNL,2025-26,2025-10-03,istra-1961,varazdin,1,0,FT,9. kolo,18:00,league,,thesportsdb,9bbd7ad9b9
+HNL,2025-26,2025-10-04,vukovar-1991,hajduk-split,0,1,FT,9. kolo,15:45,league,,thesportsdb,6c4a560b40
+HNL,2025-26,2025-10-04,slaven-belupo,osijek,2,1,FT,9. kolo,18:00,league,,thesportsdb,00359d9cd5
+HNL,2025-26,2025-10-05,gorica,rijeka,1,3,FT,9. kolo,15:45,league,,thesportsdb,8644414378
+HNL,2025-26,2025-10-05,lokomotiva-zagreb,dinamo-zagreb,2,1,FT,9. kolo,18:45,league,,thesportsdb,1273be48e6
+HNL,2025-26,2025-10-17,vukovar-1991,lokomotiva-zagreb,1,1,FT,10. kolo,18:00,league,,thesportsdb,a3f89bf048
+HNL,2025-26,2025-10-18,slaven-belupo,rijeka,1,1,FT,10. kolo,15:30,league,,thesportsdb,319ccb3cd0
+HNL,2025-26,2025-10-18,dinamo-zagreb,osijek,2,1,FT,10. kolo,18:00,league,,thesportsdb,69bbeafe3f
+HNL,2025-26,2025-10-19,istra-1961,hajduk-split,0,3,FT,10. kolo,16:00,league,,thesportsdb,d9924abd3c
+HNL,2025-26,2025-10-19,gorica,varazdin,1,3,FT,10. kolo,18:15,league,,thesportsdb,adb2b0b67e
+HNL,2025-26,2025-10-24,gorica,hajduk-split,1,3,FT,11. kolo,18:00,league,,thesportsdb,23d78c901a
+HNL,2025-26,2025-10-24,hajduk-split,gorica,1,3,FT,11. kolo,18:00,league,,thesportsdb,94697aa34e
+HNL,2025-26,2025-10-25,lokomotiva-zagreb,istra-1961,1,2,FT,11. kolo,15:45,league,,thesportsdb,121f210e39
+HNL,2025-26,2025-10-25,varazdin,slaven-belupo,1,3,FT,11. kolo,18:00,league,,thesportsdb,6a2e41a400
+HNL,2025-26,2025-10-27,rijeka,osijek,4,2,FT,11. kolo,16:30,league,,thesportsdb,3abf1a8555
+HNL,2025-26,2025-10-27,vukovar-1991,dinamo-zagreb,1,0,FT,11. kolo,19:00,league,,thesportsdb,e786a4f0d1
+HNL,2025-26,2025-11-01,dinamo-zagreb,rijeka,2,1,FT,12. kolo,16:00,league,,thesportsdb,6a535fdda4
+HNL,2025-26,2025-11-01,istra-1961,vukovar-1991,1,1,FT,12. kolo,18:45,league,,thesportsdb,8e83ba37bd
+HNL,2025-26,2025-11-02,slaven-belupo,hajduk-split,0,0,FT,12. kolo,16:00,league,,thesportsdb,05ee403dc0
+HNL,2025-26,2025-11-02,osijek,varazdin,0,0,FT,12. kolo,18:15,league,,thesportsdb,0dee53c5cc
+HNL,2025-26,2025-11-03,gorica,lokomotiva-zagreb,4,1,FT,12. kolo,18:00,league,,thesportsdb,7299cc7794
+HNL,2025-26,2025-11-07,gorica,vukovar-1991,1,1,FT,13. kolo,18:00,league,,thesportsdb,612e6365eb
+HNL,2025-26,2025-11-07,vukovar-1991,gorica,1,1,FT,13. kolo,18:00,league,,thesportsdb,efb7ab57d2
+HNL,2025-26,2025-11-08,lokomotiva-zagreb,slaven-belupo,1,1,FT,13. kolo,15:00,league,,thesportsdb,e145c59d32
+HNL,2025-26,2025-11-08,hajduk-split,osijek,2,0,FT,13. kolo,17:45,league,,thesportsdb,0626d175b7
+HNL,2025-26,2025-11-09,istra-1961,dinamo-zagreb,2,1,FT,13. kolo,16:00,league,,thesportsdb,f155de458b
+HNL,2025-26,2025-11-09,varazdin,rijeka,1,0,FT,13. kolo,18:15,league,,thesportsdb,dee4620582
+HNL,2025-26,2025-11-21,slaven-belupo,vukovar-1991,4,1,FT,14. kolo,18:00,league,,thesportsdb,6388e4b064
+HNL,2025-26,2025-11-22,dinamo-zagreb,varazdin,3,1,FT,14. kolo,15:00,league,,thesportsdb,5d12f4dc68
+HNL,2025-26,2025-11-22,rijeka,hajduk-split,5,0,FT,14. kolo,18:00,league,,thesportsdb,f8c2db1a4b
+HNL,2025-26,2025-11-23,osijek,lokomotiva-zagreb,1,1,FT,14. kolo,16:00,league,,thesportsdb,10a52909cf
+HNL,2025-26,2025-11-23,gorica,istra-1961,1,0,FT,14. kolo,18:15,league,,thesportsdb,1046e61309
+HNL,2025-26,2025-11-28,vukovar-1991,osijek,2,2,FT,15. kolo,18:00,league,,thesportsdb,c781914ba8
+HNL,2025-26,2025-11-29,hajduk-split,varazdin,1,1,FT,15. kolo,15:30,league,,thesportsdb,1f56047e60
+HNL,2025-26,2025-11-29,istra-1961,slaven-belupo,1,1,FT,15. kolo,18:15,league,,thesportsdb,be03852fb6
+HNL,2025-26,2025-11-30,lokomotiva-zagreb,rijeka,1,1,FT,15. kolo,15:00,league,,thesportsdb,6e974c07fb
+HNL,2025-26,2025-12-01,gorica,dinamo-zagreb,0,2,FT,15. kolo,18:00,league,,thesportsdb,3d56f83c31
+HNL,2025-26,2025-12-05,slaven-belupo,gorica,2,1,FT,16. kolo,18:00,league,,thesportsdb,0f9a420b1b
+HNL,2025-26,2025-12-06,dinamo-zagreb,hajduk-split,1,1,FT,16. kolo,15:00,league,,thesportsdb,7d212c8f69
+HNL,2025-26,2025-12-06,rijeka,vukovar-1991,3,1,FT,16. kolo,18:00,league,,thesportsdb,a6ccdb3605
+HNL,2025-26,2025-12-07,varazdin,lokomotiva-zagreb,4,2,FT,16. kolo,15:00,league,,thesportsdb,8f5fb3d1b5
+HNL,2025-26,2025-12-07,osijek,istra-1961,1,5,FT,16. kolo,17:30,league,,thesportsdb,8ca4b64918
+HNL,2025-26,2025-12-12,vukovar-1991,varazdin,2,0,FT,17. kolo,18:00,league,,thesportsdb,d8b4e032c5
+HNL,2025-26,2025-12-13,gorica,osijek,1,1,FT,17. kolo,15:00,league,,thesportsdb,62a91a12dd
+HNL,2025-26,2025-12-13,osijek,gorica,1,1,FT,17. kolo,15:00,league,,thesportsdb,d73d82b12d
+HNL,2025-26,2025-12-13,lokomotiva-zagreb,hajduk-split,1,3,FT,17. kolo,17:45,league,,thesportsdb,2ef44efa49
+HNL,2025-26,2025-12-14,slaven-belupo,dinamo-zagreb,2,5,FT,17. kolo,15:00,league,,thesportsdb,e263ca9385
+HNL,2025-26,2025-12-19,varazdin,istra-1961,1,3,FT,18. kolo,16:00,league,,thesportsdb,fe6d9bf2b3
+HNL,2025-26,2025-12-20,osijek,slaven-belupo,0,0,FT,18. kolo,15:00,league,,thesportsdb,2334200655
+HNL,2025-26,2025-12-20,dinamo-zagreb,lokomotiva-zagreb,2,0,FT,18. kolo,17:45,league,,thesportsdb,74ef2dcc1e
+HNL,2025-26,2025-12-21,hajduk-split,vukovar-1991,2,1,FT,18. kolo,15:00,league,,thesportsdb,5bc53a5cd9
+HNL,2025-26,2025-12-21,rijeka,gorica,1,0,FT,18. kolo,17:45,league,,thesportsdb,24dccf2ee1
+HNL,2025-26,2026-01-20,istra-1961,rijeka,1,2,FT,17. kolo,16:00,league,,thesportsdb,677f3e1575
+HNL,2025-26,2026-01-24,lokomotiva-zagreb,vukovar-1991,2,1,FT,19. kolo,15:00,league,,thesportsdb,061ef8252b
+HNL,2025-26,2026-01-24,rijeka,slaven-belupo,2,2,FT,19. kolo,17:15,league,,thesportsdb,619f641822
+HNL,2025-26,2026-01-25,hajduk-split,istra-1961,1,2,FT,19. kolo,15:00,league,,thesportsdb,4b5d0a8a01
+HNL,2025-26,2026-01-25,osijek,dinamo-zagreb,0,3,FT,19. kolo,17:45,league,,thesportsdb,a2ce6803ce
+HNL,2025-26,2026-01-26,gorica,varazdin,1,2,FT,19. kolo,16:00,league,,thesportsdb,30cea8039e
+HNL,2025-26,2026-01-26,varazdin,gorica,1,2,FT,19. kolo,16:00,league,,thesportsdb,9aa746556d
+HNL,2025-26,2026-01-30,istra-1961,lokomotiva-zagreb,1,1,FT,20. kolo,18:00,league,,thesportsdb,e54b566a01
+HNL,2025-26,2026-01-31,gorica,hajduk-split,1,0,FT,20. kolo,15:00,league,,thesportsdb,499ac1d202
+HNL,2025-26,2026-01-31,slaven-belupo,varazdin,0,2,FT,20. kolo,17:45,league,,thesportsdb,6e25d920d2
+HNL,2025-26,2026-02-01,osijek,rijeka,1,0,FT,20. kolo,15:00,league,,thesportsdb,661185a9b7
+HNL,2025-26,2026-02-02,dinamo-zagreb,vukovar-1991,3,1,FT,20. kolo,18:00,league,,thesportsdb,913ad068e3
+HNL,2025-26,2026-02-06,lokomotiva-zagreb,gorica,3,0,FT,21. kolo,18:00,league,,thesportsdb,4050176237
+HNL,2025-26,2026-02-07,vukovar-1991,istra-1961,3,2,FT,21. kolo,15:00,league,,thesportsdb,6aa6250f9a
+HNL,2025-26,2026-02-07,hajduk-split,slaven-belupo,2,0,FT,21. kolo,17:15,league,,thesportsdb,6dbeb4b150
+HNL,2025-26,2026-02-08,varazdin,osijek,2,1,FT,21. kolo,15:00,league,,thesportsdb,6f7a7414f4
+HNL,2025-26,2026-02-08,rijeka,dinamo-zagreb,0,0,FT,21. kolo,17:45,league,,thesportsdb,7d6afd605b
+HNL,2025-26,2026-02-13,slaven-belupo,lokomotiva-zagreb,2,0,FT,22. kolo,18:00,league,,thesportsdb,a4cb234c0c
+HNL,2025-26,2026-02-14,dinamo-zagreb,istra-1961,4,0,FT,22. kolo,15:00,league,,thesportsdb,dc34bbe129
+HNL,2025-26,2026-02-14,rijeka,varazdin,3,1,FT,22. kolo,17:15,league,,thesportsdb,a3d609887f
+HNL,2025-26,2026-02-15,gorica,vukovar-1991,0,0,FT,22. kolo,15:00,league,,thesportsdb,40667ada06
+HNL,2025-26,2026-02-15,osijek,hajduk-split,0,2,FT,22. kolo,17:45,league,,thesportsdb,ba8a717056
+HNL,2025-26,2026-02-20,vukovar-1991,slaven-belupo,2,2,FT,23. kolo,18:00,league,,thesportsdb,b1da9e117f
+HNL,2025-26,2026-02-21,istra-1961,gorica,0,2,FT,23. kolo,15:00,league,,thesportsdb,009b244929
+HNL,2025-26,2026-02-21,lokomotiva-zagreb,osijek,3,1,FT,23. kolo,17:15,league,,thesportsdb,ed410ac3d2
+HNL,2025-26,2026-02-22,varazdin,dinamo-zagreb,0,4,FT,23. kolo,15:00,league,,thesportsdb,dd62b7c9c2
+HNL,2025-26,2026-02-22,hajduk-split,rijeka,1,0,FT,23. kolo,17:45,league,,thesportsdb,4219607ed2
+HNL,2025-26,2026-02-27,slaven-belupo,istra-1961,1,0,FT,24. kolo,18:00,league,,thesportsdb,d97bc3df9e
+HNL,2025-26,2026-02-28,osijek,vukovar-1991,2,0,FT,24. kolo,15:00,league,,thesportsdb,55a4a5378e
+HNL,2025-26,2026-02-28,varazdin,hajduk-split,1,1,FT,24. kolo,17:45,league,,thesportsdb,c05b9c6412
+HNL,2025-26,2026-03-01,rijeka,lokomotiva-zagreb,2,0,FT,24. kolo,15:00,league,,thesportsdb,80366d11e2
+HNL,2025-26,2026-03-01,dinamo-zagreb,gorica,4,2,FT,24. kolo,17:15,league,,thesportsdb,297e4e038b
+HNL,2025-26,2026-03-06,istra-1961,osijek,0,1,FT,25. kolo,18:00,league,,thesportsdb,a853b7870f
+HNL,2025-26,2026-03-07,gorica,slaven-belupo,2,2,FT,25. kolo,15:00,league,,thesportsdb,95e927a6fb
+HNL,2025-26,2026-03-07,lokomotiva-zagreb,varazdin,1,1,FT,25. kolo,17:15,league,,thesportsdb,663615c72d
+HNL,2025-26,2026-03-08,hajduk-split,dinamo-zagreb,1,3,FT,25. kolo,15:00,league,,thesportsdb,c8a90d0a24
+HNL,2025-26,2026-03-08,vukovar-1991,rijeka,0,1,FT,25. kolo,17:45,league,,thesportsdb,feefdce899
+HNL,2025-26,2026-03-13,varazdin,vukovar-1991,2,0,FT,26. kolo,18:00,league,,thesportsdb,0de0f312cc
+HNL,2025-26,2026-03-14,osijek,gorica,0,0,FT,26. kolo,15:00,league,,thesportsdb,763431d8cd
+HNL,2025-26,2026-03-14,dinamo-zagreb,slaven-belupo,4,2,FT,26. kolo,17:15,league,,thesportsdb,eabaec2a1f
+HNL,2025-26,2026-03-15,hajduk-split,lokomotiva-zagreb,2,1,FT,26. kolo,15:00,league,,thesportsdb,de25553e6e
+HNL,2025-26,2026-03-15,rijeka,istra-1961,0,2,FT,26. kolo,17:45,league,,thesportsdb,2a19515c50
+HNL,2025-26,2026-03-20,istra-1961,varazdin,2,1,FT,27. kolo,18:00,league,,thesportsdb,0b40f005ba
+HNL,2025-26,2026-03-21,vukovar-1991,hajduk-split,0,6,FT,27. kolo,15:00,league,,thesportsdb,9a4f032100
+HNL,2025-26,2026-03-21,lokomotiva-zagreb,dinamo-zagreb,0,5,FT,27. kolo,17:15,league,,thesportsdb,de6e5abb0c
+HNL,2025-26,2026-03-22,slaven-belupo,osijek,0,0,FT,27. kolo,15:00,league,,thesportsdb,e3f6559b07
+HNL,2025-26,2026-03-22,gorica,rijeka,4,0,FT,27. kolo,17:45,league,,thesportsdb,c256087f8d
+HNL,2025-26,2026-04-03,gorica,varazdin,1,1,FT,28. kolo,18:15,league,,thesportsdb,e3f617b8f1
+HNL,2025-26,2026-04-03,varazdin,gorica,1,1,FT,28. kolo,18:15,league,,thesportsdb,5acbe85882
+HNL,2025-26,2026-04-04,dinamo-zagreb,osijek,7,0,FT,28. kolo,15:00,league,,thesportsdb,26d0567824
+HNL,2025-26,2026-04-04,slaven-belupo,rijeka,0,2,FT,28. kolo,17:45,league,,thesportsdb,8466715f02
+HNL,2025-26,2026-04-07,vukovar-1991,lokomotiva-zagreb,1,1,FT,28. kolo,15:45,league,,thesportsdb,af20b5778f
+HNL,2025-26,2026-04-07,istra-1961,hajduk-split,1,3,FT,28. kolo,18:00,league,,thesportsdb,5e7bd45c64
+HNL,2025-26,2026-04-11,lokomotiva-zagreb,istra-1961,2,0,FT,29. kolo,16:00,league,,thesportsdb,deb354ade5
+HNL,2025-26,2026-04-12,rijeka,osijek,0,2,FT,29. kolo,16:00,league,,thesportsdb,0fa48ffcb4
+HNL,2025-26,2026-04-12,varazdin,slaven-belupo,2,1,FT,29. kolo,16:00,league,,thesportsdb,d7b8549c3d
+HNL,2025-26,2026-04-12,hajduk-split,gorica,1,0,FT,29. kolo,18:30,league,,thesportsdb,bbfc255d98
+HNL,2025-26,2026-04-13,vukovar-1991,dinamo-zagreb,1,4,FT,29. kolo,18:00,league,,thesportsdb,14eac0e5f2
+HNL,2025-26,2026-04-17,gorica,lokomotiva-zagreb,0,2,FT,30. kolo,15:30,league,,thesportsdb,887dd87660
+HNL,2025-26,2026-04-17,slaven-belupo,hajduk-split,2,2,FT,30. kolo,17:45,league,,thesportsdb,b8c5682b4a
+HNL,2025-26,2026-04-17,osijek,varazdin,0,2,FT,30. kolo,20:15,league,,thesportsdb,249e96a5c6
+HNL,2025-26,2026-04-18,dinamo-zagreb,rijeka,2,2,FT,30. kolo,16:00,league,,thesportsdb,1b1f0443f4
+HNL,2025-26,2026-04-18,istra-1961,vukovar-1991,1,2,FT,30. kolo,18:45,league,,thesportsdb,1c8a978e97
+HNL,2025-26,2026-04-21,lokomotiva-zagreb,slaven-belupo,2,1,FT,31. kolo,16:00,league,,thesportsdb,75a4e798f1
+HNL,2025-26,2026-04-21,hajduk-split,osijek,0,1,FT,31. kolo,18:45,league,,thesportsdb,baeaa6a122
+HNL,2025-26,2026-04-22,vukovar-1991,gorica,1,2,FT,31. kolo,15:30,league,,thesportsdb,96a50fdbe4
+HNL,2025-26,2026-04-22,varazdin,rijeka,1,0,FT,31. kolo,17:45,league,,thesportsdb,ccffa5df15
+HNL,2025-26,2026-04-22,istra-1961,dinamo-zagreb,0,2,FT,31. kolo,20:15,league,,thesportsdb,aeff03d936
+HNL,2025-26,2026-04-25,slaven-belupo,vukovar-1991,2,2,FT,32. kolo,16:00,league,,thesportsdb,d9a2d29f4a
+HNL,2025-26,2026-04-25,osijek,lokomotiva-zagreb,0,0,FT,32. kolo,18:15,league,,thesportsdb,7d3940c860
+HNL,2025-26,2026-04-26,rijeka,hajduk-split,0,0,FT,32. kolo,16:00,league,,thesportsdb,e769547829
+HNL,2025-26,2026-04-26,dinamo-zagreb,varazdin,2,1,FT,32. kolo,18:45,league,,thesportsdb,09cee7330e
+HNL,2025-26,2026-04-27,gorica,istra-1961,1,0,FT,32. kolo,18:00,league,,thesportsdb,2c18e89c10
+HNL,2025-26,2026-05-02,gorica,dinamo-zagreb,1,2,FT,33. kolo,16:00,league,,thesportsdb,4a10f21884
+HNL,2025-26,2026-05-02,vukovar-1991,osijek,1,0,FT,33. kolo,18:45,league,,thesportsdb,5b4c69badd
+HNL,2025-26,2026-05-03,lokomotiva-zagreb,rijeka,0,3,FT,33. kolo,16:00,league,,thesportsdb,d54adcc32a
+HNL,2025-26,2026-05-03,hajduk-split,varazdin,3,1,FT,33. kolo,18:45,league,,thesportsdb,320f7cc02e
+HNL,2025-26,2026-05-04,istra-1961,slaven-belupo,3,1,FT,33. kolo,18:00,league,,thesportsdb,031080cbce
+HNL,2025-26,2026-05-08,rijeka,vukovar-1991,3,0,FT,34. kolo,20:00,league,,thesportsdb,2c689aeb6e
+HNL,2025-26,2026-05-09,dinamo-zagreb,hajduk-split,2,0,FT,34. kolo,16:00,league,,thesportsdb,6bb8f55842
+HNL,2025-26,2026-05-09,varazdin,lokomotiva-zagreb,1,1,FT,34. kolo,18:45,league,,thesportsdb,94e73b862d
+HNL,2025-26,2026-05-10,osijek,istra-1961,0,1,FT,34. kolo,16:00,league,,thesportsdb,7d2c63e703
+HNL,2025-26,2026-05-10,slaven-belupo,gorica,1,0,FT,34. kolo,18:15,league,,thesportsdb,e34dcb5261
+HNL,2025-26,2026-05-15,vukovar-1991,varazdin,0,2,FT,35. kolo,18:00,league,,thesportsdb,59d1c2cbd9
+HNL,2025-26,2026-05-16,gorica,osijek,2,0,FT,35. kolo,16:00,league,,thesportsdb,9d91575c70
+HNL,2025-26,2026-05-16,lokomotiva-zagreb,hajduk-split,1,1,FT,35. kolo,18:15,league,,thesportsdb,74ded90634
+HNL,2025-26,2026-05-17,slaven-belupo,dinamo-zagreb,1,4,FT,35. kolo,16:00,league,,thesportsdb,4fd43af3c5
+HNL,2025-26,2026-05-17,istra-1961,rijeka,0,0,FT,35. kolo,18:45,league,,thesportsdb,5ff134a2bd
+HNL,2025-26,2026-05-22,osijek,slaven-belupo,2,0,FT,36. kolo,16:00,league,,thesportsdb,d5ca42d1c6
+HNL,2025-26,2026-05-22,hajduk-split,vukovar-1991,6,3,FT,36. kolo,18:15,league,,thesportsdb,698481d9a6
+HNL,2025-26,2026-05-23,rijeka,gorica,2,0,FT,36. kolo,16:00,league,,thesportsdb,dd1e5b0e4b
+HNL,2025-26,2026-05-23,varazdin,istra-1961,2,0,FT,36. kolo,16:00,league,,thesportsdb,aa53412668
+HNL,2025-26,2026-05-23,dinamo-zagreb,lokomotiva-zagreb,0,0,FT,36. kolo,18:45,league,,thesportsdb,f230f956aa
+UEL,2026-27,2026-07-09,hajduk-split,msk-zilina-svk,2,0,FT,1,20:00,qualifying,,thesportsdb,8c130ee19c
+UEL,2026-27,2026-07-16,msk-zilina-svk,hajduk-split,2,1,FT,1,20:30,qualifying,,thesportsdb,bbf98cd4ae
+UCL,2026-27,2026-07-21,thun-sui,dinamo-zagreb,1,1,FT,2,20:00,qualifying,,thesportsdb,0eed5d2e96
+UECL,2026-27,2026-07-23,varazdin,jablonec-cze,3,2,FT,2,20:00,qualifying,,thesportsdb,c4ce5e07dd
+UECL,2026-27,2026-07-23,rijeka,derry-city-nir,1,0,FT,2,20:45,qualifying,,thesportsdb,494f954f3e
+UEL,2026-27,2026-07-23,hajduk-split,pafos-cyp,2,0,FT,2,21:00,qualifying,,thesportsdb,af2b95b1c8
+UCL,2026-27,2026-07-28,dinamo-zagreb,thun-sui,3,2,FT,2,20:00,qualifying,,thesportsdb,0555026946
+UEL,2026-27,2026-07-30,pafos-cyp,hajduk-split,2,0,FT,2,19:00,qualifying,,thesportsdb,c6c5c03ef4
+HNL,2026-27,2026-07-31,dinamo-zagreb,slaven-belupo,2,0,FT,1. kolo,20:00,league,,thesportsdb,6772520034
+HNL,2026-27,2026-08-01,istra-1961,lokomotiva-zagreb,2,3,FT,1. kolo,18:30,league,,thesportsdb,f9f640b418
+HNL,2026-27,2026-08-01,gorica,osijek,0,2,FT,1. kolo,21:00,league,,thesportsdb,3e9da16271
+HNL,2026-27,2026-08-02,varazdin,hajduk-split,2,1,FT,1. kolo,18:30,league,,thesportsdb,3a4a140005
+HNL,2026-27,2026-08-02,rijeka,rudes,2,1,FT,1. kolo,21:00,league,,thesportsdb,cb5eeec19d
+UCL,2026-27,2026-08-04,dinamo-zagreb,zalgiris-ltu,5,0,FT,3,20:00,qualifying,,thesportsdb,b6d04b0adf
+UCL,2026-27,2026-08-04,olympiacos-gre,nec-nijmegen,0,0,FT,3,20:00,qualifying,,thesportsdb,25d4b11a59
+UECL,2026-27,2026-08-06,zalgiris-ltu,hajduk-split,2,5,FT,3,19:00,qualifying,,thesportsdb,e16476c0e9
+UECL,2026-27,2026-08-06,rijeka,ilves-tampere-fin,1,0,FT,3,20:45,qualifying,,thesportsdb,d4bb31b727
+HNL,2026-27,2026-08-08,rudes,osijek,1,6,FT,2. kolo,18:30,league,,thesportsdb,99b71334f9
+HNL,2026-27,2026-08-08,lokomotiva-zagreb,gorica,3,1,FT,2. kolo,21:00,league,,thesportsdb,20cb4ec921
+HNL,2026-27,2026-08-09,slaven-belupo,varazdin,1,4,FT,2. kolo,18:30,league,,thesportsdb,5672f6107f
+HNL,2026-27,2026-08-09,hajduk-split,istra-1961,2,2,FT,2. kolo,21:00,league,,thesportsdb,b6c8ceb8b8
+UCL,2026-27,2026-08-11,zalgiris-ltu,dinamo-zagreb,1,2,FT,3,19:00,qualifying,,thesportsdb,841182e82c
+UCL,2026-27,2026-08-11,nec-nijmegen,olympiacos-gre,2,1,FT,3,19:30,qualifying,,thesportsdb,1744b5f381
+UECL,2026-27,2026-08-13,hajduk-split,zalgiris-ltu,4,0,FT,3,21:00,qualifying,,thesportsdb,9a0af56097
+HNL,2026-27,2026-08-14,dinamo-zagreb,rudes,4,0,FT,3. kolo,20:00,league,,thesportsdb,f87d2a3944
+HNL,2026-27,2026-08-15,istra-1961,slaven-belupo,3,0,FT,3. kolo,18:30,league,,thesportsdb,f97c5ab8a3
+HNL,2026-27,2026-08-15,osijek,lokomotiva-zagreb,1,0,FT,3. kolo,21:00,league,,thesportsdb,22c280442b
+HNL,2026-27,2026-08-16,varazdin,rijeka,2,0,FT,3. kolo,18:30,league,,thesportsdb,b3369fe2ea
+HNL,2026-27,2026-08-16,gorica,hajduk-split,1,2,FT,3. kolo,21:00,league,,thesportsdb,7c27384fe9
+HNL,2026-27,2026-08-21,rudes,lokomotiva-zagreb,4,1,FT,4. kolo,20:00,league,,thesportsdb,151341e280
+HNL,2026-27,2026-08-22,slaven-belupo,gorica,2,0,FT,4. kolo,18:30,league,,thesportsdb,da3ac79afb
+HNL,2026-27,2026-08-22,dinamo-zagreb,varazdin,3,1,FT,4. kolo,21:00,league,,thesportsdb,03e208d25a
+HNL,2026-27,2026-08-23,rijeka,istra-1961,3,2,FT,4. kolo,18:30,league,,thesportsdb,dc25ec1a67
+HNL,2026-27,2026-08-23,hajduk-split,osijek,4,0,FT,4. kolo,21:00,league,,thesportsdb,4182870429
+HNL,2026-27,2026-08-29,istra-1961,dinamo-zagreb,2,2,FT,5. kolo,18:30,league,,thesportsdb,59aa2bde25
+HNL,2026-27,2026-08-29,varazdin,rudes,2,0,FT,5. kolo,21:00,league,,thesportsdb,f5ae8cbce9
+HNL,2026-27,2026-08-30,osijek,slaven-belupo,3,0,FT,5. kolo,20:00,league,,thesportsdb,3f50e5e86a
+HNL,2026-27,2026-08-31,hajduk-split,lokomotiva-zagreb,2,0,FT,5. kolo,18:30,league,,thesportsdb,d4f9507375
+HNL,2026-27,2026-08-31,gorica,rijeka,0,0,FT,5. kolo,21:30,league,,thesportsdb,9f73f048f7
+HNL,2026-27,2026-09-04,varazdin,istra-1961,0,0,FT,6. kolo,20:00,league,,thesportsdb,b649e85c75
+HNL,2026-27,2026-09-05,dinamo-zagreb,gorica,1,0,FT,6. kolo,18:00,league,,thesportsdb,fb3278b623
+HNL,2026-27,2026-09-05,rijeka,osijek,4,1,FT,6. kolo,21:00,league,,thesportsdb,ac9b334b7f
+HNL,2026-27,2026-09-06,rudes,hajduk-split,0,4,FT,6. kolo,18:00,league,,thesportsdb,c43e98e3c2
+HNL,2026-27,2026-09-06,slaven-belupo,lokomotiva-zagreb,2,1,FT,6. kolo,21:00,league,,thesportsdb,91bbe8b6bc
+HNL,2026-27,2026-09-12,osijek,dinamo-zagreb,4,2,FT,7. kolo,17:00,league,,thesportsdb,6b3ee142bb
+HNL,2026-27,2026-09-12,lokomotiva-zagreb,rijeka,1,1,FT,7. kolo,20:00,league,,thesportsdb,89bdf8d271
+HNL,2026-27,2026-09-13,istra-1961,rudes,3,2,FT,7. kolo,17:00,league,,thesportsdb,5d1c880bfd
+HNL,2026-27,2026-09-13,hajduk-split,slaven-belupo,1,0,FT,7. kolo,20:00,league,,thesportsdb,826b7da244
+HNL,2026-27,2026-09-14,gorica,varazdin,2,2,FT,7. kolo,18:00,league,,thesportsdb,8f12151edd
+UEL,2026-27,2026-09-16,hapoel-be-er-sheva-isr,dinamo-zagreb,0,0,FT,1,21:00,league phase,,thesportsdb,764e610c25
+HNL,2026-27,2026-09-18,rudes,slaven-belupo,2,2,FT,8. kolo,20:00,league,,thesportsdb,ca4da76ae3
+HNL,2026-27,2026-09-19,varazdin,osijek,0,0,FT,8. kolo,17:00,league,,thesportsdb,5db6515e6e
+HNL,2026-27,2026-09-19,istra-1961,gorica,0,1,FT,8. kolo,20:00,league,,thesportsdb,439b4156b4
+HNL,2026-27,2026-09-20,rijeka,hajduk-split,3,0,FT,8. kolo,17:00,league,,thesportsdb,53f2719570
+HNL,2026-27,2026-09-20,dinamo-zagreb,lokomotiva-zagreb,3,2,FT,8. kolo,20:00,league,,thesportsdb,fe624a82e9
+HNL,2026-27,2026-10-09,gorica,rudes,1,2,FT,9. kolo,18:00,league,,thesportsdb,9bf666ac81
+HNL,2026-27,2026-10-10,hajduk-split,dinamo-zagreb,2,1,FT,9. kolo,15:00,league,,thesportsdb,41623359ae
+HNL,2026-27,2026-10-10,osijek,istra-1961,1,3,FT,9. kolo,18:00,league,,thesportsdb,19dca38b66
+HNL,2026-27,2026-10-11,lokomotiva-zagreb,varazdin,0,1,FT,9. kolo,15:00,league,,thesportsdb,0deb8f5843
+HNL,2026-27,2026-10-11,slaven-belupo,rijeka,4,1,FT,9. kolo,18:00,league,,thesportsdb,c69dbc524a
+UEL,2026-27,2026-10-15,dinamo-zagreb,anderlecht-bel,,,NS,2,21:00,league phase,,thesportsdb,bb9185983f
+HNL,2026-27,2026-10-16,rudes,rijeka,,,NS,10. kolo,18:00,league,,thesportsdb,6ed5e35d0a
+HNL,2026-27,2026-10-17,lokomotiva-zagreb,istra-1961,,,NS,10. kolo,15:00,league,,thesportsdb,b842277ba8
+HNL,2026-27,2026-10-17,osijek,gorica,,,NS,10. kolo,18:00,league,,thesportsdb,04ee69407d
+HNL,2026-27,2026-10-18,hajduk-split,varazdin,,,NS,10. kolo,15:00,league,,thesportsdb,2785bcf759
+HNL,2026-27,2026-10-18,slaven-belupo,dinamo-zagreb,,,NS,10. kolo,18:00,league,,thesportsdb,eb1e9d0bab
+UEL,2026-27,2026-10-22,dinamo-zagreb,nec-nijmegen,,,NS,3,18:45,league phase,,thesportsdb,d52417f310
+HNL,2026-27,2026-10-24,dinamo-zagreb,rijeka,,,PST,11. kolo,17:00,league,,thesportsdb,7e1e613438
+HNL,2026-27,2026-10-24,gorica,lokomotiva-zagreb,,,NS,11. kolo,17:00,league,,thesportsdb,e42a7fdb89
+HNL,2026-27,2026-10-24,istra-1961,hajduk-split,,,PST,11. kolo,17:00,league,,thesportsdb,174982b26b
+HNL,2026-27,2026-10-24,osijek,rudes,,,NS,11. kolo,17:00,league,,thesportsdb,a6c2c48c77
+HNL,2026-27,2026-10-24,varazdin,slaven-belupo,,,NS,11. kolo,17:00,league,,thesportsdb,468bea2f4c
+HNL,2026-27,2026-10-31,hajduk-split,gorica,,,NS,12. kolo,17:00,league,,thesportsdb,4280ec1afc
+HNL,2026-27,2026-10-31,lokomotiva-zagreb,osijek,,,NS,12. kolo,17:00,league,,thesportsdb,0e9e5a1e8a
+HNL,2026-27,2026-10-31,rijeka,varazdin,,,NS,12. kolo,17:00,league,,thesportsdb,3e6cf65832
+HNL,2026-27,2026-10-31,rudes,dinamo-zagreb,,,NS,12. kolo,17:00,league,,thesportsdb,e62586b3b1
+HNL,2026-27,2026-10-31,slaven-belupo,istra-1961,,,NS,12. kolo,17:00,league,,thesportsdb,372f8ee3f1
+UEL,2026-27,2026-11-05,nec-nijmegen,omonia-nikosia-cyp,,,NS,4,18:45,league phase,,thesportsdb,6a35c99647
+UEL,2026-27,2026-11-05,sunderland-eng,dinamo-zagreb,,,NS,4,21:00,league phase,,thesportsdb,e65a34b0ff
+HNL,2026-27,2026-11-07,gorica,slaven-belupo,,,NS,13. kolo,17:00,league,,thesportsdb,f3cfa30510
+HNL,2026-27,2026-11-07,istra-1961,rijeka,,,NS,13. kolo,17:00,league,,thesportsdb,4bd9ac131d
+HNL,2026-27,2026-11-07,lokomotiva-zagreb,rudes,,,NS,13. kolo,17:00,league,,thesportsdb,5cb5a59c95
+HNL,2026-27,2026-11-07,osijek,hajduk-split,,,NS,13. kolo,17:00,league,,thesportsdb,852051a31d
+HNL,2026-27,2026-11-07,varazdin,dinamo-zagreb,,,NS,13. kolo,17:00,league,,thesportsdb,39ff12b1f2
+HNL,2026-27,2026-11-21,dinamo-zagreb,istra-1961,,,NS,14. kolo,17:00,league,,thesportsdb,20cdafd985
+HNL,2026-27,2026-11-21,hajduk-split,lokomotiva-zagreb,,,NS,14. kolo,17:00,league,,thesportsdb,e732a9af61
+HNL,2026-27,2026-11-21,rijeka,gorica,,,NS,14. kolo,17:00,league,,thesportsdb,f3a1ef5061
+HNL,2026-27,2026-11-21,rudes,varazdin,,,NS,14. kolo,17:00,league,,thesportsdb,9506dd1e4f
+HNL,2026-27,2026-11-21,slaven-belupo,osijek,,,NS,14. kolo,17:00,league,,thesportsdb,c7c594ba1a
+UEL,2026-27,2026-11-26,dinamo-zagreb,bayer-leverkusen-ger,,,NS,5,18:45,league phase,,thesportsdb,530a5abaa4
+UECL,2026-27,2026-11-26,hajduk-split,sint-truiden-bel,,,NS,4,21:00,league phase,,thesportsdb,302c485ac5
+UEL,2026-27,2026-11-26,nec-nijmegen,rennes-fra,,,NS,5,21:00,league phase,,thesportsdb,aee4e23a48
+HNL,2026-27,2026-11-28,gorica,dinamo-zagreb,,,NS,15. kolo,17:00,league,,thesportsdb,de4d21bd5a
+HNL,2026-27,2026-11-28,hajduk-split,rudes,,,NS,15. kolo,17:00,league,,thesportsdb,bb158cde2c
+HNL,2026-27,2026-11-28,istra-1961,varazdin,,,NS,15. kolo,17:00,league,,thesportsdb,bf31eace8d
+HNL,2026-27,2026-11-28,lokomotiva-zagreb,slaven-belupo,,,NS,15. kolo,17:00,league,,thesportsdb,7df969250e
+HNL,2026-27,2026-11-28,osijek,rijeka,,,NS,15. kolo,17:00,league,,thesportsdb,ff12ff54f0
+HNL,2026-27,2026-12-03,rijeka,dinamo-zagreb,,,NS,2. kolo,18:00,league,,thesportsdb,2f37ebd198
+HNL,2026-27,2026-12-05,dinamo-zagreb,osijek,,,NS,16. kolo,17:00,league,,thesportsdb,7808bf6bfa
+HNL,2026-27,2026-12-05,rijeka,lokomotiva-zagreb,,,NS,16. kolo,17:00,league,,thesportsdb,17030660ff
+HNL,2026-27,2026-12-05,rudes,istra-1961,,,NS,16. kolo,17:00,league,,thesportsdb,b291eca60c
+HNL,2026-27,2026-12-05,slaven-belupo,hajduk-split,,,NS,16. kolo,17:00,league,,thesportsdb,8ffcb24352
+HNL,2026-27,2026-12-05,varazdin,gorica,,,NS,16. kolo,17:00,league,,thesportsdb,5ae2297662
+UEL,2026-27,2026-12-10,ararat-armenia-arm,nec-nijmegen,,,NS,6,18:45,league phase,,thesportsdb,345af65667
+UEL,2026-27,2026-12-10,rennes-fra,dinamo-zagreb,,,NS,6,18:45,league phase,,thesportsdb,7b4f902225
+UECL,2026-27,2026-12-10,hajduk-split,nordsj-lland-den,,,NS,5,21:00,league phase,,thesportsdb,c42ae79876
+HNL,2026-27,2026-12-12,gorica,istra-1961,,,NS,17. kolo,17:00,league,,thesportsdb,d54f9d17ff
+HNL,2026-27,2026-12-12,hajduk-split,rijeka,,,NS,17. kolo,17:00,league,,thesportsdb,de7d768980
+HNL,2026-27,2026-12-12,lokomotiva-zagreb,dinamo-zagreb,,,NS,17. kolo,17:00,league,,thesportsdb,c8c70b5589
+HNL,2026-27,2026-12-12,osijek,varazdin,,,NS,17. kolo,17:00,league,,thesportsdb,1c0d2b0f57
+HNL,2026-27,2026-12-12,slaven-belupo,rudes,,,NS,17. kolo,17:00,league,,thesportsdb,fc922e099c
+UECL,2026-27,2026-12-17,midtjylland-den,hajduk-split,,,NS,6,21:00,league phase,,thesportsdb,2ce1fd99c5
+HNL,2026-27,2026-12-19,dinamo-zagreb,hajduk-split,,,NS,18. kolo,17:00,league,,thesportsdb,af41fa9bf7
+HNL,2026-27,2026-12-19,istra-1961,osijek,,,NS,18. kolo,17:00,league,,thesportsdb,8e5dfdbfc8
+HNL,2026-27,2026-12-19,rijeka,slaven-belupo,,,NS,18. kolo,17:00,league,,thesportsdb,0bbf8909d5
+HNL,2026-27,2026-12-19,rudes,gorica,,,NS,18. kolo,17:00,league,,thesportsdb,b3bd5dae99
+HNL,2026-27,2026-12-19,varazdin,lokomotiva-zagreb,,,NS,18. kolo,17:00,league,,thesportsdb,7b66eeab0f
+UEL,2026-27,2027-01-21,nec-nijmegen,benfica-por,,,NS,7,18:45,league phase,,thesportsdb,5116c249f7
+UEL,2026-27,2027-01-21,az-alkmaar,dinamo-zagreb,,,NS,7,21:00,league phase,,thesportsdb,1ab28726aa
+HNL,2026-27,2027-01-23,dinamo-zagreb,slaven-belupo,,,NS,19. kolo,17:00,league,,thesportsdb,11531972d7
+HNL,2026-27,2027-01-23,gorica,osijek,,,NS,19. kolo,17:00,league,,thesportsdb,706f020c90
+HNL,2026-27,2027-01-23,istra-1961,lokomotiva-zagreb,,,NS,19. kolo,17:00,league,,thesportsdb,d767b6cd83
+HNL,2026-27,2027-01-23,rijeka,rudes,,,NS,19. kolo,17:00,league,,thesportsdb,38f8fdeb6f
+HNL,2026-27,2027-01-23,varazdin,hajduk-split,,,NS,19. kolo,17:00,league,,thesportsdb,577f2ab7e7
+UEL,2026-27,2027-01-28,benfica-por,az-alkmaar,,,NS,8,21:00,league phase,,thesportsdb,309603cd48
+UEL,2026-27,2027-01-28,celje-svn,nec-nijmegen,,,NS,8,21:00,league phase,,thesportsdb,f52de00ffd
+UEL,2026-27,2027-01-28,dinamo-zagreb,sturm-graz-aut,,,NS,8,21:00,league phase,,thesportsdb,aea709b21e
+HNL,2026-27,2027-01-30,hajduk-split,istra-1961,,,NS,20. kolo,17:00,league,,thesportsdb,8d82ac4674
+HNL,2026-27,2027-01-30,lokomotiva-zagreb,gorica,,,NS,20. kolo,17:00,league,,thesportsdb,70511fe354
+HNL,2026-27,2027-01-30,rijeka,dinamo-zagreb,,,NS,20. kolo,17:00,league,,thesportsdb,be21722d8e
+HNL,2026-27,2027-01-30,rudes,osijek,,,NS,20. kolo,17:00,league,,thesportsdb,d5ede1a2a3
+HNL,2026-27,2027-01-30,slaven-belupo,varazdin,,,NS,20. kolo,17:00,league,,thesportsdb,4c9adf8496
+HNL,2026-27,2027-02-06,dinamo-zagreb,rudes,,,NS,21. kolo,17:00,league,,thesportsdb,268ae5ba72
+HNL,2026-27,2027-02-06,gorica,hajduk-split,,,NS,21. kolo,17:00,league,,thesportsdb,55b8d4708a
+HNL,2026-27,2027-02-06,istra-1961,slaven-belupo,,,NS,21. kolo,17:00,league,,thesportsdb,5eaa70ebf1
+HNL,2026-27,2027-02-06,osijek,lokomotiva-zagreb,,,NS,21. kolo,17:00,league,,thesportsdb,79270f9faf
+HNL,2026-27,2027-02-06,varazdin,rijeka,,,NS,21. kolo,17:00,league,,thesportsdb,2688a098f2
+HNL,2026-27,2027-02-13,dinamo-zagreb,varazdin,,,NS,22. kolo,17:00,league,,thesportsdb,77dd7c1206
+HNL,2026-27,2027-02-13,hajduk-split,osijek,,,NS,22. kolo,17:00,league,,thesportsdb,39c8d2d1ed
+HNL,2026-27,2027-02-13,rijeka,istra-1961,,,NS,22. kolo,17:00,league,,thesportsdb,66ab8ce543
+HNL,2026-27,2027-02-13,rudes,lokomotiva-zagreb,,,NS,22. kolo,17:00,league,,thesportsdb,9c2afbe886
+HNL,2026-27,2027-02-13,slaven-belupo,gorica,,,NS,22. kolo,17:00,league,,thesportsdb,8f9ed2e8dc
+HNL,2026-27,2027-02-20,gorica,rijeka,,,NS,23. kolo,17:00,league,,thesportsdb,1cdefb5781
+HNL,2026-27,2027-02-20,istra-1961,dinamo-zagreb,,,NS,23. kolo,17:00,league,,thesportsdb,5d3026e6b5
+HNL,2026-27,2027-02-20,lokomotiva-zagreb,hajduk-split,,,NS,23. kolo,17:00,league,,thesportsdb,0cc60fd66a
+HNL,2026-27,2027-02-20,osijek,slaven-belupo,,,NS,23. kolo,17:00,league,,thesportsdb,5f5650784b
+HNL,2026-27,2027-02-20,varazdin,rudes,,,NS,23. kolo,17:00,league,,thesportsdb,3a72463599
+HNL,2026-27,2027-02-27,dinamo-zagreb,gorica,,,NS,24. kolo,17:00,league,,thesportsdb,eb5ea63841
+HNL,2026-27,2027-02-27,rijeka,osijek,,,NS,24. kolo,17:00,league,,thesportsdb,59fdaef662
+HNL,2026-27,2027-02-27,rudes,hajduk-split,,,NS,24. kolo,17:00,league,,thesportsdb,96ac565fe0
+HNL,2026-27,2027-02-27,slaven-belupo,lokomotiva-zagreb,,,NS,24. kolo,17:00,league,,thesportsdb,c64bd38ca0
+HNL,2026-27,2027-02-27,varazdin,istra-1961,,,NS,24. kolo,17:00,league,,thesportsdb,47ff9ee213
+HNL,2026-27,2027-03-06,gorica,varazdin,,,NS,25. kolo,17:00,league,,thesportsdb,1873ea631f
+HNL,2026-27,2027-03-06,hajduk-split,slaven-belupo,,,NS,25. kolo,17:00,league,,thesportsdb,4c7e074492
+HNL,2026-27,2027-03-06,istra-1961,rudes,,,NS,25. kolo,17:00,league,,thesportsdb,4c4d56df7d
+HNL,2026-27,2027-03-06,lokomotiva-zagreb,rijeka,,,NS,25. kolo,17:00,league,,thesportsdb,72e9380142
+HNL,2026-27,2027-03-06,osijek,dinamo-zagreb,,,NS,25. kolo,17:00,league,,thesportsdb,39e16192e7
+HNL,2026-27,2027-03-13,dinamo-zagreb,lokomotiva-zagreb,,,NS,26. kolo,17:00,league,,thesportsdb,81c1f00029
+HNL,2026-27,2027-03-13,istra-1961,gorica,,,NS,26. kolo,17:00,league,,thesportsdb,a9e1f8e7b8
+HNL,2026-27,2027-03-13,rijeka,hajduk-split,,,NS,26. kolo,17:00,league,,thesportsdb,6d70d1f76c
+HNL,2026-27,2027-03-13,rudes,slaven-belupo,,,NS,26. kolo,17:00,league,,thesportsdb,fa0f5bac88
+HNL,2026-27,2027-03-13,varazdin,osijek,,,NS,26. kolo,17:00,league,,thesportsdb,3532fbae98
+HNL,2026-27,2027-03-20,gorica,rudes,,,NS,27. kolo,17:00,league,,thesportsdb,f511d3fb9e
+HNL,2026-27,2027-03-20,hajduk-split,dinamo-zagreb,,,NS,27. kolo,17:00,league,,thesportsdb,2a2c8f56cf
+HNL,2026-27,2027-03-20,lokomotiva-zagreb,varazdin,,,NS,27. kolo,17:00,league,,thesportsdb,c1111b685f
+HNL,2026-27,2027-03-20,osijek,istra-1961,,,NS,27. kolo,17:00,league,,thesportsdb,e584c48414
+HNL,2026-27,2027-03-20,slaven-belupo,rijeka,,,NS,27. kolo,17:00,league,,thesportsdb,34d8299878
+HNL,2026-27,2027-04-03,hajduk-split,varazdin,,,NS,28. kolo,17:00,league,,thesportsdb,39fab74c93
+HNL,2026-27,2027-04-03,lokomotiva-zagreb,istra-1961,,,NS,28. kolo,17:00,league,,thesportsdb,2a7b786263
+HNL,2026-27,2027-04-03,osijek,gorica,,,NS,28. kolo,17:00,league,,thesportsdb,1bd26605a9
+HNL,2026-27,2027-04-03,rudes,rijeka,,,NS,28. kolo,17:00,league,,thesportsdb,26fc10daee
+HNL,2026-27,2027-04-03,slaven-belupo,dinamo-zagreb,,,NS,28. kolo,17:00,league,,thesportsdb,771d186134
+HNL,2026-27,2027-04-10,dinamo-zagreb,rijeka,,,NS,29. kolo,17:00,league,,thesportsdb,9217b04f03
+HNL,2026-27,2027-04-10,gorica,lokomotiva-zagreb,,,NS,29. kolo,17:00,league,,thesportsdb,0fe891ddb6
+HNL,2026-27,2027-04-10,istra-1961,hajduk-split,,,NS,29. kolo,17:00,league,,thesportsdb,a3b80aa43f
+HNL,2026-27,2027-04-10,osijek,rudes,,,NS,29. kolo,17:00,league,,thesportsdb,949c75459e
+HNL,2026-27,2027-04-10,varazdin,slaven-belupo,,,NS,29. kolo,17:00,league,,thesportsdb,e4983671c2
+HNL,2026-27,2027-04-17,hajduk-split,gorica,,,NS,30. kolo,17:00,league,,thesportsdb,1a8999f99d
+HNL,2026-27,2027-04-17,lokomotiva-zagreb,osijek,,,NS,30. kolo,17:00,league,,thesportsdb,9e98f99716
+HNL,2026-27,2027-04-17,rijeka,varazdin,,,NS,30. kolo,17:00,league,,thesportsdb,35d8d53e1b
+HNL,2026-27,2027-04-17,rudes,dinamo-zagreb,,,NS,30. kolo,17:00,league,,thesportsdb,62b47ffd2b
+HNL,2026-27,2027-04-17,slaven-belupo,istra-1961,,,NS,30. kolo,17:00,league,,thesportsdb,36be71b51f
+HNL,2026-27,2027-04-24,gorica,slaven-belupo,,,NS,31. kolo,17:00,league,,thesportsdb,9dfae78a8d
+HNL,2026-27,2027-04-24,istra-1961,rijeka,,,NS,31. kolo,17:00,league,,thesportsdb,f6db9ebe2e
+HNL,2026-27,2027-04-24,lokomotiva-zagreb,rudes,,,NS,31. kolo,17:00,league,,thesportsdb,f863d9a533
+HNL,2026-27,2027-04-24,osijek,hajduk-split,,,NS,31. kolo,17:00,league,,thesportsdb,09246b69c6
+HNL,2026-27,2027-04-24,varazdin,dinamo-zagreb,,,NS,31. kolo,17:00,league,,thesportsdb,437f15a067
+HNL,2026-27,2027-05-01,dinamo-zagreb,istra-1961,,,NS,32. kolo,17:00,league,,thesportsdb,9c38374696
+HNL,2026-27,2027-05-01,hajduk-split,lokomotiva-zagreb,,,NS,32. kolo,17:00,league,,thesportsdb,a060e156e2
+HNL,2026-27,2027-05-01,rijeka,gorica,,,NS,32. kolo,17:00,league,,thesportsdb,cf5e9f2f06
+HNL,2026-27,2027-05-01,rudes,varazdin,,,NS,32. kolo,17:00,league,,thesportsdb,0399cf7200
+HNL,2026-27,2027-05-01,slaven-belupo,osijek,,,NS,32. kolo,17:00,league,,thesportsdb,938f698a85
+HNL,2026-27,2027-05-08,gorica,dinamo-zagreb,,,NS,33. kolo,17:00,league,,thesportsdb,719c29e3f2
+HNL,2026-27,2027-05-08,hajduk-split,rudes,,,NS,33. kolo,17:00,league,,thesportsdb,afed197177
+HNL,2026-27,2027-05-08,istra-1961,varazdin,,,NS,33. kolo,17:00,league,,thesportsdb,373a33680a
+HNL,2026-27,2027-05-08,lokomotiva-zagreb,slaven-belupo,,,NS,33. kolo,17:00,league,,thesportsdb,375adfee7a
+HNL,2026-27,2027-05-08,osijek,rijeka,,,NS,33. kolo,17:00,league,,thesportsdb,243e4fac0d
+HNL,2026-27,2027-05-12,dinamo-zagreb,osijek,,,NS,34. kolo,17:00,league,,thesportsdb,4151a5d842
+HNL,2026-27,2027-05-12,rijeka,lokomotiva-zagreb,,,NS,34. kolo,17:00,league,,thesportsdb,593cfbaa0e
+HNL,2026-27,2027-05-12,rudes,istra-1961,,,NS,34. kolo,17:00,league,,thesportsdb,a6ee6e30a5
+HNL,2026-27,2027-05-12,slaven-belupo,hajduk-split,,,NS,34. kolo,17:00,league,,thesportsdb,b24ffb306d
+HNL,2026-27,2027-05-12,varazdin,gorica,,,NS,34. kolo,17:00,league,,thesportsdb,213414842a
+HNL,2026-27,2027-05-15,gorica,istra-1961,,,NS,35. kolo,17:00,league,,thesportsdb,618e829cd3
+HNL,2026-27,2027-05-15,hajduk-split,rijeka,,,NS,35. kolo,17:00,league,,thesportsdb,f762147389
+HNL,2026-27,2027-05-15,lokomotiva-zagreb,dinamo-zagreb,,,NS,35. kolo,17:00,league,,thesportsdb,7a02c9daee
+HNL,2026-27,2027-05-15,osijek,varazdin,,,NS,35. kolo,17:00,league,,thesportsdb,adf10d0267
+HNL,2026-27,2027-05-15,slaven-belupo,rudes,,,NS,35. kolo,17:00,league,,thesportsdb,2cd25bd897
+HNL,2026-27,2027-05-22,dinamo-zagreb,hajduk-split,,,NS,36. kolo,17:00,league,,thesportsdb,eb068012a3
+HNL,2026-27,2027-05-22,istra-1961,osijek,,,NS,36. kolo,17:00,league,,thesportsdb,b58c7e1a1b
+HNL,2026-27,2027-05-22,rijeka,slaven-belupo,,,NS,36. kolo,17:00,league,,thesportsdb,c251b494f8
+HNL,2026-27,2027-05-22,rudes,gorica,,,NS,36. kolo,17:00,league,,thesportsdb,18f363d537
+HNL,2026-27,2027-05-22,varazdin,lokomotiva-zagreb,,,NS,36. kolo,17:00,league,,thesportsdb,eb4b85a291

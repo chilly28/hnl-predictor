@@ -169,6 +169,11 @@
   "short": "AUS",
   "country": "AUT"
  },
+ "az-alkmaar": {
+  "name": "AZ Alkmaar",
+  "short": "ALK",
+  "country": "CRO"
+ },
  "az-alkmaar-ned": {
   "name": "AZ Alkmaar",
   "short": "ALK",
@@ -404,6 +409,11 @@
   "short": "DER",
   "country": "IRL"
  },
+ "derry-city-nir": {
+  "name": "Derry City",
+  "short": "DER",
+  "country": "NIR"
+ },
  "differdange-03-lux": {
   "name": "FC Differdange 03",
   "short": "DIF",
@@ -633,6 +643,11 @@
   "name": "HJK Helsinki",
   "short": "HEL",
   "country": "FIN"
+ },
+ "hrvatski-dragovoljac": {
+  "name": "Hrvatski Dragovoljac",
+  "short": "DRA",
+  "country": "CRO"
  },
  "iberia-1999-geo": {
   "name": "FC Iberia 1999",
@@ -959,6 +974,11 @@
   "short": "NAP",
   "country": "ITA"
  },
+ "nec-nijmegen": {
+  "name": "NEC Nijmegen",
+  "short": "NIJ",
+  "country": "CRO"
+ },
  "neman-grodno-blr": {
   "name": "Neman Grodno",
   "short": "GRO",
@@ -1008,6 +1028,11 @@
   "name": "Olimpija Ljubljana",
   "short": "LJU",
   "country": "SVN"
+ },
+ "olympiacos-gre": {
+  "name": "Olympiacos",
+  "short": "OLY",
+  "country": "GRE"
  },
  "olympiakos-piraeus-gre": {
   "name": "Olympiakos Piraeus",
@@ -1214,6 +1239,11 @@
   "short": "SAL",
   "country": "AUT"
  },
+ "rennes-fra": {
+  "name": "Rennes",
+  "short": "REN",
+  "country": "FRA"
+ },
  "rfcu-luxemburg-lux": {
   "name": "RFCU Luxemburg",
   "short": "LUX",
@@ -1318,6 +1348,11 @@
   "name": "Silkeborg IF",
   "short": "SIL",
   "country": "DEN"
+ },
+ "sint-truiden-bel": {
+  "name": "Sint-Truiden",
+  "short": "TRU",
+  "country": "BEL"
  },
  "sivasspor-tur": {
   "name": "Sivasspor",
@@ -1489,6 +1524,11 @@
   "short": "SUM",
   "country": "AZE"
  },
+ "sunderland-eng": {
+  "name": "Sunderland",
+  "short": "SUN",
+  "country": "ENG"
+ },
  "sutjeska-mne": {
   "name": "FK Sutjeska",
   "short": "SUT",
@@ -1498,6 +1538,11 @@
   "name": "The New Saints",
   "short": "SAI",
   "country": "WAL"
+ },
+ "thun-sui": {
+  "name": "Thun",
+  "short": "THU",
+  "country": "SUI"
  },
  "tobyl-kostanay-kaz": {
   "name": "Tobyl Kostanay",
