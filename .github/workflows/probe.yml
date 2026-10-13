@@ -17,11 +17,10 @@ jobs:
               except Exception as e:
                   return None, repr(e)
           B = "https://www.thesportsdb.com/api/v1/json/123/"
-          for path in ["eventsseason.php?id=4629&s=2025-2026", "eventsseason.php?id=4629&s=2026-2027",
-                       "eventspastleague.php?id=4629", "eventsnextleague.php?id=4629",
-                       "eventsround.php?id=4629&r=10&s=2026-2027", "lookuptable.php?l=4629&s=2026-2027",
-                       "eventsseason.php?id=4481&s=2026-2027", "eventsseason.php?id=5071&s=2026-2027",
-                       "searchteams.php?t=Hajduk_Split"]:
+          for path in ["eventsnext.php?id=134019", "eventslast.php?id=134019", "eventsnext.php?id=133961", "eventslast.php?id=133961",
+                       "eventsround.php?id=5071&r=1&s=2026-2027", "eventsround.php?id=5071&r=4&s=2026-2027", "eventsround.php?id=5071&r=7&s=2026-2027",
+                       "eventsround.php?id=4481&r=7&s=2026-2027", "eventsround.php?id=4629&r=1&s=2025-2026", "eventsround.php?id=4629&r=36&s=2025-2026",
+                       "lookup_all_teams.php?id=4629"]:
               st, body = get(B + path)
               print("=====", path, st)
               try:
@@ -29,18 +28,17 @@ jobs:
                   for k, v in d.items():
                       if isinstance(v, list):
                           print(k, len(v))
-                          if v:
-                              print(json.dumps(v[0])[:1500])
-                              print(json.dumps({x: v[-1].get(x) for x in ("dateEvent","strTime","strHomeTeam","strAwayTeam","intHomeScore","intAwayScore","strStatus","intRound","idHomeTeam")})[:600])
+                          for e in v[:20]:
+                              print(json.dumps({x: e.get(x) for x in ("idEvent","strLeague","idLeague","strSeason","intRound","strTimestamp","strHomeTeam","strAwayTeam","intHomeScore","intAwayScore","strStatus","idTeam","strTeam","strTeamAlternate")}, ensure_ascii=False))
                       else:
                           print(k, str(v)[:200])
               except Exception as e:
                   print("not json", body[:300])
               time.sleep(2.5)
-          for u in ["https://api.clubelo.com/Fixtures", "http://api.clubelo.com/Hajduk", "http://clubelo.com/"]:
+          for u in []:
               st, body = get(u, 60); print("=====", u, st, body[:500])
           W = "https://en.wikipedia.org/w/api.php?action=parse&prop=wikitext&format=json&formatversion=2&page="
-          for p in ["2026%E2%80%9327_Croatian_Football_League", "2026%E2%80%9327_UEFA_Conference_League_league_phase"]:
+          for p in ["2026%E2%80%9327_UEFA_Europa_League_league_phase"]:
               st, body = get(W + p)
               try:
                   wt = json.loads(body)["parse"]["wikitext"]
