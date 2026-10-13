@@ -99,6 +99,7 @@ def parse_text(text: str, competition: str, season: str, teams: TeamRegistry,
     current_date: str | None = None
     current_round = ""
     stage = ""
+    last_time = ""
     for line in text.splitlines():
         if not line.strip() or line.lstrip().startswith(("#", "=")):
             continue
@@ -116,6 +117,7 @@ def parse_text(text: str, competition: str, season: str, teams: TeamRegistry,
         if dm:
             try:
                 current_date = _make_date(season, dm.group(1), dm.group(2), dm.group(3))
+                last_time = ""
             except (KeyError, ValueError):
                 pass
             continue
@@ -132,6 +134,9 @@ def parse_text(text: str, competition: str, season: str, teams: TeamRegistry,
             time_, home_raw, h, a, away_raw = mo.groups()
             hg = int(h) if h is not None else None
             ag = int(a) if a is not None else None
+        # Continuation lines without a time share the previous kick-off time.
+        time_ = (time_ or last_time).replace(".", ":")
+        last_time = time_
         home = teams.resolve(home_raw)
         away = teams.resolve(away_raw)
         if croatian_only and not (teams.is_croatian(home) or teams.is_croatian(away)):
@@ -146,7 +151,7 @@ def parse_text(text: str, competition: str, season: str, teams: TeamRegistry,
             away_goals=ag,
             status=STATUS_FINISHED if hg is not None else STATUS_SCHEDULED,
             round=current_round,
-            time=(time_ or "").replace(".", ":"),
+            time=time_,
             stage=stage,
             source="openfootball",
         ))

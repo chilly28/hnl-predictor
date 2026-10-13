@@ -1,0 +1,6 @@
+{"events":[
+ {"idEvent":"2482569","idLeague":"4629","strSeason":"2026-2027","intRound":"10","strTimestamp":"2026-10-16T16:00:00","dateEvent":"2026-10-16","strTime":"16:00:00","strHomeTeam":"Rudeš","strAwayTeam":"Rijeka","idHomeTeam":"141086","idAwayTeam":"134399","intHomeScore":null,"intAwayScore":null,"strStatus":"NS","strPostponed":"no"},
+ {"idEvent":"2482563","idLeague":"4629","strSeason":"2026-2027","intRound":"9","strTimestamp":"2026-10-11T16:00:00","dateEvent":"2026-10-11","strTime":"16:00:00","strHomeTeam":"Slaven Belupo Koprivnica","strAwayTeam":"Rijeka","idHomeTeam":"133989","idAwayTeam":"134399","intHomeScore":"4","intAwayScore":"1","strStatus":"FT","strPostponed":"no"},
+ {"idEvent":"2594752","idLeague":"5071","strSeason":"2026-2027","intRound":"1","strTimestamp":"2026-10-15T16:45:00","dateEvent":"2026-10-15","strTime":"16:45:00","strHomeTeam":"Hajduk Split","strAwayTeam":"Ajax","idHomeTeam":"134019","idAwayTeam":"133600","intHomeScore":null,"intAwayScore":null,"strStatus":"NS","strPostponed":"no"},
+ {"idEvent":"1","idLeague":"4629","strSeason":"2026-2027","intRound":"11","strTimestamp":"2026-10-25T16:00:00","dateEvent":"2026-10-25","strHomeTeam":"Osijek","strAwayTeam":"Gorica","intHomeScore":null,"intAwayScore":null,"strStatus":"Postponed","strPostponed":"yes"}
+]}

@@ -25,8 +25,8 @@ MAX_GOALS = 10
 
 @dataclass
 class GoalsParams:
-    xi: float = 0.0022          # time decay per day (half-life ~ 315 days)
-    ridge: float = 4.0          # shrinkage of team effects towards the average
+    xi: float = 0.0015          # time decay per day (half-life ~ 460 days)
+    ridge: float = 3.0          # shrinkage of team effects towards the average
     max_age_days: int = 1100    # ignore older matches
 
 

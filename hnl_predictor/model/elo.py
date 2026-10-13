@@ -15,7 +15,7 @@ from ..matches import Match
 @dataclass
 class EloParams:
     k: float = 22.0
-    home_adv: float = 65.0
+    home_adv: float = 85.0
     initial: float = 1500.0
     promoted_offset: float = -60.0   # newcomers start below the league average
     season_regress: float = 0.25     # share pulled back to the mean between seasons
