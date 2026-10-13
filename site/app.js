@@ -292,7 +292,8 @@
     const X = (x) => pad.l + ((x - x0) / Math.max(x1 - x0, 1)) * (width - pad.l - pad.r);
     const Y = (y) => height - pad.b - ((y - y0) / Math.max(y1 - y0, 1)) * (height - pad.t - pad.b);
     const ticks = [];
-    const step = (y1 - y0) / 4;
+    const step = Math.ceil((y1 - y0) / 4 / 25) * 25;
+    y1 = y0 + step * 4;
     for (let i = 0; i <= 4; i++) ticks.push(y0 + step * i);
     const grid = ticks.map((v) => `<line class="gridline" x1="${pad.l}" x2="${width - pad.r}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${pad.l - 6}" y="${Y(v) + 4}" text-anchor="end">${Math.round(v)}</text>`).join("");
     // Break the line across long gaps (e.g. seasons missing from the data) instead of bridging them.
