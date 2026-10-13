@@ -969,6 +969,11 @@
   "short": "NAP",
   "country": "ITA"
  },
+ "nec-nijmegen-unk": {
+  "name": "NEC Nijmegen",
+  "short": "NIJ",
+  "country": "UNK"
+ },
  "neman-grodno-blr": {
   "name": "Neman Grodno",
   "short": "GRO",
