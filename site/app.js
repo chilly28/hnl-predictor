@@ -172,7 +172,11 @@
   const shortDate = (iso) => fmtDate(iso, { day: "numeric", month: "short" });
   const compTag = (c) => `<span class="tag ${c === "HNL" ? "" : "eu"}">${esc(t("comp_" + c))}</span>`;
   const roundLabel = (m) => {
-    if (m.competition === "HNL") return m.round ? esc(m.round.replace("kolo", t("round"))) : "";
+    if (m.competition === "HNL") {
+      const n = (m.round || "").match(/(\d+)/);
+      if (!n) return "";
+      return lang === "hr" ? `${n[1]}. kolo` : `Round ${n[1]}`;
+    }
     const st = m.stage ? t("stage_" + m.stage) : "";
     return esc(st);
   };
