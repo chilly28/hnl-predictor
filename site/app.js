@@ -556,7 +556,7 @@
 
   function viewAbout() {
     const meta = D.meta || {};
-    const src = (meta.sources || []).map((s) => `<li><a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.name)}</a> — ${esc(s.licence)}. ${esc(s.use)}</li>`).join("");
+    const src = (meta.sources || []).map((s) => `<li><a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.name)}</a> — ${esc((lang === "hr" && s.licence_hr) || s.licence)}. ${esc((lang === "hr" && s.use_hr) || s.use)}</li>`).join("");
     const mm = meta.model || {};
     const hr = lang === "hr";
     return `<div class="page-head"><h1>${t("about_title")}</h1></div><div class="card prose">

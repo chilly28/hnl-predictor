@@ -37,11 +37,14 @@ RESULTS_DAYS = 120
 
 SOURCES = [
     {"name": "openfootball", "url": "https://github.com/openfootball", "licence": "CC0 1.0 (public domain)",
-     "use": "HNL 2018-2025 and UEFA club competitions 2011-2026 (historical results)"},
+     "use": "HNL 2018-2025 and UEFA club competitions 2011-2026 (historical results)",
+     "use_hr": "HNL 2018.–2025. i UEFA klupska natjecanja 2011.–2026. (povijesni rezultati)", "licence_hr": "CC0 1.0 (javno vlasništvo)"},
     {"name": "TheSportsDB", "url": "https://www.thesportsdb.com", "licence": "Free API (crowd-sourced data), attribution",
-     "use": "Current fixtures and results (HNL, Europa League, Conference League)"},
+     "use": "Current fixtures and results (HNL, Europa League, Conference League)",
+     "use_hr": "Aktualni raspored i rezultati (HNL, Europska i Konferencijska liga)", "licence_hr": "Besplatni API (podaci zajednice), uz navođenje izvora"},
     {"name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Croatian_Football_League", "licence": "CC BY-SA 4.0",
-     "use": "Independent cross-check of HNL scores (season results matrix)"},
+     "use": "Independent cross-check of HNL scores (season results matrix)",
+     "use_hr": "Neovisna provjera rezultata HNL-a (tablica rezultata sezone)", "licence_hr": "CC BY-SA 4.0"},
 ]
 
 
