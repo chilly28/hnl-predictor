@@ -134,6 +134,16 @@ def update(paths: Paths, today: date | None = None, offline: bool = False, force
         if full:
             state["last_full"] = today.isoformat()
 
+    # Teams stored with an unknown country ("-unk") are remapped once the club is known.
+    for m in existing:
+        for side in ("home", "away"):
+            tid = getattr(m, side)
+            if tid.endswith("-unk"):
+                better = reg.resolve(reg.get(tid).name, "UNK")
+                if better != tid:
+                    setattr(m, side, better)
+                    m.id = ""
+                    m.__post_init__()
     merged = merge_matches(existing, of_matches, fresh)
     write_matches(paths.matches, merged)
     save_registry(reg, paths, merged)

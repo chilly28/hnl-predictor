@@ -70,14 +70,24 @@ class TeamCountryCache:
         if path.exists():
             self.data = json.loads(path.read_text(encoding="utf-8"))
 
-    def get(self, team_id: str | None, fallback: str | None = None) -> str | None:
+    def get(self, team_id: str | None, fallback: str | None = None, name: str | None = None) -> str | None:
         if not team_id:
             return fallback
         if team_id not in self.data:
+            code = None
             res = _call("lookupteam.php", id=team_id) or {}
-            teams = res.get("teams") or []
-            code = country_code(teams[0].get("strCountry")) if teams else None
+            for t in res.get("teams") or []:
+                if str(t.get("idTeam")) == str(team_id):  # the free key sometimes returns another team
+                    code = country_code(t.get("strCountry"))
+            if not code and name:
+                res = _call("searchteams.php", t=name.replace(" ", "_")) or {}
+                for t in res.get("teams") or []:
+                    if str(t.get("idTeam")) == str(team_id) or t.get("strTeam", "").lower() == name.lower():
+                        code = country_code(t.get("strCountry"))
+                        if code:
+                            break
             if not code:
+                log.warning("thesportsdb: country unknown for team %s (%s)", team_id, name)
                 return fallback
             self.data[team_id] = code
         return self.data[team_id]
@@ -143,7 +153,7 @@ def _country(ev: dict, side: str, teams: TeamRegistry, countries: TeamCountryCac
         return "CRO"
     if countries is None:
         return None
-    return countries.get(ev.get(f"id{side}Team"))
+    return countries.get(ev.get(f"id{side}Team"), name=name)
 
 
 def fetch_rounds(comp: str, season: str, rounds, teams: TeamRegistry,

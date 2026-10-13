@@ -78,7 +78,7 @@ class TeamRegistry:
         if country == "UNK":
             # Country unknown (e.g. a failed lookup): reuse a known foreign club with the same name.
             for tid, t in self.teams.items():
-                if t.country not in ("CRO", "UNK") and tid.removesuffix(f"-{t.country.lower()}") == key:
+                if t.country not in ("CRO", "UNK") and slugify(t.name) == key:
                     return tid
         country = country or "CRO"
         tid = key if country == "CRO" else f"{key}-{country.lower()}"
