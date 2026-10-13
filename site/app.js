@@ -356,11 +356,20 @@
 
   // --------------------------------------------------------------- views
   let filter = store.get("filter", "all");
+  let installEvent = null;
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    installEvent = e;
+    if (!location.hash || location.hash === "#/") route();
+  });
+  const installBanner = () => (installEvent && store.get("install-dismissed", "") !== "1")
+    ? `<div class="card install-banner" style="margin-bottom:12px"><span>${t("install_text")}</span><span style="display:flex;gap:6px"><button class="btn" id="install-btn">${t("install")}</button><button class="icon-btn" id="install-x" aria-label="×">×</button></span></div>`
+    : "";
 
   function viewUpcoming() {
     const list = (D.upcoming || []).filter((p) => passFilter(filter, p.competition));
     const body = list.length ? groupByDate(list, (p) => matchCard(p)) : `<div class="card empty">${t("no_upcoming")}</div>`;
-    return `<div class="page-head"><h1>${t("upcoming_title")}</h1><p>${t("upcoming_lead")} <a href="#/about">${t("learn_more")}</a></p></div>
+    return `${installBanner()}<div class="page-head"><h1>${t("upcoming_title")}</h1><p>${t("upcoming_lead")} <a href="#/about">${t("learn_more")}</a></p></div>
       ${filterChips(filter)}${body}`;
   }
 
@@ -607,6 +616,10 @@
     app.querySelectorAll("[data-filter]").forEach((b) => b.addEventListener("click", () => {
       filter = b.dataset.filter; store.set("filter", filter); route();
     }));
+    const ib = document.getElementById("install-btn");
+    if (ib) ib.addEventListener("click", async () => { installEvent.prompt(); await installEvent.userChoice; installEvent = null; route(); });
+    const ix = document.getElementById("install-x");
+    if (ix) ix.addEventListener("click", () => { store.set("install-dismissed", "1"); route(); });
     renderFooter();
     hideTip();
     document.title = `HNL Prognoza`;
