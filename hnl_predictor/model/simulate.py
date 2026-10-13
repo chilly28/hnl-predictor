@@ -6,10 +6,10 @@ known; any meetings still missing (for example when the fixture list is not
 yet published) are generated from that structure, so projections always cover
 the full season.
 
-Each remaining match is drawn from its forecast score distribution. Ties on
-points are broken by goal difference, then goals scored, then at random
-(the official HNL tiebreak is head-to-head; the difference is negligible for
-the projections).
+Each remaining match is drawn from its forecast score distribution. Teams
+level on points are ranked as in the HNL rules: points in the matches between
+the tied clubs, goal difference in those matches, then overall goal
+difference, overall goals scored, and finally at random.
 """
 
 from __future__ import annotations
@@ -65,7 +65,45 @@ def league_table(matches: list[Match], teams: list[str]) -> list[TableRow]:
         else:
             h.drawn += 1
             a.drawn += 1
-    return sorted(rows.values(), key=lambda r: (-r.points, -r.gd, -r.gf, r.team))
+    order = list(rows)
+    idx = {t: i for i, t in enumerate(order)}
+    hp, hg = head_to_head(matches, idx)
+    arr = lambda f: np.array([[f(rows[t]) for t in order]], float)
+    alpha = np.array([[-k for k in range(len(order))]], float)  # final tiebreak: name order
+    ranking = rank(arr(lambda r: r.points), arr(lambda r: r.gd), arr(lambda r: r.gf), hp[None], hg[None], alpha)
+    return [rows[order[i]] for i in ranking[0]]
+
+
+def head_to_head(matches: list[Match], idx: dict[str, int]) -> tuple[np.ndarray, np.ndarray]:
+    """Points and goal difference of team i against team j: arrays [i, j]."""
+    n = len(idx)
+    hp = np.zeros((n, n))
+    hg = np.zeros((n, n))
+    for m in matches:
+        if not m.finished or m.home not in idx or m.away not in idx:
+            continue
+        h, a = idx[m.home], idx[m.away]
+        d = m.home_goals - m.away_goals
+        hp[h, a] += 3 if d > 0 else (1 if d == 0 else 0)
+        hp[a, h] += 3 if d < 0 else (1 if d == 0 else 0)
+        hg[h, a] += d
+        hg[a, h] -= d
+    return hp, hg
+
+
+def rank(pts, gd, gf, h2h_pts, h2h_gd, tiebreak) -> np.ndarray:
+    """Rank teams in every simulation. Inputs are (S, n) except h2h arrays (S, n, n).
+
+    Returns (S, n) team indices in final order (best first). The head-to-head
+    criteria are computed over all clubs level on points with the team.
+    """
+    s_count, n = pts.shape
+    tied = (pts[:, :, None] == pts[:, None, :]) & ~np.eye(n, dtype=bool)[None]
+    hp = (h2h_pts * tied).sum(axis=2)
+    hg = (h2h_gd * tied).sum(axis=2)
+    sim = np.repeat(np.arange(s_count), n)
+    order = np.lexsort((-tiebreak.ravel(), -gf.ravel(), -gd.ravel(), -hg.ravel(), -hp.ravel(), -pts.ravel(), sim))
+    return order.reshape(s_count, n) % n
 
 
 def remaining_fixtures(season_matches: list[Match], teams: list[str], season: str) -> list[Match]:
@@ -104,6 +142,9 @@ def simulate_season(forecaster, season_matches: list[Match], teams: list[str], s
     pts = np.tile(np.array([next(r.points for r in table if r.team == t) for t in teams], float), (n_sims, 1))
     gd = np.tile(np.array([next(r.gd for r in table if r.team == t) for t in teams], float), (n_sims, 1))
     gf = np.tile(np.array([next(r.gf for r in table if r.team == t) for t in teams], float), (n_sims, 1))
+    hp0, hg0 = head_to_head(season_matches, idx)
+    h2h_pts = np.tile(hp0, (n_sims, 1, 1))
+    h2h_gd = np.tile(hg0, (n_sims, 1, 1))
     fixtures = remaining_fixtures(season_matches, teams, season)
     for m in fixtures:
         if m.home not in idx or m.away not in idx:
@@ -116,14 +157,19 @@ def simulate_season(forecaster, season_matches: list[Match], teams: list[str], s
         draws = np.searchsorted(cdf, rng.random(n_sims))
         hg, ag = draws // size, draws % size
         h, a = idx[m.home], idx[m.away]
-        pts[:, h] += np.where(hg > ag, 3, np.where(hg == ag, 1, 0))
-        pts[:, a] += np.where(ag > hg, 3, np.where(hg == ag, 1, 0))
+        hpts = np.where(hg > ag, 3, np.where(hg == ag, 1, 0))
+        apts = np.where(ag > hg, 3, np.where(hg == ag, 1, 0))
+        pts[:, h] += hpts
+        pts[:, a] += apts
         gd[:, h] += hg - ag
         gd[:, a] += ag - hg
         gf[:, h] += hg
         gf[:, a] += ag
-    key = pts * 1e6 + (gd + 500) * 1e3 + gf + rng.random((n_sims, n)) * 0.5
-    order = np.argsort(-key, axis=1)
+        h2h_pts[:, h, a] += hpts
+        h2h_pts[:, a, h] += apts
+        h2h_gd[:, h, a] += hg - ag
+        h2h_gd[:, a, h] += ag - hg
+    order = rank(pts, gd, gf, h2h_pts, h2h_gd, rng.random((n_sims, n)))
     positions = np.empty_like(order)
     rows = np.arange(n_sims)[:, None]
     positions[rows, order] = np.arange(n)[None, :]

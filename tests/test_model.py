@@ -147,3 +147,31 @@ def test_remaining_fixtures_drops_stale_duplicates():
     ab = [m for m in rem if (m.home, m.away) == ("a", "b")]
     assert len(ab) == 1 and ab[0].date == "2025-09-20"
     assert len([m for m in rem if (m.home, m.away) == ("b", "a")]) == 2
+
+
+def test_head_to_head_tiebreak():
+    # a and b finish level on points; b won the mutual match, a has the better goal difference.
+    ms = [
+        Match("HNL", "s", "2025-08-01", "b", "a", 1, 0, "FT"),
+        Match("HNL", "s", "2025-08-02", "a", "c", 5, 0, "FT"),
+        Match("HNL", "s", "2025-08-03", "b", "d", 0, 0, "FT"),
+        Match("HNL", "s", "2025-08-04", "a", "d", 0, 0, "FT"),
+    ]
+    table = league_table(ms, ["a", "b", "c", "d"])
+    assert [r.points for r in table][:2] == [4, 4]
+    assert table[0].team == "b"  # head-to-head beats goal difference
+    assert table[0].gd < next(r for r in table if r.team == "a").gd
+
+
+def test_rank_vectorised_matches_rules():
+    from hnl_predictor.model.simulate import rank
+    pts = np.array([[10, 10, 7], [7, 10, 10]], float)
+    gd = np.array([[5, 1, 0], [0, 9, 1]], float)
+    gf = np.zeros((2, 3))
+    h2h_pts = np.zeros((2, 3, 3))
+    h2h_gd = np.zeros((2, 3, 3))
+    h2h_pts[0, 1, 0] = 3  # sim 0: team 1 beat team 0
+    h2h_gd[0, 1, 0], h2h_gd[0, 0, 1] = 1, -1
+    order = rank(pts, gd, gf, h2h_pts, h2h_gd, np.zeros((2, 3)))
+    assert list(order[0]) == [1, 0, 2]
+    assert list(order[1]) == [1, 2, 0]  # no head-to-head games: goal difference decides
