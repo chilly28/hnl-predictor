@@ -1,0 +1,86 @@
+# Canonical team ids, display names and aliases used by the data sources.
+# Teams not listed here get an automatic id (name without "NK/HNK/GNK" prefix,
+# lowercase, no diacritics). Add aliases when a source spells a club differently.
+#
+# clubelo: the club's name in the ClubElo API (http://clubelo.com), used to
+#          calibrate HNL strength against foreign opponents.
+# short:   3-letter code shown on small screens.
+
+hajduk-split:
+  name: Hajduk Split
+  short: HAJ
+  city: Split
+  clubelo: Hajduk
+  aliases: [HNK Hajduk Split, Hajduk, HNK Hajduk]
+dinamo-zagreb:
+  name: Dinamo Zagreb
+  short: DIN
+  city: Zagreb
+  clubelo: Dinamo Zagreb
+  aliases: [GNK Dinamo Zagreb, Dinamo Zagreb, GNK Dinamo, Dinamo Zagreb (CRO)]
+rijeka:
+  name: Rijeka
+  short: RIJ
+  city: Rijeka
+  clubelo: Rijeka
+  aliases: [HNK Rijeka]
+osijek:
+  name: Osijek
+  short: OSI
+  city: Osijek
+  clubelo: Osijek
+  aliases: [NK Osijek]
+lokomotiva-zagreb:
+  name: Lokomotiva Zagreb
+  short: LOK
+  city: Zagreb
+  clubelo: Lokomotiva Zagreb
+  aliases: [NK Lokomotiva Zagreb, Lokomotiva, NK Lokomotiva]
+gorica:
+  name: Gorica
+  short: GOR
+  city: Velika Gorica
+  clubelo: Gorica
+  aliases: [HNK Gorica]
+istra-1961:
+  name: Istra 1961
+  short: IST
+  city: Pula
+  clubelo: Istra
+  aliases: [NK Istra 1961, Istra, NK Istra]
+slaven-belupo:
+  name: Slaven Belupo
+  short: SLB
+  city: Koprivnica
+  clubelo: Slaven Koprivnica
+  aliases: [NK Slaven Belupo, Slaven Koprivnica, Slaven, Slaven Belupo Koprivnica, NK Slaven Belupo Koprivnica]
+varazdin:
+  name: Varaždin
+  short: VAR
+  city: Varaždin
+  clubelo: Varazdin
+  aliases: [NK Varaždin, Varazdin, NK Varazdin]
+sibenik:
+  name: Šibenik
+  short: SIB
+  city: Šibenik
+  clubelo: Sibenik
+  aliases: [HNK Šibenik, Sibenik, HNK Sibenik]
+rudes:
+  name: Rudeš
+  short: RUD
+  city: Zagreb
+  clubelo: Rudes
+  aliases: [NK Rudeš, Rudes, NK Rudes]
+inter-zapresic:
+  name: Inter Zaprešić
+  short: INT
+  city: Zaprešić
+  clubelo: Inter Zapresic
+  aliases: [NK Inter Zaprešić, Inter Zapresic]
+vukovar-1991:
+  name: Vukovar 1991
+  short: VUK
+  city: Vukovar
+  clubelo: Vukovar
+  aliases: [HNK Vukovar 1991, Vukovar, HNK Vukovar, NK Vukovar 1991]

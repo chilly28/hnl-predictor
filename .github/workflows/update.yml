@@ -1,0 +1,105 @@
+name: Update forecasts
+
+on:
+  schedule:
+    # Every hour (minute 17 avoids the busy top of the hour).
+    - cron: "17 * * * *"
+    # Match windows (UTC): Thursday evenings (Europe) and Friday-Monday (HNL) – every 20 minutes.
+    - cron: "37,57 15-22 * * 4,5,6,0,1"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Full refresh of the current season (all rounds)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "hnl_predictor/**"
+      - "site/**"
+      - "!site/data/**"
+      - "data/soft_factors.yaml"
+      - "data/soft_factors_auto/**"
+      - "data/teams.yaml"
+      - "requirements.txt"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-forecasts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      deploy: ${{ steps.decide.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Fetch new data
+        id: update
+        env:
+          THESPORTSDB_KEY: ${{ secrets.THESPORTSDB_KEY }}
+        run: python -m hnl_predictor update ${{ inputs.full && '--full' || '' }}
+
+      - name: Decide whether to rebuild
+        id: decide
+        run: |
+          deploy=false
+          if [ "${{ steps.update.outputs.changed }}" = "true" ]; then deploy=true; fi
+          if [ "${{ github.event_name }}" != "schedule" ]; then deploy=true; fi
+          # Daily rebuild so the "upcoming" window and soft-factor dates stay current.
+          if [ "$(date -u +%H)" = "04" ] && [ "${{ github.event.schedule }}" = "17 * * * *" ]; then deploy=true; fi
+          echo "deploy=$deploy" >> "$GITHUB_OUTPUT"
+          echo "deploy=$deploy"
+
+      - name: Build forecasts
+        if: steps.decide.outputs.deploy == 'true'
+        run: python -m hnl_predictor build
+
+      - name: Commit data
+        run: |
+          git config user.name "hnl-predictor-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Update data and forecasts [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push origin HEAD:main && break
+              sleep $((i * 5))
+            done
+          fi
+
+      - name: Upload site
+        if: steps.decide.outputs.deploy == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

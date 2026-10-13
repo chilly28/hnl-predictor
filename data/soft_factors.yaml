@@ -1,0 +1,38 @@
+# Soft factors – things the statistics cannot see.
+# ===================================================
+# Each entry shifts ONE team's strength (in Elo points) for a period of time.
+# Positive = stronger, negative = weaker. 25 Elo points ≈ 3-4 percentage
+# points of win probability in an even match.
+#
+# Fields
+#   team:        club id or name (e.g. hajduk-split, "Dinamo Zagreb")
+#   date:        first day the factor applies (YYYY-MM-DD)
+#   until:       optional last day (default: date + 14 days)
+#   type:        coach_change | tactical | injury | suspension | media | unrest | fatigue | other
+#   note:        short explanation shown on the website (Croatian or English)
+#   adjustment:  Elo points; capped per type:
+#                  coach_change ±40, tactical ±25, injury ±50, suspension ±40,
+#                  media ±15, unrest ±40, fatigue ±25, other ±25
+#                and the total per team and match is capped at ±80.
+#   source:      optional link (news article, club statement)
+#   match:       optional opponent id to limit the factor to one fixture
+#   confidence:  optional 0–1 multiplier (default 1)
+#
+# Example (copy, uncomment and edit):
+#
+# factors:
+#   - team: hajduk-split
+#     date: 2026-10-14
+#     until: 2026-10-30
+#     type: injury
+#     note: "Prvi napadač ozlijeđen 2-3 tjedna / First-choice striker out for 2-3 weeks"
+#     adjustment: -25
+#     source: https://example.com/news-article
+#
+#   - team: osijek
+#     date: 2026-10-14
+#     type: coach_change
+#     note: "Novi trener – efekt promjene / New coach bounce"
+#     adjustment: 15
+
+factors: []
