@@ -99,11 +99,17 @@ class TeamCountryCache:
         event identifies the home team's country. Values already known are kept.
         """
         learned = 0
+        unknown: set[str] = set()
         for ev in events:
-            tid, code = ev.get("idHomeTeam"), country_code(ev.get("strCountry"))
+            tid, raw = ev.get("idHomeTeam"), ev.get("strCountry")
+            code = country_code(raw)
+            if raw and not code:
+                unknown.add(f"{raw!r} ({ev.get('strHomeTeam')})")
             if tid and code and str(tid) not in self.data:
                 self.data[str(tid)] = code
                 learned += 1
+        if unknown:
+            log.warning("thesportsdb: unmapped venue countries: %s", ", ".join(sorted(unknown)[:20]))
         return learned
 
     def save(self) -> None:

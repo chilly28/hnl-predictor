@@ -196,3 +196,10 @@ def test_country_learned_from_home_venues(reg):
           "idAwayTeam": "133760", "intHomeScore": None, "intAwayScore": None, "strStatus": "NS"}
     m = thesportsdb.event_to_match(ev, reg, cache, croatian_only=True)
     assert m.away == "nec-nijmegen-ned" and reg.get(m.away).country == "NED"
+
+
+@pytest.mark.parametrize("name,code", [("Netherlands", "NED"), ("The Netherlands", "NED"), ("  croatia ", "CRO"),
+                                       ("Türkiye", "TUR"), ("Bosnia & Herzegovina", "BIH"), ("Atlantis", None), (None, None)])
+def test_country_code_variants(name, code):
+    from hnl_predictor.sources.countries import country_code
+    assert country_code(name) == code

@@ -19,7 +19,23 @@ COUNTRY_CODES = {
 }
 
 
+_NORMALISED = {k.lower(): v for k, v in COUNTRY_CODES.items()}
+_NORMALISED.update({
+    "the netherlands": "NED", "nederland": "NED", "netherlands, the": "NED",
+    "czech rep.": "CZE", "republic of moldova": "MDA", "moldova, republic of": "MDA",
+    "bosnia & herzegovina": "BIH", "bosnia": "BIH", "fyr macedonia": "MKD", "republic of north macedonia": "MKD",
+    "faroe isles": "FRO", "great britain": "ENG", "united kingdom": "ENG", "uk": "ENG",
+    "turkiye": "TUR", "russian federation": "RUS",
+})
+
+
 def country_code(name: str | None) -> str | None:
+    """Map a country name (several spellings) to a three-letter code; None if unknown."""
     if not name:
         return None
-    return COUNTRY_CODES.get(name.strip())
+    key = " ".join(name.strip().lower().split())
+    if key in _NORMALISED:
+        return _NORMALISED[key]
+    if key.startswith("the ") and key[4:] in _NORMALISED:
+        return _NORMALISED[key[4:]]
+    return None
