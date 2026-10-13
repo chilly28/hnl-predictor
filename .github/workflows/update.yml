@@ -36,7 +36,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     outputs:
       deploy: ${{ steps.decide.outputs.deploy }}
     steps:

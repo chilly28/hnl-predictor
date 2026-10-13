@@ -116,3 +116,17 @@ def test_season_for():
     assert season_for(date(2026, 10, 13)) == "2026-27"
     assert season_for(date(2027, 3, 1)) == "2026-27"
     assert season_for(date(2026, 6, 30)) == "2025-26"
+
+
+def test_thesportsdb_croatian_filter_skips_lookups(reg):
+    class NoLookup(thesportsdb.TeamCountryCache):
+        def __init__(self):
+            self.data = {}
+
+        def get(self, team_id, fallback=None):
+            raise AssertionError("country lookup must not happen for foreign-only matches")
+
+    ev = {"idLeague": "5071", "strSeason": "2026-2027", "strTimestamp": "2026-07-09T17:30:00",
+          "strHomeTeam": "Caernarfon Town", "strAwayTeam": "Levadia Tallinn", "idHomeTeam": "1", "idAwayTeam": "2",
+          "intHomeScore": "0", "intAwayScore": "5", "strStatus": "FT"}
+    assert thesportsdb.event_to_match(ev, reg, NoLookup(), croatian_only=True) is None

@@ -96,6 +96,8 @@ def event_to_match(ev: dict, teams: TeamRegistry, countries: TeamCountryCache | 
         home = teams.resolve(ev["strHomeTeam"], "CRO")
         away = teams.resolve(ev["strAwayTeam"], "CRO")
     else:
+        if croatian_only and not (teams.known_croatian(ev["strHomeTeam"]) or teams.known_croatian(ev["strAwayTeam"])):
+            return None  # skip before any (rate-limited) country lookup
         hc = _country(ev, "Home", teams, countries)
         ac = _country(ev, "Away", teams, countries)
         if croatian_only and "CRO" not in (hc, ac):

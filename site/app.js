@@ -273,7 +273,7 @@
   const passFilter = (f, c) => f === "all" || (f === "HNL" ? c === "HNL" : c !== "HNL");
 
   // ------------------------------------------------------------- charts
-  function lineChart(points, { width = 640, height = 220, yLabel = "", fmtX = (x) => x, fmtY = (y) => y } = {}) {
+  function lineChart(points, { width = Math.max(320, Math.min(820, (document.getElementById("app").clientWidth || 360) - 30)), height = 220, yLabel = "", fmtX = (x) => x, fmtY = (y) => y } = {}) {
     if (!points.length) return "";
     const pad = { l: 40, r: 12, t: 12, b: 26 };
     const xs = points.map((p) => p.x), ys = points.map((p) => p.y);
@@ -287,7 +287,9 @@
     const step = (y1 - y0) / 4;
     for (let i = 0; i <= 4; i++) ticks.push(y0 + step * i);
     const grid = ticks.map((v) => `<line class="gridline" x1="${pad.l}" x2="${width - pad.r}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${pad.l - 6}" y="${Y(v) + 4}" text-anchor="end">${Math.round(v)}</text>`).join("");
-    const path = points.map((p, i) => `${i ? "L" : "M"}${X(p.x).toFixed(1)},${Y(p.y).toFixed(1)}`).join("");
+    // Break the line across long gaps (e.g. seasons missing from the data) instead of bridging them.
+    const GAP = 120 * 86400000;
+    const path = points.map((p, i) => `${i && p.x - points[i - 1].x < GAP ? "L" : "M"}${X(p.x).toFixed(1)},${Y(p.y).toFixed(1)}`).join("");
     const xt = [points[0], points[Math.floor(points.length / 2)], points[points.length - 1]]
       .map((p, i) => `<text x="${X(p.x)}" y="${height - 8}" text-anchor="${["start", "middle", "end"][i]}">${esc(fmtX(p.x))}</text>`).join("");
     const id = "c" + Math.random().toString(36).slice(2, 8);
@@ -430,7 +432,7 @@
     const form = c.form.map((f) => `<span class="${f.r}" title="${esc(team(f.opp).name)} ${f.score}">${lang === "hr" ? { W: "P", D: "N", L: "I" }[f.r] : f.r}</span>`).join("");
     const next = (D.upcoming || []).filter((p) => p.home === id || p.away === id).slice(0, 4);
     const recent = (D.results || []).filter((r) => r.home === id || r.away === id).slice(0, 4);
-    const dist = row ? row.positions.map((p, i) => `<div class="hbar-row ${i === 0 ? "hl" : ""}"><span class="lbl">${i + 1}.</span><span class="track"><span class="fill" style="display:block;width:${(p * 100).toFixed(1)}%"></span></span><span class="val">${pct(p)}</span></div>`).join("") : "";
+    const dist = row ? row.positions.map((p, i) => `<div class="hbar-row hl"><span class="lbl">${i + 1}.</span><span class="track"><span class="fill" style="display:block;width:${(p * 100).toFixed(1)}%"></span></span><span class="val">${pct(p)}</span></div>`).join("") : "";
     const factors = (c.factors || []).length ? factorList(c.factors.map((f) => ({ ...f, applied: f.adjustment }))) : `<p class="note">${t("no_factors")}</p>`;
     return `<div class="page-head club-head"><div class="crest">${esc(tm.short)}</div><div><h1>${esc(tm.name)}</h1>
         <p class="note" style="margin:2px 0 0">${t("club_rating")} <b>${c.elo}</b> · ${c.elo_rank}. ${t("rank")}${c.euro_strength != null ? ` · ${t("euro_strength")} ${signed(c.euro_strength, 2)}` : ""}</p></div></div>

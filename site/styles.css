@@ -240,11 +240,11 @@ td.heat { min-width: 34px; font-size: .75rem; text-align: center; padding: 6px 2
 
 .hbar-row { display: grid; grid-template-columns: 92px 1fr 48px; gap: 8px; align-items: center; font-size: .8rem; padding: 2px 0; }
 .hbar-row .lbl { color: var(--ink-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.hbar-row .track { height: 12px; position: relative; }
+.hbar-row .track { display: block; height: 12px; position: relative; }
 .hbar-row .fill { height: 100%; background: var(--draw); border-radius: 0 4px 4px 0; }
 .hbar-row.hl .fill { background: var(--home); }
 .hbar-row.hl2 .fill { background: var(--away); }
-.hbar-row.hl .lbl, .hbar-row.hl2 .lbl { color: var(--ink); font-weight: 700; }
+.hbar-row.hl2 .lbl { color: var(--ink); font-weight: 700; }
 .hbar-row .val { text-align: right; color: var(--ink-2); }
 
 .form { display: flex; gap: 4px; }
