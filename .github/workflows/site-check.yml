@@ -1,0 +1,48 @@
+name: Check website
+
+# Daily health check of the published site: the page and its data load, and the
+# forecasts are fresh. A failed run means GitHub e-mails the repository owner.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 6 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch the site
+        shell: python
+        run: |
+          import json, os, time, urllib.request
+          from datetime import datetime, timezone
+          owner, repo = os.environ["GITHUB_REPOSITORY"].split("/")
+          base = f"https://{owner}.github.io/{repo}/"
+          def get(path):
+              for attempt in range(5):
+                  try:
+                      with urllib.request.urlopen(base + path + f"?t={int(time.time())}", timeout=20) as r:
+                          return r.status, r.read()
+                  except Exception as exc:
+                      err = exc
+                      time.sleep(10)
+              raise SystemExit(f"FAILED {base + path}: {err}")
+          status, html = get("")
+          assert b"HNL Prognoza" in html, "index.html does not look like the app"
+          print("index.html", status, len(html), "bytes")
+          for f in ["app.js", "styles.css", "manifest.webmanifest", "sw.js", "icons/icon-192.png"]:
+              print(f, get(f)[0])
+          for f in ["meta", "upcoming", "results", "table", "clubs", "europe", "backtest", "teams"]:
+              status, body = get(f"data/{f}.json")
+              data = json.loads(body)
+              print(f"data/{f}.json", status, len(data) if isinstance(data, (list, dict)) else "")
+          meta = json.loads(get("data/meta.json")[1])
+          age_h = (datetime.now(timezone.utc) - datetime.fromisoformat(meta["generated_at"])).total_seconds() / 3600
+          print(f"generated_at {meta['generated_at']} ({age_h:.1f} h ago), last result {meta['last_result_date']}")
+          if age_h > 30:
+              raise SystemExit(f"Forecasts are stale: last build {age_h:.0f} hours ago")
+          print("OK", base)
