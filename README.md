@@ -68,6 +68,17 @@ ukupno najviše ±80 po klubu i utakmici. 25 Elo bodova ≈ 3–4 postotna boda 
 Nakon spremanja (commit) GitHub Actions automatski ponovno izračuna prognoze i objavi stranicu.
 Automatski signali (npr. iz vijesti) mogu se kasnije dodavati kao JSON u `data/soft_factors_auto/`.
 
+### S mobitela (GitHub aplikacija)
+
+1. Otvorite repozitorij u GitHub aplikaciji → **Issues → New issue → „Meki faktor / Soft factor”**.
+2. Odaberite klub i vrstu, upišite pomak (npr. `-25`), datum i kratku bilješku → **Submit**.
+3. Za ~1 min automatika provjeri unos, doda ga u `data/soft_factors.yaml`, ponovno izračuna prognoze,
+   napiše komentar i zatvori issue. Ako nešto nije u redu, dobijete komentar s greškom – uredite issue i
+   provjera se ponavlja.
+
+Obrađuju se samo issuei koje otvori vlasnik repozitorija. Faktor se uklanja brisanjem iz
+`data/soft_factors.yaml` (ili istekom datuma „until”).
+
 ## Pokretanje lokalno
 
 ```bash
@@ -148,6 +159,13 @@ Edit [`data/soft_factors.yaml`](data/soft_factors.yaml) (see the example in the 
 Caps per type: coach ±40, tactical ±25, injury ±50, suspension ±40, media ±15, unrest ±40, fatigue ±25, other ±25;
 ±80 total per team and match. Committing the file triggers a rebuild. Automatic signal providers can drop JSON files
 into `data/soft_factors_auto/` (`SignalProvider` protocol in `hnl_predictor/soft_factors.py`).
+
+### Adding soft factors from your phone
+
+Open **Issues → New issue → "Meki faktor / Soft factor"** in the GitHub app, pick the club and type, enter the
+adjustment, date and a short note, and submit. A workflow validates it, adds it to `data/soft_factors.yaml`,
+rebuilds the forecasts, comments and closes the issue (or comments with the errors so you can edit and retry).
+Only issues opened by the repository owner are processed.
 
 ### Run locally
 

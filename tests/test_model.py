@@ -175,3 +175,15 @@ def test_rank_vectorised_matches_rules():
     order = rank(pts, gd, gf, h2h_pts, h2h_gd, np.zeros((2, 3)))
     assert list(order[0]) == [1, 0, 2]
     assert list(order[1]) == [1, 2, 0]  # no head-to-head games: goal difference decides
+
+
+def test_live_accuracy_scores_only_finished_archived_matches():
+    from hnl_predictor.build import live_accuracy
+    m1 = Match("HNL", "2026-27", "2026-10-16", "rudes", "rijeka", 0, 2, "FT")
+    m2 = Match("UECL", "2026-27", "2026-10-15", "hajduk-split", "ajax-ned", 1, 1, "FT")
+    m3 = Match("HNL", "2026-27", "2026-10-18", "hajduk-split", "varazdin")  # not played yet
+    arch = {m.id: {"prob": {"home": .3, "draw": .3, "away": .4}} for m in (m1, m2, m3)}
+    r = live_accuracy(arch, [m1, m2, m3])
+    assert r["all"]["n"] == 2 and r["HNL"]["n"] == 1 and r["europe"]["n"] == 1
+    assert r["since"] == "2026-10-15"
+    assert live_accuracy({}, [m1])["all"]["n"] == 0

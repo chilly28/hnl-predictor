@@ -21,7 +21,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from . import __version__
-from .backtest import run_backtest
+from .backtest import ScoreCard, calibration_table, run_backtest
 from .matches import EUROPEAN, HNL, Match, merge_matches, read_matches, season_for
 from .model.forecaster import Forecaster, ModelConfig
 from .model.simulate import simulate_season
@@ -197,6 +197,12 @@ def build(paths: Paths, now: datetime | None = None, n_sims: int = 10000,
         "soft_factors_active": sum(1 for f in factors if f.start <= today <= f.end),
         "data_quality": json.loads(paths.quality.read_text(encoding="utf-8")) if paths.quality.exists() else None,
     }
+    if season_teams:
+        from .factor_issue import render_issue_template
+        tpl = render_issue_template([reg.get(t).name for t in season_teams])
+        if not paths.issue_template.exists() or paths.issue_template.read_text(encoding="utf-8") != tpl:
+            paths.issue_template.parent.mkdir(parents=True, exist_ok=True)
+            paths.issue_template.write_text(tpl, encoding="utf-8")
     out = paths.output
     _write(out / "meta.json", meta)
     _write(out / "teams.json", teams_out)
@@ -212,7 +218,8 @@ def build(paths: Paths, now: datetime | None = None, n_sims: int = 10000,
         if n:
             oos_summary[k] = {"n": n, **{mt: round(sum(bt.per_season[s][k][mt] * bt.per_season[s][k]["n"] for s in oos) / n, 4)
                                         for mt in ("rps", "brier", "logloss", "accuracy")}}
-    _write(out / "backtest.json", bt.to_dict() | {"tuned_on": TUNED_ON, "out_of_sample": oos_summary,
+    live = live_accuracy(archive, matches)
+    _write(out / "backtest.json", bt.to_dict() | {"tuned_on": TUNED_ON, "out_of_sample": oos_summary, "live": live,
                                                     "out_of_sample_seasons": oos})
     log.info("build: %d upcoming, %d results, %d clubs", len(upcoming), len(results), len(clubs))
     return meta
@@ -261,3 +268,23 @@ def _europe_output(fc: Forecaster, reg, croatian_euro: list[Match], upcoming: li
         "hnl_average_strength": hnl_avg,
         "croatia_country_strength": next((c["strength"] for c in countries if c["country"] == "CRO"), None),
     }
+
+
+def live_accuracy(archive: dict, matches: list[Match]) -> dict:
+    """Score the forecasts that were published *before* kick-off (the honest, real-time record)."""
+    by_id = {m.id: m for m in matches if m.finished}
+    cards = {"all": ScoreCard(), HNL: ScoreCard(), "europe": ScoreCard()}
+    pooled = []
+    first = None
+    for mid, rec in archive.items():
+        m = by_id.get(mid)
+        if m is None or "prob" not in rec:
+            continue
+        p = [rec["prob"]["home"], rec["prob"]["draw"], rec["prob"]["away"]]
+        y = {"H": 0, "D": 1, "A": 2}[m.result()]
+        cards["all"].add(p, y)
+        cards[HNL if m.competition == HNL else "europe"].add(p, y)
+        pooled.append((p, y))
+        first = min(first or m.date, m.date)
+    return {"since": first, **{k: c.summary() for k, c in cards.items()},
+            "calibration": calibration_table(pooled) if pooled else []}

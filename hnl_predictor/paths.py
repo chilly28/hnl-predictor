@@ -56,6 +56,10 @@ class Paths:
         return self.data / "quality.json"
 
     @property
+    def issue_template(self) -> Path:
+        return self.root / ".github" / "ISSUE_TEMPLATE" / "soft_factor.yml"
+
+    @property
     def state(self) -> Path:
         return self.data / "state.json"
 

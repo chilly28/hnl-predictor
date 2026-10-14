@@ -4,6 +4,7 @@
     python -m hnl_predictor build  [--sims N]              fit models, write site/data/*.json
     python -m hnl_predictor run    [--offline] [--full]   update + build
     python -m hnl_predictor backtest                       print backtest metrics
+    python -m hnl_predictor add-factor --issue-event FILE  add a soft factor from a GitHub issue event
 
 ``update`` exits with code 0 and prints ``changed=true|false`` (also written
 to $GITHUB_OUTPUT when running in GitHub Actions).
@@ -22,10 +23,12 @@ from .paths import Paths
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="hnl_predictor")
-    ap.add_argument("command", choices=["update", "build", "run", "backtest"])
+    ap.add_argument("command", choices=["update", "build", "run", "backtest", "add-factor"])
     ap.add_argument("--offline", action="store_true", help="do not call any remote source")
     ap.add_argument("--full", action="store_true", help="force a full refresh of the current season")
     ap.add_argument("--sims", type=int, default=10000, help="Monte Carlo simulations")
+    ap.add_argument("--issue-event", help="GitHub issues event JSON (add-factor)")
+    ap.add_argument("--result", default="factor-result.md", help="where add-factor writes its markdown report")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
@@ -52,6 +55,26 @@ def main(argv: list[str] | None = None) -> int:
         seasons = sorted({m.season for m in hnl})[1:]
         res = run_backtest(hnl, reg, seasons, keep_predictions=False)
         print(json.dumps(res.to_dict(), indent=1))
+    if args.command == "add-factor":
+        return _add_factor(paths, args)
+    return 0
+
+
+def _add_factor(paths: Paths, args) -> int:
+    from .factor_issue import parse_issue_body, result_markdown, validate, write_factor
+    from .update import load_registry
+    event = json.loads(open(args.issue_event, encoding="utf-8").read())
+    issue = event["issue"]
+    reg = load_registry(paths)
+    hnl_ids = {tid for tid, t in reg.teams.items() if t.country == "CRO"}
+    res = validate(parse_issue_body(issue.get("body") or ""), reg, hnl_ids, issue=issue["number"])
+    status = write_factor(paths.soft_factors, res.entry) if res.ok else None
+    with open(args.result, "w", encoding="utf-8") as fh:
+        fh.write(result_markdown(res, status))
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+            fh.write(f"ok={'true' if res.ok else 'false'}\n")
+    print(json.dumps({"ok": res.ok, "status": status, "errors": res.errors, "warnings": res.warnings}, ensure_ascii=False))
     return 0
 
 

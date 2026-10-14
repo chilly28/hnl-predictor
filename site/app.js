@@ -49,6 +49,10 @@
       tuned_note: "Parametri su podešeni samo na sezonama {s}; ostale su potpuno izvan uzorka.",
       table_view: "Prikaži kao tablicu",
       oos_title: "Samo izvan uzorka",
+      live_title: "Uživo: prognoze objavljene prije utakmice",
+      live_empty: "Još nema odigranih utakmica s prognozom spremljenom prije početka. Ovdje će se skupljati stvarni rezultati stranice.",
+      live_text: "{n} utakmica od {since}: RPS {r}, Brier {b}, pogođen favorit {acc}.",
+      live_small: "Uzorak je još premalen za čvrste zaključke.",
       quality_title: "Provjera podataka",
       quality_text: "Rezultati sezone {s} uspoređuju se s tablicom rezultata na Wikipediji: {a} od {c} se podudara; {f} rezultata dopunjeno iz Wikipedije.",
       quality_issues: "Razlike (provjeravaju se ručno):",
@@ -109,6 +113,10 @@
       tuned_note: "Parameters were tuned on seasons {s} only; all other seasons are fully out-of-sample.",
       table_view: "Show as table",
       oos_title: "Out-of-sample only",
+      live_title: "Live: forecasts published before kick-off",
+      live_empty: "No finished match with a forecast saved before kick-off yet. The site's real-time record will build up here.",
+      live_text: "{n} matches since {since}: RPS {r}, Brier {b}, favourite won {acc}.",
+      live_small: "The sample is still too small for firm conclusions.",
       quality_title: "Data check",
       quality_text: "Season {s} scores are compared with Wikipedia's results matrix: {a} of {c} agree; {f} results filled in from Wikipedia.",
       quality_issues: "Differences (to be checked by hand):",
@@ -508,6 +516,15 @@
       <p class="note">${t("country_note")}</p></div>`;
   }
 
+  function liveCard(live) {
+    const n = live && live.all ? live.all.n : 0;
+    if (!n) return `<div class="card" style="margin-top:10px"><h3>${t("live_title")}</h3><p class="note" style="margin:4px 0 0">${t("live_empty")}</p></div>`;
+    const a = live.all;
+    return `<div class="card" style="margin-top:10px"><h3>${t("live_title")}</h3>
+      <p class="note" style="margin:4px 0 0">${t("live_text", { n, since: live.since ? esc(shortDate(live.since)) : "", r: a.rps.toFixed(3), b: a.brier.toFixed(3), acc: pct(a.accuracy) })}
+      ${n < 50 ? " " + t("live_small") : ""}</p></div>`;
+  }
+
   function viewAccuracy() {
     const b = D.backtest;
     if (!b || !b.models) return `<div class="card empty">${t("no_data")}</div>`;
@@ -530,6 +547,7 @@
         <div class="stat"><div class="label">${t("brier")}</div><div class="value">${m.brier.toFixed(3)}</div><div class="sub">${t("lower_better")}</div></div>
         <div class="stat"><div class="label">${t("accuracy")}</div><div class="value">${pct(m.accuracy)}</div><div class="sub">${t("higher_better")}</div></div>
       </div>
+      ${liveCard(b.live)}
       ${b.out_of_sample && b.out_of_sample.model ? `<div class="card" style="margin-top:10px"><h3>${t("oos_title")}</h3>
         <p class="note" style="margin:4px 0 0">${t("oos_text", { s: (b.out_of_sample_seasons || []).join(", "), n: b.out_of_sample.model.n,
           m: b.out_of_sample.model.rps.toFixed(4), u: b.out_of_sample.uniform.rps.toFixed(4), e: b.out_of_sample.elo_only.rps.toFixed(4), d: b.out_of_sample.dixon_coles_only.rps.toFixed(4) })}</p></div>` : ""}
