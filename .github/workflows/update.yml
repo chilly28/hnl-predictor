@@ -26,8 +26,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: update-forecasts
@@ -37,8 +35,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 40
-    outputs:
-      deploy: ${{ steps.decide.outputs.deploy }}
     steps:
       - uses: actions/checkout@v5
 
@@ -86,33 +82,22 @@ jobs:
             done
           fi
 
-      - name: Upload site
+      - name: Publish website (gh-pages branch)
         if: steps.decide.outputs.deploy == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    needs: update
-    if: needs.update.outputs.deploy == 'true'
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Check that GitHub Pages is enabled
-        id: pages
         env:
           GH_TOKEN: ${{ github.token }}
+        # GitHub Pages serves the gh-pages branch. It is rebuilt as a single commit each time,
+        # so the branch never accumulates the hourly data history.
         run: |
-          if gh api "repos/${{ github.repository }}/pages" --silent 2>/dev/null; then
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-            echo "::warning title=GitHub Pages is not enabled::Forecasts were updated and committed, but the website was not published. Open Settings → Pages, set Source to 'GitHub Actions', then run this workflow once (Actions → Update forecasts → Run workflow)."
-          fi
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        if: steps.pages.outputs.enabled == 'true'
-        uses: actions/deploy-pages@v4
+          out="$RUNNER_TEMP/pages"
+          rm -rf "$out" && mkdir -p "$out"
+          cp -r site/. "$out/"
+          touch "$out/.nojekyll"
+          cd "$out"
+          git init -q -b gh-pages
+          git config user.name "hnl-predictor-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish site from ${GITHUB_SHA::7}"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+          echo "Published to https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/"

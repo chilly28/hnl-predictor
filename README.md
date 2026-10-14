@@ -95,6 +95,7 @@ python -m hnl_predictor backtest          # metrike točnosti
 `.github/workflows/update.yml`: svaki sat (a na dane utakmica, čet–pon 15–23 UTC, svakih 20 min) dohvaća nove rezultate.
 Stranica se ponovno gradi i objavljuje **samo ako su se podaci promijenili** (plus jednom dnevno, te nakon svake promjene
 koda ili mekih faktora). Ručno: *Actions → Update forecasts → Run workflow* (opcija *full* = osvježi cijelu sezonu).
+Stranica se objavljuje u granu `gh-pages` iz koje je poslužuje GitHub Pages (Settings → Pages → *Deploy from a branch: gh-pages*).
 
 ## Struktura
 
@@ -182,6 +183,7 @@ python -m pytest
 `.github/workflows/update.yml` runs hourly and every 20 minutes during match windows (Thu–Mon 15–23 UTC). It rebuilds and
 redeploys only when the data changed (plus once a day, and on code / soft-factor changes). Manual run:
 *Actions → Update forecasts → Run workflow*. Within the GitHub free tier (public repository).
+The site is published to the `gh-pages` branch, which GitHub Pages serves (Settings → Pages → *Deploy from a branch: gh-pages*).
 
 ### Reusing the core
 
