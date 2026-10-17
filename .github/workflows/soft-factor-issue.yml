@@ -22,7 +22,7 @@ jobs:
       github.event.issue.user.login == github.repository_owner &&
       (startsWith(github.event.issue.title, '[Meki faktor]') ||
        contains(github.event.issue.labels.*.name, 'soft-factor'))
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
