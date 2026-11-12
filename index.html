@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>HNL Prognoza</title>
+  <meta name="description" content="Statističke prognoze utakmica SuperSport HNL-a i hrvatskih klubova u Europi. Automatski ažurirano nakon svake utakmice.">
+  <meta name="theme-color" content="#f6f6f3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="HNL Prognoza">
+      <img src="icons/favicon.svg" alt="" width="28" height="28">
+      <span>HNL <b>Prognoza</b></span>
+    </a>
+    <div class="top-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Tema"></button>
+      <button id="lang-toggle" class="lang-btn" type="button" aria-label="Language">EN</button>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Glavna navigacija" id="nav"></nav>
+
+  <main id="app" tabindex="-1">
+    <div class="loading" aria-live="polite">…</div>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <div id="tooltip" class="tooltip" role="status" hidden></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
